@@ -1,6 +1,20 @@
 import { prepareSearch, searchIcons } from "./search.mjs";
 
 const byId = id => document.getElementById(id);
+const packLink = byId("download-pack");
+const packDownloads = byId("pack-downloads");
+if (typeof packDownloads.showModal === "function") {
+  packLink.setAttribute("aria-haspopup", "dialog");
+  packLink.addEventListener("click", event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    packDownloads.showModal();
+  });
+  packDownloads.addEventListener("click", event => {
+    if (event.target === packDownloads) packDownloads.close();
+  });
+}
+
 const grid = byId("icon-grid");
 const more = byId("browse-more");
 const pageSize = 72;

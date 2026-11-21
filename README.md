@@ -19,6 +19,12 @@
   <p><a href="https://zacbytes.github.io/clayfold/"><strong>Explore the icons</strong></a> &nbsp;&nbsp;&nbsp; <a href="./assets">Browse the files</a></p>
 </div>
 
+## Download the full pack
+
+Each archive includes all 688 icons, including 200 country flags, with the catalog and artwork license.
+
+[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-svg.zip)
+
 ## Use an icon
 
 Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open any result to copy the SVG or download an individual file.

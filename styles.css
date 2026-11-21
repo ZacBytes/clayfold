@@ -52,6 +52,7 @@ img { display: block; max-width: 100%; }
 .hero-copy { z-index: 1; padding: 29px clamp(24px, 4.4vw, 64px); }
 .hero h1 { margin: 0; font: 500 clamp(57px, 7.8vw, 112px)/.98 var(--wordmark); letter-spacing: -.018em; white-space: nowrap; }
 .hero p { margin: 17px 0 24px; color: #485746; font-size: clamp(16px, 1.9vw, 22px); letter-spacing: -.025em; }
+.hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 16px; }
 .browse-link { min-height: 36px; display: inline-flex; align-items: center; gap: 8px; color: var(--green); font-weight: 700; text-decoration: none; }
 .browse-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .browse-link svg { width: 17px; height: 17px; transition: transform 150ms ease; }
@@ -129,7 +130,10 @@ body:has(dialog[open]) { overflow: hidden; }
 .detail-art img { width: min(230px, 41dvh); height: auto; aspect-ratio: 1; object-fit: contain; }
 .detail-body { padding: 17px 23px 15px; }
 .detail-category { margin: 0 0 4px; color: var(--muted); font-size: 12px; font-weight: 700; }
-.detail-body h2 { margin: 0; font: 400 clamp(29px, 6vw, 41px)/1.1 var(--serif); letter-spacing: -.05em; }
+.detail-body h2, .pack-body h2 { margin: 0; font: 400 clamp(29px, 6vw, 41px)/1.1 var(--serif); letter-spacing: -.05em; }
+.pack-body { padding: 24px; }
+.pack-body h2 { padding-right: 48px; }
+.pack-body p { margin: 10px 0 18px; color: var(--muted); }
 .detail-description { margin: 7px 0; color: var(--muted); }
 .detail-format { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 11px; margin: 0 0 15px; color: var(--muted); font-size: 12px; }
 .detail-format a { text-underline-offset: 3px; }
@@ -178,6 +182,10 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 @media (max-width: 375px) {
   .wrap { width: calc(100% - 26px); }
+  .brand { gap: 6px; font-size: 19px; }
+  .top-links { gap: 10px; }
+  .github { gap: 6px; padding-inline: 8px; }
+  .stars { padding-left: 6px; }
   .hero-copy { padding-inline: 17px; }
   .hero-art { left: 62%; }
 }
@@ -188,6 +196,7 @@ body:has(dialog[open]) { overflow: hidden; }
   .hero-copy { grid-column: 1 / -1; }
   .hero h1 { font-size: clamp(38px, 10.5vw, 49px); }
   .hero p { max-width: 186px; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
   .hero-art { left: 64%; }
   .hero-object { width: clamp(68px, 19vw, 99px); }
   .hero-object-one { left: -9%; top: 46%; }
