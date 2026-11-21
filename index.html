@@ -55,6 +55,7 @@
   </script>
   <link rel="preload" href="./fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./js/npm-install.mjs"></script>
   <script type="module" src="./js/app.mjs"></script>
 </head>
 <body>
@@ -188,7 +189,7 @@ Implement the icons and verify that they load in the intended UI.</textarea>
       </section>
       <section id="setup-npm" role="tabpanel" aria-labelledby="setup-npm-tab" hidden>
         <p>Install all 704 WebP icons from the versioned package on GitHub. Import just the files your app uses.</p>
-        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false">npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz</textarea>
+        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false" data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz</textarea>
         <div class="setup-actions">
           <button type="button" class="button solid" data-copy-field="npm-command" data-copy-message="Install command copied.">Copy command</button>
           <a class="button" href="./about.html#npm">Usage example</a>

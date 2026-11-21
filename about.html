@@ -22,6 +22,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" href="./fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./js/npm-install.mjs"></script>
 </head>
 <body>
   <header class="top"><div class="wrap top-inner">
@@ -36,7 +37,7 @@
     <p>The <a href="./catalog.json">JSON catalog</a> lists each icon’s stable ID, label, category and search tags. Use the <a href="./llms.txt">AI agent guide</a> for file URLs, integration examples and attribution details.</p>
     <h2 id="npm">Install with npm</h2>
     <p>The package includes all 704 WebP icons. Find versioned archives under <a href="https://github.com/ZacBytes/clayfold/releases">GitHub Releases</a>.</p>
-    <pre><code>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz</code></pre>
+    <pre><code data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz</code></pre>
     <p>In a bundler with static image imports, such as Vite, import each icon by its file name.</p>
     <pre><code>import bookmark from "clayfold-icons/assets/bookmark.webp";
 
