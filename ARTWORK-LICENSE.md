@@ -6,6 +6,6 @@ Suggested credit
 
 > Icon by [Kilnfield](https://zacbytes.github.io/kilnfield/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-The collection includes AI-generated topic and flag illustrations from the original Scout pack, plus original interface and subject illustrations made for Kilnfield. National-symbol rules and rights held by third parties may apply independently.
+The collection includes AI-generated topic illustrations, original interface and subject illustrations, and clay renderings of national flag designs. National-symbol rules and rights held by third parties may apply independently.
 
 [Read the full CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en).
