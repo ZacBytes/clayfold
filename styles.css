@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("./fonts/fraunces-medium-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --page: #f7f6f0;
@@ -8,6 +16,7 @@
   --line: #dedfd3;
   --active: #e7ecdf;
   --serif: Georgia, "Times New Roman", serif;
+  --wordmark: "Fraunces", var(--serif);
   --sans: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
 }
 
@@ -29,7 +38,7 @@ img { display: block; max-width: 100%; }
 .top-inner, .top-links, .brand, .github { display: flex; align-items: center; }
 .top-inner { height: 71px; justify-content: space-between; }
 .top-links { gap: 25px; }
-.brand { gap: 8px; text-decoration: none; font-size: 20px; letter-spacing: -.05em; font-weight: 700; }
+.brand { gap: 8px; text-decoration: none; font: 500 21px/1.2 var(--wordmark); letter-spacing: -.01em; }
 .brand img { width: 32px; height: 32px; object-fit: contain; }
 .top-about { color: var(--muted); text-decoration: none; font-weight: 600; }
 .top-about:hover, .footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -41,7 +50,7 @@ img { display: block; max-width: 100%; }
 
 .hero { position: relative; isolation: isolate; min-height: clamp(252px, 27vw, 365px); display: grid; grid-template-columns: 1fr .9fr; align-items: center; margin-top: 25px; overflow: hidden; border: 1px solid #e2e1d2; border-radius: 20px; background: #eeeee1; }
 .hero-copy { z-index: 1; padding: 29px clamp(24px, 4.4vw, 64px); }
-.hero h1 { margin: 0; font: 400 clamp(57px, 7.8vw, 112px)/.98 var(--serif); letter-spacing: -.052em; white-space: nowrap; }
+.hero h1 { margin: 0; font: 500 clamp(57px, 7.8vw, 112px)/.98 var(--wordmark); letter-spacing: -.018em; white-space: nowrap; }
 .hero p { margin: 17px 0 24px; color: #485746; font-size: clamp(16px, 1.9vw, 22px); letter-spacing: -.025em; }
 .browse-link { min-height: 36px; display: inline-flex; align-items: center; gap: 8px; color: var(--green); font-weight: 700; text-decoration: none; }
 .browse-link:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -134,10 +143,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .copy-source { width: 100%; height: 80px; resize: vertical; }
 .info { width: min(100% - 40px, 730px); margin: 60px auto 75px; }
 .info h1, .info h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -.06em; }
-.info h1 { margin: 0 0 18px; font-size: clamp(49px, 9vw, 80px); line-height: 1.01; }
+.info h1 { margin: 0 0 18px; font: 500 clamp(49px, 9vw, 80px)/1.01 var(--wordmark); letter-spacing: -.018em; }
 .info h2 { margin: 29px 0 8px; font-size: 30px; }
 .info p, .info li { color: var(--muted); }
 .info a { color: var(--green); text-underline-offset: 3px; }
+
+.brand, .hero h1, .info h1 { font-variant-ligatures: no-common-ligatures; }
 
 @media (max-width: 1100px) {
   .wrap { width: calc(100% - 56px); }
