@@ -1,0 +1,1459 @@
+{
+  "version": 1,
+  "size": 256,
+  "categories": {
+    "interface": "Interface",
+    "infrastructure": "Infrastructure",
+    "economy-technology": "Economy & technology",
+    "society-risk": "Society & risk",
+    "security-operations": "Security & operations",
+    "environment-society": "Environment & society",
+    "country-flags": "Country flags"
+  },
+  "icons": [
+    {
+      "id": "maritime",
+      "label": "Cargo ship",
+      "category": "infrastructure",
+      "subject": "container ship",
+      "origin": "original",
+      "tags": [
+        "cargo ship",
+        "ocean freight",
+        "container vessel",
+        "sea transport",
+        "shipping",
+        "freighter",
+        "shipping lanes"
+      ],
+      "description": "A cargo ship carrying containers across the ocean."
+    },
+    {
+      "id": "aviation",
+      "label": "Aviation",
+      "category": "infrastructure",
+      "subject": "passenger airplane",
+      "origin": "original",
+      "tags": [
+        "commercial flight",
+        "airliner",
+        "air travel",
+        "airport",
+        "plane"
+      ]
+    },
+    {
+      "id": "rail",
+      "label": "Rail",
+      "category": "infrastructure",
+      "subject": "front three-quarter commuter train",
+      "origin": "original",
+      "tags": [
+        "commuter",
+        "passenger",
+        "train",
+        "tracks",
+        "metro",
+        "subway",
+        "railway"
+      ]
+    },
+    {
+      "id": "road",
+      "label": "Road transport",
+      "category": "infrastructure",
+      "subject": "delivery truck",
+      "origin": "original",
+      "tags": [
+        "delivery van",
+        "transport",
+        "haulage",
+        "freight",
+        "lorry",
+        "highways"
+      ]
+    },
+    {
+      "id": "logistics",
+      "label": "Logistics",
+      "category": "infrastructure",
+      "subject": "three stacked shipping boxes",
+      "origin": "original",
+      "tags": [
+        "packages",
+        "parcel",
+        "shipping boxes",
+        "warehouse",
+        "inventory",
+        "supply chain"
+      ]
+    },
+    {
+      "id": "ports",
+      "label": "Ports",
+      "category": "infrastructure",
+      "subject": "dockside container gantry crane",
+      "origin": "original",
+      "tags": [
+        "harbour",
+        "harbor",
+        "docks",
+        "cargo terminal",
+        "cranes",
+        "seaport"
+      ]
+    },
+    {
+      "id": "energy",
+      "label": "Energy",
+      "category": "infrastructure",
+      "subject": "upright battery with lightning symbol",
+      "origin": "original",
+      "tags": [
+        "electric battery",
+        "charging",
+        "electricity",
+        "battery power storage"
+      ]
+    },
+    {
+      "id": "power-grid",
+      "label": "Power grid",
+      "category": "infrastructure",
+      "subject": "electricity transmission pylon",
+      "origin": "original",
+      "tags": [
+        "electricity",
+        "transmission",
+        "power lines",
+        "utilities",
+        "tower",
+        "outage"
+      ]
+    },
+    {
+      "id": "oil-gas",
+      "label": "Oil and gas",
+      "category": "infrastructure",
+      "subject": "oil barrel with one droplet emblem",
+      "origin": "original",
+      "tags": [
+        "petroleum",
+        "fuel",
+        "fossil fuels",
+        "crude oil",
+        "refinery"
+      ]
+    },
+    {
+      "id": "renewables",
+      "label": "Renewables",
+      "category": "infrastructure",
+      "subject": "wind turbine beside small solar panel",
+      "origin": "original",
+      "tags": [
+        "clean power",
+        "renewable energy",
+        "wind farm",
+        "solar panels",
+        "green power",
+        "sustainable electricity"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "label": "Nuclear",
+      "category": "infrastructure",
+      "subject": "nuclear cooling tower with tiny atom emblem",
+      "origin": "original",
+      "tags": [
+        "reactor",
+        "atomic plant",
+        "nuclear power",
+        "cooling towers"
+      ]
+    },
+    {
+      "id": "water",
+      "label": "Water",
+      "category": "infrastructure",
+      "subject": "water droplet above short pipe valve",
+      "origin": "original",
+      "tags": [
+        "tap",
+        "plumbing",
+        "clean water",
+        "water supply",
+        "sanitation",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "telecom",
+      "label": "Telecommunications",
+      "category": "infrastructure",
+      "subject": "communications antenna with two signal arcs",
+      "origin": "original",
+      "tags": [
+        "radio tower",
+        "cellular",
+        "mobile network",
+        "connectivity",
+        "signal",
+        "internet"
+      ]
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "category": "infrastructure",
+      "subject": "compact apartment building",
+      "origin": "original",
+      "tags": [
+        "apartment",
+        "residential building",
+        "home",
+        "real estate",
+        "property"
+      ]
+    },
+    {
+      "id": "industry",
+      "label": "Industry",
+      "category": "infrastructure",
+      "subject": "factory with two chimneys",
+      "origin": "original",
+      "tags": [
+        "manufacturing",
+        "production",
+        "factory",
+        "industrial"
+      ]
+    },
+    {
+      "id": "construction",
+      "label": "Construction",
+      "category": "infrastructure",
+      "subject": "yellow hard hat on a small brick",
+      "origin": "original",
+      "tags": [
+        "builder",
+        "helmet",
+        "building works",
+        "infrastructure project"
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "category": "economy-technology",
+      "subject": "stack of gold coins beside a small bank",
+      "origin": "original",
+      "tags": [
+        "money",
+        "banks",
+        "banking",
+        "savings",
+        "cash",
+        "deposit",
+        "financial institution"
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Markets",
+      "category": "economy-technology",
+      "subject": "three ascending chart bars and curved arrow",
+      "origin": "original",
+      "tags": [
+        "growth",
+        "stocks",
+        "shares",
+        "profit",
+        "bar chart",
+        "rising prices",
+        "investment"
+      ]
+    },
+    {
+      "id": "trade",
+      "label": "Trade",
+      "category": "economy-technology",
+      "subject": "small globe and two exchange arrows",
+      "origin": "original",
+      "tags": [
+        "international commerce",
+        "imports",
+        "exports",
+        "exchange",
+        "global trade"
+      ]
+    },
+    {
+      "id": "employment",
+      "label": "Employment",
+      "category": "economy-technology",
+      "subject": "briefcase",
+      "origin": "original",
+      "tags": [
+        "job",
+        "career",
+        "work",
+        "hiring",
+        "labour",
+        "workforce",
+        "business bag"
+      ]
+    },
+    {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "category": "economy-technology",
+      "subject": "two wheat stalks",
+      "origin": "original",
+      "tags": [
+        "farming",
+        "crops",
+        "harvest",
+        "food production",
+        "wheat",
+        "grain"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food supply",
+      "category": "economy-technology",
+      "subject": "basket with bread and vegetables",
+      "origin": "original",
+      "tags": [
+        "groceries",
+        "vegetables",
+        "farming",
+        "food security",
+        "bread",
+        "produce"
+      ]
+    },
+    {
+      "id": "retail",
+      "label": "Retail",
+      "category": "economy-technology",
+      "subject": "small shopping bag",
+      "origin": "original",
+      "tags": [
+        "shopping",
+        "store",
+        "commerce",
+        "ecommerce",
+        "shop",
+        "purchases"
+      ]
+    },
+    {
+      "id": "tourism",
+      "label": "Tourism",
+      "category": "economy-technology",
+      "subject": "travel suitcase and tiny location pin",
+      "origin": "original",
+      "tags": [
+        "vacation",
+        "luggage",
+        "travel",
+        "holiday",
+        "sightseeing"
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "category": "economy-technology",
+      "subject": "teal shield with golden padlock",
+      "origin": "original",
+      "tags": [
+        "privacy",
+        "secure login",
+        "password",
+        "protected account",
+        "digital security",
+        "lock"
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "Artificial intelligence",
+      "category": "economy-technology",
+      "subject": "softly rounded microchip with small connected-node pattern",
+      "origin": "original",
+      "tags": [
+        "machine learning",
+        "neural network",
+        "automation",
+        "generative technology"
+      ]
+    },
+    {
+      "id": "semiconductors",
+      "label": "Semiconductors",
+      "category": "economy-technology",
+      "subject": "single navy integrated circuit with gold pins",
+      "origin": "original",
+      "tags": [
+        "computer processor",
+        "integrated circuit",
+        "CPU",
+        "chipmaking",
+        "microchip"
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data and computing",
+      "category": "economy-technology",
+      "subject": "two compact server towers",
+      "origin": "original",
+      "tags": [
+        "servers",
+        "datacenter",
+        "cloud computing",
+        "storage",
+        "hardware",
+        "database"
+      ]
+    },
+    {
+      "id": "space",
+      "label": "Space",
+      "category": "economy-technology",
+      "subject": "orbital satellite with two solar panels",
+      "origin": "original",
+      "tags": [
+        "satellite",
+        "spacecraft",
+        "orbit",
+        "outer space",
+        "orbital communications"
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science",
+      "category": "economy-technology",
+      "subject": "laboratory flask with teal liquid",
+      "origin": "original",
+      "tags": [
+        "chemistry",
+        "experiment",
+        "research",
+        "beaker",
+        "liquid",
+        "lab"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media",
+      "category": "economy-technology",
+      "subject": "folded newspaper with raised blank horizontal lines",
+      "origin": "original",
+      "tags": [
+        "newspaper",
+        "journalism",
+        "publishing",
+        "press",
+        "articles",
+        "news"
+      ]
+    },
+    {
+      "id": "information",
+      "label": "Information integrity",
+      "category": "economy-technology",
+      "subject": "speech bubble with magnifying glass",
+      "origin": "original",
+      "tags": [
+        "misinformation",
+        "disinformation",
+        "fact check",
+        "verify claims",
+        "evidence",
+        "trust"
+      ]
+    },
+    {
+      "id": "government",
+      "label": "Government",
+      "category": "society-risk",
+      "subject": "classical civic building with three columns",
+      "origin": "original",
+      "tags": [
+        "public administration",
+        "state",
+        "town hall",
+        "capitol",
+        "public institution"
+      ]
+    },
+    {
+      "id": "diplomacy",
+      "label": "Diplomacy",
+      "category": "society-risk",
+      "subject": "two hands shaking",
+      "origin": "original",
+      "tags": [
+        "handshake",
+        "peace talks",
+        "treaty",
+        "agreement",
+        "international relations"
+      ]
+    },
+    {
+      "id": "justice",
+      "label": "Justice",
+      "category": "society-risk",
+      "subject": "balanced scales",
+      "origin": "original",
+      "tags": [
+        "law",
+        "magistrate",
+        "legal",
+        "courthouse",
+        "fairness",
+        "justice scales"
+      ]
+    },
+    {
+      "id": "defence",
+      "label": "Defence",
+      "category": "society-risk",
+      "subject": "simple protective helmet over a small shield",
+      "origin": "original",
+      "tags": [
+        "military protection",
+        "security",
+        "armor",
+        "equipment"
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "category": "society-risk",
+      "subject": "two opposing small flags separated by lightning crack",
+      "origin": "original",
+      "tags": [
+        "rivalry",
+        "dispute",
+        "opposition",
+        "confrontation",
+        "competing groups"
+      ]
+    },
+    {
+      "id": "public-safety",
+      "label": "Public safety",
+      "category": "society-risk",
+      "subject": "small police-style badge with simple star",
+      "origin": "original",
+      "tags": [
+        "law enforcement",
+        "policing",
+        "police",
+        "safety services"
+      ]
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency response",
+      "category": "society-risk",
+      "subject": "emergency siren beacon",
+      "origin": "original",
+      "tags": [
+        "alarm",
+        "flashing light",
+        "urgent incident",
+        "first responders"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "category": "society-risk",
+      "subject": "medical bag with raised plus symbol",
+      "origin": "original",
+      "tags": [
+        "first aid",
+        "healthcare",
+        "medicine",
+        "hospital",
+        "medical kit"
+      ]
+    },
+    {
+      "id": "biosecurity",
+      "label": "Biosecurity",
+      "category": "society-risk",
+      "subject": "stylized microbe enclosed by a protective ring",
+      "origin": "original",
+      "tags": [
+        "disease",
+        "pathogen",
+        "virus",
+        "microbiology",
+        "infection control"
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "category": "society-risk",
+      "subject": "open book with small graduation cap",
+      "origin": "original",
+      "tags": [
+        "school",
+        "learning",
+        "university",
+        "graduation",
+        "class",
+        "course"
+      ]
+    },
+    {
+      "id": "climate",
+      "label": "Climate",
+      "category": "society-risk",
+      "subject": "small globe with a thermometer",
+      "origin": "original",
+      "tags": [
+        "global warming",
+        "planet temperature",
+        "greenhouse gas",
+        "climate change"
+      ]
+    },
+    {
+      "id": "storm",
+      "label": "Storms",
+      "category": "society-risk",
+      "subject": "rain cloud with lightning bolt",
+      "origin": "original",
+      "tags": [
+        "thunderstorm",
+        "severe weather",
+        "lightning",
+        "rain",
+        "thunder",
+        "heavy rainfall"
+      ]
+    },
+    {
+      "id": "flood",
+      "label": "Flooding",
+      "category": "society-risk",
+      "subject": "small house partly surrounded by blue waves",
+      "origin": "original",
+      "tags": [
+        "floodwater",
+        "rising water",
+        "inundation",
+        "submerged building",
+        "overflow"
+      ]
+    },
+    {
+      "id": "wildfire",
+      "label": "Wildfire",
+      "category": "society-risk",
+      "subject": "flame beside one simple tree",
+      "origin": "original",
+      "tags": [
+        "forest fire",
+        "bushfire",
+        "blaze",
+        "vegetation",
+        "disaster"
+      ]
+    },
+    {
+      "id": "general",
+      "label": "General news and other scenarios",
+      "category": "society-risk",
+      "subject": "small globe with a tiny compass pointer",
+      "origin": "original",
+      "tags": [
+        "world",
+        "globe",
+        "compass",
+        "exploration",
+        "general topics",
+        "international events"
+      ]
+    },
+    {
+      "id": "drone",
+      "label": "Drones",
+      "category": "security-operations",
+      "subject": "small quadcopter drone",
+      "origin": "original",
+      "tags": [
+        "unmanned aerial vehicle",
+        "UAV",
+        "flying camera",
+        "remote aircraft"
+      ]
+    },
+    {
+      "id": "fighter-aircraft",
+      "label": "Combat aviation",
+      "category": "security-operations",
+      "subject": "compact fighter jet",
+      "origin": "original",
+      "tags": [
+        "fighter plane",
+        "military aircraft",
+        "combat jet"
+      ]
+    },
+    {
+      "id": "helicopter",
+      "label": "Helicopters",
+      "category": "security-operations",
+      "subject": "utility helicopter",
+      "origin": "original",
+      "tags": [
+        "rotorcraft",
+        "chopper",
+        "rotary wing",
+        "rescue aircraft"
+      ]
+    },
+    {
+      "id": "naval-vessel",
+      "label": "Naval operations",
+      "category": "security-operations",
+      "subject": "navy patrol ship with radar dome",
+      "origin": "original",
+      "tags": [
+        "navy ship",
+        "patrol vessel",
+        "naval transport",
+        "warship"
+      ]
+    },
+    {
+      "id": "submarine",
+      "label": "Submarines",
+      "category": "security-operations",
+      "subject": "small submarine with periscope",
+      "origin": "original",
+      "tags": [
+        "underwater vehicle",
+        "navy",
+        "submersible"
+      ]
+    },
+    {
+      "id": "armour",
+      "label": "Armoured vehicles",
+      "category": "security-operations",
+      "subject": "compact tracked armoured vehicle",
+      "origin": "original",
+      "tags": [
+        "tank",
+        "armored vehicle",
+        "armoured vehicle",
+        "tracked transport"
+      ]
+    },
+    {
+      "id": "missile",
+      "label": "Missiles",
+      "category": "security-operations",
+      "subject": "single upright missile",
+      "origin": "original",
+      "tags": [
+        "rocket",
+        "projectile",
+        "military hardware"
+      ]
+    },
+    {
+      "id": "radar",
+      "label": "Radar and surveillance",
+      "category": "security-operations",
+      "subject": "radar dish",
+      "origin": "original",
+      "tags": [
+        "tracking",
+        "sensor",
+        "dish antenna",
+        "monitoring",
+        "detection"
+      ]
+    },
+    {
+      "id": "air-defence",
+      "label": "Air defence",
+      "category": "security-operations",
+      "subject": "small shield beside radar antenna",
+      "origin": "original",
+      "tags": [
+        "air defense",
+        "airspace protection",
+        "aerial monitoring"
+      ]
+    },
+    {
+      "id": "military-logistics",
+      "label": "Military logistics",
+      "category": "security-operations",
+      "subject": "utility supply truck carrying two crates",
+      "origin": "original",
+      "tags": [
+        "supply convoy",
+        "equipment",
+        "military transport",
+        "crates",
+        "cargo"
+      ]
+    },
+    {
+      "id": "border",
+      "label": "Borders",
+      "category": "security-operations",
+      "subject": "border checkpoint barrier",
+      "origin": "original",
+      "tags": [
+        "checkpoint",
+        "entry barrier",
+        "frontier",
+        "customs",
+        "crossing"
+      ]
+    },
+    {
+      "id": "travel-documents",
+      "label": "Travel restrictions",
+      "category": "security-operations",
+      "subject": "passport with simple globe emblem",
+      "origin": "original",
+      "tags": [
+        "passport",
+        "visa",
+        "immigration",
+        "entry permit",
+        "travel identification"
+      ]
+    },
+    {
+      "id": "elections",
+      "label": "Elections",
+      "category": "security-operations",
+      "subject": "ballot box with a ballot entering",
+      "origin": "original",
+      "tags": [
+        "voting",
+        "vote",
+        "ballot",
+        "polls",
+        "democracy"
+      ]
+    },
+    {
+      "id": "sanctions",
+      "label": "Sanctions",
+      "category": "security-operations",
+      "subject": "shipping box with small padlock",
+      "origin": "original",
+      "tags": [
+        "embargo",
+        "export controls",
+        "trade restrictions",
+        "shipment blocked"
+      ]
+    },
+    {
+      "id": "protest",
+      "label": "Protests",
+      "category": "security-operations",
+      "subject": "raised fist holding a blank placard",
+      "origin": "original",
+      "tags": [
+        "demonstration",
+        "picket",
+        "civil action",
+        "placard",
+        "march"
+      ]
+    },
+    {
+      "id": "intelligence",
+      "label": "Intelligence",
+      "category": "security-operations",
+      "subject": "magnifying glass over sealed dossier",
+      "origin": "original",
+      "tags": [
+        "investigation",
+        "classified file",
+        "dossier",
+        "surveillance",
+        "analysis"
+      ]
+    },
+    {
+      "id": "earthquake",
+      "label": "Earthquakes",
+      "category": "environment-society",
+      "subject": "two cracked ground slabs beneath a small house",
+      "origin": "original",
+      "tags": [
+        "tremor",
+        "seismic",
+        "fault",
+        "shaking",
+        "ground movement"
+      ]
+    },
+    {
+      "id": "volcano",
+      "label": "Volcanoes",
+      "category": "environment-society",
+      "subject": "volcano with restrained terracotta lava",
+      "origin": "original",
+      "tags": [
+        "eruption",
+        "lava",
+        "ash cloud",
+        "magma"
+      ]
+    },
+    {
+      "id": "tsunami",
+      "label": "Tsunamis",
+      "category": "environment-society",
+      "subject": "large curling teal wave",
+      "origin": "original",
+      "tags": [
+        "tidal wave",
+        "ocean surge",
+        "coastal flooding",
+        "giant wave"
+      ]
+    },
+    {
+      "id": "drought",
+      "label": "Drought",
+      "category": "environment-society",
+      "subject": "cracked earth with one dry plant",
+      "origin": "original",
+      "tags": [
+        "water shortage",
+        "dry land",
+        "desertification",
+        "parched soil",
+        "crop failure"
+      ]
+    },
+    {
+      "id": "heatwave",
+      "label": "Heatwaves",
+      "category": "environment-society",
+      "subject": "sun beside a thermometer",
+      "origin": "original",
+      "tags": [
+        "extreme heat",
+        "temperature",
+        "hot weather",
+        "sun"
+      ]
+    },
+    {
+      "id": "winter-weather",
+      "label": "Winter weather",
+      "category": "environment-society",
+      "subject": "snow cloud with large snowflake",
+      "origin": "original",
+      "tags": [
+        "snow",
+        "ice",
+        "cold",
+        "frost",
+        "winter storm",
+        "blizzard"
+      ]
+    },
+    {
+      "id": "pollution",
+      "label": "Pollution",
+      "category": "environment-society",
+      "subject": "factory chimney releasing grey smoke",
+      "origin": "original",
+      "tags": [
+        "smog",
+        "emissions",
+        "air quality",
+        "contamination",
+        "factory smoke"
+      ]
+    },
+    {
+      "id": "recycling",
+      "label": "Recycling",
+      "category": "environment-society",
+      "subject": "three rounded green recycling arrows",
+      "origin": "original",
+      "tags": [
+        "reuse",
+        "waste sorting",
+        "circular economy",
+        "sustainability"
+      ]
+    },
+    {
+      "id": "biodiversity",
+      "label": "Biodiversity",
+      "category": "environment-society",
+      "subject": "leaf and small butterfly",
+      "origin": "original",
+      "tags": [
+        "ecosystem",
+        "nature",
+        "conservation",
+        "wildlife",
+        "butterfly"
+      ]
+    },
+    {
+      "id": "mining",
+      "label": "Mining",
+      "category": "environment-society",
+      "subject": "pickaxe beside two mineral rocks",
+      "origin": "original",
+      "tags": [
+        "minerals",
+        "excavation",
+        "quarry",
+        "extraction",
+        "rocks"
+      ]
+    },
+    {
+      "id": "undersea-cables",
+      "label": "Undersea cables",
+      "category": "environment-society",
+      "subject": "cross section of thick cable with colored internal strands",
+      "origin": "original",
+      "tags": [
+        "subsea internet",
+        "fiber optic",
+        "fibre optic",
+        "ocean connectivity",
+        "underwater data links"
+      ]
+    },
+    {
+      "id": "bridges",
+      "label": "Bridges",
+      "category": "environment-society",
+      "subject": "small suspension bridge",
+      "origin": "original",
+      "tags": [
+        "road crossing",
+        "span",
+        "suspension bridge",
+        "transport link"
+      ]
+    },
+    {
+      "id": "insurance",
+      "label": "Insurance",
+      "category": "environment-society",
+      "subject": "small house protected by a shield",
+      "origin": "original",
+      "tags": [
+        "property coverage",
+        "policy",
+        "financial protection",
+        "claim",
+        "house"
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "category": "environment-society",
+      "subject": "football beside small gold trophy",
+      "origin": "original",
+      "tags": [
+        "football",
+        "soccer",
+        "competition",
+        "games",
+        "trophy"
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "Culture and heritage",
+      "category": "environment-society",
+      "subject": "theatre mask beside small classical column",
+      "origin": "original",
+      "tags": [
+        "theater",
+        "theatre",
+        "arts",
+        "architecture",
+        "performance",
+        "heritage"
+      ]
+    },
+    {
+      "id": "displacement",
+      "label": "Displacement and shelter",
+      "category": "environment-society",
+      "subject": "simple humanitarian shelter tent with small suitcase",
+      "origin": "original",
+      "tags": [
+        "refugee aid",
+        "evacuation",
+        "temporary housing",
+        "tents",
+        "relief camp"
+      ]
+    },
+    {
+      "id": "flag-singapore",
+      "label": "Singapore",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Red over white with a white crescent and five white five-pointed stars in a circle",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-malaysia",
+      "label": "Malaysia",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Fourteen red and white stripes, blue canton, yellow crescent and fourteen-point star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-indonesia",
+      "label": "Indonesia",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Two equal horizontal bands, red above white",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-thailand",
+      "label": "Thailand",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Red, white, blue, white, red horizontal bands in 1:1:2:1:1 proportions",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-brunei",
+      "label": "Brunei",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Yellow field, descending white and black diagonal bands, central red national crest",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-philippines",
+      "label": "Philippines",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Blue over red, white hoist triangle, eight-rayed gold sun and three five-pointed stars",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-vietnam",
+      "label": "Vietnam",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Red field with one centered yellow five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-cambodia",
+      "label": "Cambodia",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Blue, red, blue bands in 1:2:1 proportions with white three-towered Angkor Wat",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-laos",
+      "label": "Laos",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Red, blue, red bands in 1:2:1 proportions with a centered white disc",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "flag-myanmar",
+      "label": "Myanmar",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Yellow, green, red equal bands with one large white five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "Burma",
+        "Southeast Asia"
+      ]
+    },
+    {
+      "id": "flag-timor-leste",
+      "label": "Timor-Leste",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Red field, overlapping yellow and black hoist triangles, tilted white five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "East Timor",
+        "Southeast Asia"
+      ]
+    },
+    {
+      "id": "flag-australia",
+      "label": "Australia",
+      "category": "country-flags",
+      "subject": "Waving satin 3D national flag: Blue field, Union Jack, seven-point Commonwealth star and five-star Southern Cross",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ]
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "category": "interface",
+      "description": "A slate magnifying glass with a mustard handle.",
+      "origin": "extension",
+      "tags": [
+        "magnifier",
+        "lookup",
+        "find something",
+        "discovery",
+        "zoom",
+        "inspect"
+      ]
+    },
+    {
+      "id": "bookmark",
+      "label": "Bookmark",
+      "category": "interface",
+      "description": "A thick terracotta ribbon with a V-shaped notch.",
+      "origin": "extension",
+      "tags": [
+        "save for later",
+        "read later",
+        "keep",
+        "shortlist",
+        "favourite",
+        "favorite",
+        "page marker",
+        "saved items"
+      ]
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "category": "interface",
+      "description": "A sculpted dusty teal gear with a sandstone hub.",
+      "origin": "extension",
+      "tags": [
+        "cog",
+        "preferences",
+        "configure",
+        "options",
+        "adjust app controls",
+        "set up"
+      ]
+    },
+    {
+      "id": "notification-bell",
+      "label": "Notification bell",
+      "category": "interface",
+      "description": "A golden bell with a slate clapper.",
+      "origin": "extension",
+      "tags": [
+        "new alerts",
+        "reminders",
+        "updates",
+        "ring",
+        "subscribe",
+        "get notified"
+      ]
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "category": "interface",
+      "description": "A cream calendar with terracotta trim and slate rings.",
+      "origin": "extension",
+      "tags": [
+        "appointments",
+        "dates",
+        "schedule a meeting",
+        "plans",
+        "planner",
+        "upcoming events"
+      ]
+    },
+    {
+      "id": "clock",
+      "label": "Clock",
+      "category": "interface",
+      "description": "A sandstone analogue clock with a rounded slate rim.",
+      "origin": "extension",
+      "tags": [
+        "time",
+        "hours",
+        "minutes",
+        "timer",
+        "schedule",
+        "deadline",
+        "recent",
+        "history"
+      ]
+    },
+    {
+      "id": "folder",
+      "label": "Folder",
+      "category": "interface",
+      "description": "An open mustard folder holding a cream sheet.",
+      "origin": "extension",
+      "tags": [
+        "organise documents",
+        "organize files",
+        "filing",
+        "archive",
+        "directory",
+        "file manager"
+      ]
+    },
+    {
+      "id": "chat",
+      "label": "Chat",
+      "category": "interface",
+      "description": "A dusty teal speech bubble with three raised cream dots.",
+      "origin": "extension",
+      "tags": [
+        "talk to someone",
+        "instant messaging",
+        "chat conversation",
+        "typing indicator",
+        "comments",
+        "discussion",
+        "reply"
+      ]
+    },
+    {
+      "id": "map-pin",
+      "label": "Map pin",
+      "category": "interface",
+      "description": "A terracotta place marker with a cream inset.",
+      "origin": "extension",
+      "tags": [
+        "location",
+        "GPS",
+        "point of interest",
+        "address",
+        "destination",
+        "mark a place",
+        "find where I am"
+      ]
+    },
+    {
+      "id": "cloud-download",
+      "label": "Cloud download",
+      "category": "interface",
+      "description": "A sandstone cloud with a raised teal downward arrow.",
+      "origin": "extension",
+      "tags": [
+        "get a local copy",
+        "save offline",
+        "download files",
+        "export",
+        "retrieve from cloud"
+      ]
+    },
+    {
+      "id": "success",
+      "label": "Success",
+      "category": "interface",
+      "description": "An olive puck with a raised sandstone check mark.",
+      "origin": "extension",
+      "tags": [
+        "done",
+        "successful",
+        "checkmark",
+        "confirmed",
+        "completed",
+        "accepted",
+        "everything went well",
+        "task finished",
+        "verified"
+      ]
+    },
+    {
+      "id": "warning",
+      "label": "Warning",
+      "category": "interface",
+      "description": "A mustard triangle with a slate exclamation mark.",
+      "origin": "extension",
+      "tags": [
+        "caution",
+        "hazard",
+        "danger",
+        "pay attention",
+        "something went wrong",
+        "error",
+        "risk"
+      ]
+    }
+  ]
+}

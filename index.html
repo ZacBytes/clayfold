@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Browse and download Scout’s soft 3D icons for infrastructure, technology, the environment and everyday interfaces.">
+  <meta name="theme-color" content="#f7f6f0">
+  <title>Scout Icons</title>
+  <link rel="icon" href="./assets/general.webp">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./js/app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#catalog">Skip to icons</a>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./" aria-label="Scout Icons home">
+        <img src="./assets/general.webp" alt="" width="32" height="32">
+        <span>Scout</span>
+      </a>
+      <nav class="top-links" aria-label="Main">
+        <a class="top-about" href="./about.html">About</a>
+        <a class="github" id="github-link" href="https://github.com/dotc-open/scout-icons">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.76-.24.76-.54v-2.08c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.72 1.15 1.72 1.15 1.01 1.71 2.64 1.22 3.28.94.1-.73.39-1.22.71-1.5-2.49-.29-5.1-1.25-5.1-5.54 0-1.23.44-2.23 1.16-3.01-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15a10.8 10.8 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3.01 0 4.3-2.62 5.25-5.12 5.53.4.35.76 1.03.76 2.08v3.07c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+          <span>GitHub</span><span id="star-count" class="stars" hidden></span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Scout Icons</h1>
+        <p>Soft 3D icons for the world around us.</p>
+        <a href="#catalog" class="browse-link">Browse icons <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14m-5-5 5 5 5-5"/></svg></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-object hero-object-one"><img src="./assets/renewables.webp" alt="" fetchpriority="high" width="174" height="174"></div>
+        <div class="hero-object hero-object-two"><img src="./assets/maritime.webp" alt="" fetchpriority="high" width="170" height="170"></div>
+        <div class="hero-object hero-object-three"><img src="./assets/space.webp" alt="" fetchpriority="high" width="160" height="160"></div>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+      <h2 id="catalog-title" class="sr-only">Icon catalog</h2>
+      <form id="search-form" class="search" role="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>
+        <label for="query" class="sr-only">Search icons</label>
+        <input id="query" type="search" placeholder="Describe the icon you need…" autocomplete="off" maxlength="180" aria-controls="icon-grid">
+        <button type="button" id="clear-search" class="icon-button" aria-label="Clear search" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+        <kbd id="search-shortcut" aria-hidden="true">/</kbd>
+      </form>
+      <div class="examples" aria-label="Example searches">
+        <span>Try</span>
+        <button type="button" data-query="a ship carrying containers">a ship carrying containers</button>
+        <button type="button" data-query="save for later">save for later</button>
+        <button type="button" data-query="clean power">clean power</button>
+      </div>
+
+      <div class="catalog-layout">
+        <aside class="sidebar" aria-label="Icon categories">
+          <h3>Categories</h3>
+          <div id="categories" class="categories" role="group" aria-label="Filter by category"></div>
+        </aside>
+        <div class="results">
+          <div class="results-header">
+            <h3 id="collection-title">All icons</h3>
+            <p id="results-count" role="status" aria-live="polite"></p>
+          </div>
+          <p id="notice" class="notice" hidden></p>
+          <div id="icon-grid" class="grid" aria-label="Icons"></div>
+          <div id="empty" class="empty" hidden>
+            <h4>No matching icons</h4><p>Try describing what the icon shows or what you’d use it for.</p>
+            <button type="button" id="reset" class="button">Show all icons</button>
+          </div>
+          <noscript><p>Enable JavaScript to browse the catalog, or view the files on <a href="https://github.com/dotc-open/scout-icons/tree/main/assets">GitHub</a>.</p></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap"><span>Scout Icons</span><a href="./about.html">Artwork, formats and licensing</a></footer>
+
+  <dialog id="icon-detail" aria-labelledby="detail-title">
+    <div class="dialog-inner">
+      <form method="dialog">
+        <button type="submit" class="icon-button close" aria-label="Close preview" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      </form>
+      <div class="detail-art" id="detail-art"><img id="detail-preview" alt="" width="256" height="256"></div>
+      <div class="detail-body">
+        <p id="detail-category" class="detail-category"></p>
+        <h2 id="detail-title"></h2>
+        <p id="detail-description" class="detail-description"></p>
+        <p class="detail-format">256 × 256 artwork <a href="./about.html#formats">About the SVG format</a></p>
+        <div class="detail-actions">
+          <button type="button" id="copy-svg" class="button solid"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 4H6a2 2 0 0 0-2 2v10"/></svg>Copy SVG</button>
+          <a id="download-svg" class="button" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>Download SVG</a>
+          <a id="download-png" class="button" download>PNG</a>
+          <a id="download-webp" class="button" download>WebP</a>
+        </div>
+        <p id="copy-status" class="copy-status" role="status"></p>
+        <textarea id="copy-source" class="copy-source" aria-label="SVG source for manual copying" readonly hidden></textarea>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
