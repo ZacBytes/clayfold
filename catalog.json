@@ -1454,6 +1454,383 @@
         "error",
         "risk"
       ]
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "category": "interface",
+      "description": "A cream house with a slate roof and a warm terracotta doorway.",
+      "origin": "extension",
+      "tags": [
+        "return to dashboard",
+        "go to homepage",
+        "start page",
+        "main screen",
+        "house",
+        "residence"
+      ]
+    },
+    {
+      "id": "arrow-left",
+      "label": "Arrow left",
+      "category": "interface",
+      "description": "A rounded teal arrow pointing to the left.",
+      "origin": "extension",
+      "tags": [
+        "go back",
+        "previous screen",
+        "previous page",
+        "return",
+        "navigate left"
+      ]
+    },
+    {
+      "id": "arrow-right",
+      "label": "Arrow right",
+      "category": "interface",
+      "description": "A rounded teal arrow pointing to the right.",
+      "origin": "extension",
+      "tags": [
+        "go forward",
+        "next screen",
+        "next page",
+        "continue",
+        "proceed",
+        "navigate right"
+      ]
+    },
+    {
+      "id": "plus",
+      "label": "Plus",
+      "category": "interface",
+      "description": "A rounded olive plus symbol.",
+      "origin": "extension",
+      "tags": [
+        "add item",
+        "create new",
+        "insert",
+        "append",
+        "increase",
+        "expand"
+      ]
+    },
+    {
+      "id": "close",
+      "label": "Close",
+      "category": "interface",
+      "description": "A soft terracotta X symbol.",
+      "origin": "extension",
+      "tags": [
+        "dismiss modal",
+        "exit preview",
+        "cancel",
+        "cross",
+        "close window",
+        "stop"
+      ]
+    },
+    {
+      "id": "cloud-upload",
+      "label": "Cloud upload",
+      "category": "interface",
+      "description": "A cream cloud with a large teal arrow pointing up.",
+      "origin": "extension",
+      "tags": [
+        "upload file",
+        "put files online",
+        "send to cloud",
+        "backup documents",
+        "import",
+        "submit"
+      ]
+    },
+    {
+      "id": "share",
+      "label": "Share",
+      "category": "interface",
+      "description": "Three round clay nodes joined by two short rods.",
+      "origin": "extension",
+      "tags": [
+        "send to someone",
+        "share this",
+        "publish",
+        "social",
+        "distribute",
+        "forward to a friend"
+      ]
+    },
+    {
+      "id": "link",
+      "label": "Link",
+      "category": "interface",
+      "description": "Two interlocked chain links in slate and ochre.",
+      "origin": "extension",
+      "tags": [
+        "hyperlink",
+        "URL",
+        "copy a link",
+        "attach",
+        "connect",
+        "web address"
+      ]
+    },
+    {
+      "id": "refresh",
+      "label": "Refresh",
+      "category": "interface",
+      "description": "A circular teal arrow with a curved shaft.",
+      "origin": "extension",
+      "tags": [
+        "reload",
+        "update results",
+        "retry",
+        "sync",
+        "refresh the page",
+        "restart"
+      ]
+    },
+    {
+      "id": "trash",
+      "label": "Trash",
+      "category": "interface",
+      "description": "A small terracotta waste bin with a pale lid handle.",
+      "origin": "extension",
+      "tags": [
+        "delete",
+        "remove item",
+        "discard",
+        "clear",
+        "empty",
+        "rubbish bin",
+        "recycle bin"
+      ]
+    },
+    {
+      "id": "lock",
+      "label": "Lock",
+      "category": "interface",
+      "description": "A closed ochre padlock with a curved slate shackle.",
+      "origin": "extension",
+      "tags": [
+        "privacy",
+        "secure access",
+        "protected",
+        "locked",
+        "restrict",
+        "password",
+        "encrypted"
+      ]
+    },
+    {
+      "id": "key",
+      "label": "Key",
+      "category": "interface",
+      "description": "A golden key with an open round bow.",
+      "origin": "extension",
+      "tags": [
+        "authentication",
+        "credential",
+        "login",
+        "access token",
+        "passkey",
+        "unlock",
+        "password setup"
+      ]
+    },
+    {
+      "id": "eye",
+      "label": "Show",
+      "category": "interface",
+      "description": "A cream eye with a dark teal pupil.",
+      "origin": "extension",
+      "tags": [
+        "eye",
+        "visibility",
+        "reveal",
+        "show password",
+        "preview",
+        "visible",
+        "view"
+      ]
+    },
+    {
+      "id": "eye-off",
+      "label": "Hide",
+      "category": "interface",
+      "description": "A cream eye crossed by a raised terracotta slash.",
+      "origin": "extension",
+      "tags": [
+        "eye off",
+        "hide password",
+        "private",
+        "invisible",
+        "conceal",
+        "visibility off"
+      ]
+    },
+    {
+      "id": "filter",
+      "label": "Filter",
+      "category": "interface",
+      "description": "A small tapered teal funnel.",
+      "origin": "extension",
+      "tags": [
+        "narrow results",
+        "refine search",
+        "filter list",
+        "filter options",
+        "screening",
+        "filter funnel"
+      ]
+    },
+    {
+      "id": "star",
+      "label": "Star",
+      "category": "interface",
+      "description": "A rounded mustard five-point star.",
+      "origin": "extension",
+      "tags": [
+        "favorite",
+        "favourite",
+        "rating",
+        "featured",
+        "highlight",
+        "stargazer",
+        "review"
+      ]
+    },
+    {
+      "id": "heart",
+      "label": "Heart",
+      "category": "interface",
+      "description": "A rounded terracotta heart.",
+      "origin": "extension",
+      "tags": [
+        "like",
+        "love",
+        "favorite",
+        "affection",
+        "save to favourites",
+        "wishlist"
+      ]
+    },
+    {
+      "id": "info",
+      "label": "Information",
+      "category": "interface",
+      "description": "A soft slate disc with a raised cream information symbol.",
+      "origin": "extension",
+      "tags": [
+        "more details",
+        "help text",
+        "info",
+        "information tooltip",
+        "learn more",
+        "hint"
+      ]
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "category": "interface",
+      "description": "A dusty teal disc with a raised cream question mark.",
+      "origin": "extension",
+      "tags": [
+        "support",
+        "ask a question",
+        "FAQ",
+        "assistance",
+        "get help",
+        "guide"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "category": "interface",
+      "description": "Three softly rounded slate bars stacked on one plane.",
+      "origin": "extension",
+      "tags": [
+        "hamburger",
+        "navigation",
+        "drawer",
+        "sidebar",
+        "open menu",
+        "options"
+      ]
+    },
+    {
+      "id": "play",
+      "label": "Play",
+      "category": "interface",
+      "description": "A standalone olive triangle pointing right.",
+      "origin": "extension",
+      "tags": [
+        "start video",
+        "play audio",
+        "start playback",
+        "resume clip",
+        "media"
+      ]
+    },
+    {
+      "id": "pause",
+      "label": "Pause",
+      "category": "interface",
+      "description": "Two upright ochre bars placed side by side.",
+      "origin": "extension",
+      "tags": [
+        "pause playback",
+        "suspend briefly",
+        "pause video",
+        "pause audio",
+        "media"
+      ]
+    },
+    {
+      "id": "volume",
+      "label": "Volume",
+      "category": "interface",
+      "description": "A slate speaker cone with curved golden sound waves.",
+      "origin": "extension",
+      "tags": [
+        "sound",
+        "loudspeaker",
+        "turn sound on",
+        "unmute",
+        "adjust volume",
+        "sound settings"
+      ]
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "category": "interface",
+      "description": "A slate speaker cone with a small terracotta cross.",
+      "origin": "extension",
+      "tags": [
+        "turn sound off",
+        "silence audio",
+        "sound off",
+        "volume off",
+        "quiet",
+        "speaker muted"
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "category": "interface",
+      "description": "A compact sandstone camera with a circular slate lens.",
+      "origin": "extension",
+      "tags": [
+        "take a photograph",
+        "capture image",
+        "photo",
+        "snapshot",
+        "picture",
+        "photography"
+      ]
     }
   ]
 }

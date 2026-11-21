@@ -1,42 +1,61 @@
-# Scout Icons
+<div align="center">
+  <h1>Kilnfield</h1>
+  <p>Soft 3D icons for apps and websites.</p>
+  <p>
+    <a href="https://zacbytes.github.io/kilnfield/"><img src="https://img.shields.io/badge/Browse-the%20catalog-324c39?style=flat-square" alt="Browse the catalog"></a>
+    <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-128-c79545?style=flat-square" alt="128 icons"></a>
+    <a href="./ARTWORK-LICENSE.md"><img src="https://img.shields.io/badge/Artwork-CC%20BY%204.0-547454?style=flat-square" alt="Artwork licensed CC BY 4.0"></a>
+    <a href="https://github.com/ZacBytes/kilnfield/stargazers"><img src="https://img.shields.io/github/stars/ZacBytes/kilnfield?style=flat-square&amp;logo=github&amp;color=324c39" alt="GitHub stars"></a>
+  </p>
+  <p>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=maritime"><img src="./assets/maritime.webp" width="88" height="88" alt="Cargo ship"></a>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=folder"><img src="./assets/folder.webp" width="88" height="88" alt="Folder"></a>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=renewables"><img src="./assets/renewables.webp" width="88" height="88" alt="Renewables"></a>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=camera"><img src="./assets/camera.webp" width="88" height="88" alt="Camera"></a>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=space"><img src="./assets/space.webp" width="88" height="88" alt="Space"></a>
+    <a href="https://zacbytes.github.io/kilnfield/#icon=star"><img src="./assets/star.webp" width="88" height="88" alt="Star"></a>
+  </p>
+  <p><a href="https://zacbytes.github.io/kilnfield/"><strong>Explore the icons</strong></a> &nbsp;&nbsp;&nbsp; <a href="./assets">Browse the files</a></p>
+</div>
 
-[Browse the live catalog](https://dotc-open.github.io/scout-icons/)
+## Use an icon
 
-Scout's softly sculpted 3D icon collection covers infrastructure, economy, technology, society, environment, security, country flags, and everyday interfaces. The topic and flag artwork comes from Scout’s original AI-generated pack. The interface illustrations were generated as a single contact sheet and cropped as individual assets.
+Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open any result to copy the SVG or download an individual file.
 
-The original topic icons use a shallow three-quarter view, softly rounded clay surfaces, diffuse light and a muted sandstone, slate, teal, ochre, terracotta and olive palette. The flags use national colours with a thin waving satin treatment.
+Drop a downloaded icon into your app’s assets directory and reference it directly.
 
-## Files and formats
+```html
+<img src="/assets/bookmark.webp" width="48" height="48" alt="">
+```
 
-- `catalog.json` lists stable icon IDs, categories, artwork provenance and search terms.
-- `assets/<id>.png` and `assets/<id>.webp` are 256 × 256 transparent images. WebP is lossless.
-- `assets/<id>.svg` is a self-contained SVG with the transparent PNG embedded at its original resolution. The embedded artwork is bitmap-based.
-- `embeddings.json` contains numeric search vectors derived from public icon metadata.
+Use an empty `alt` when nearby text already describes the icon. For an icon-only button, give the button an accessible name such as `aria-label="Save for later"`.
 
-The artwork contains no political figures or portraits. The generic population image, which depicts three human busts, was omitted. Scout’s separate portrait and brand collections are outside this release. The flags are stylized Scout artwork. Their reference files and source atlases are outside this release.
+| Format | Use it for |
+| --- | --- |
+| **WebP** | A compact, lossless image for the web |
+| **PNG** | A transparent image for design tools and apps |
+| **SVG** | A self-contained file that embeds the 256 × 256 PNG and preserves the original shading |
+
+Every icon has a stable ID in [the catalog](./catalog.json). Files are named `assets/<id>.webp`, `assets/<id>.png`, and `assets/<id>.svg`.
 
 ## Coverage
 
-Lucide and Google Material Symbols cover a broader range of reusable interface controls. Scout concentrates on recognisable objects and scenarios such as port equipment, undersea cables, grid infrastructure and extreme weather. [Lucide icon catalog](https://lucide.dev/icons/) and [Material Symbols library](https://fonts.google.com/icons)
+The library pairs everyday interface symbols with detailed illustrations for transport, technology, infrastructure, society, weather, and national flags. We used the established UI libraries below to find common controls the original topic pack lacked. [Lucide](https://lucide.dev/icons/) and [Google Material Symbols](https://fonts.google.com/icons).
 
-| Need | Original Scout coverage | Examples from Lucide and Material Symbols | Public catalog additions |
-| --- | --- | --- | --- |
-| Discovery and navigation | Magnifier and place pin appeared inside larger compositions | `search` in Lucide, `location_on` in Material Symbols | Standalone search and map pin |
-| Saving and organization | Sealed dossier, shipping boxes and server racks | `bookmark` in Lucide, `cloud_download` in Material Symbols | Bookmark, folder and cloud download |
-| Preferences and communication | Antenna, news and fact-checking imagery | `bell` in Lucide, `chat` in Material Symbols | Settings, chat and notification bell |
-| Time and planning | No dedicated date or time symbols | `clock` in Lucide, `calendar_month` in Material Symbols | Calendar and clock |
-| Feedback | Emergency siren and specialist safety imagery | `triangle-alert` in Lucide, `check_circle` in Material Symbols | Success and warning |
+| Need | Reference examples | In Kilnfield |
+| --- | --- | --- |
+| Navigation and discovery | Lucide `arrow-left`, Material `location_on` | Search, home, back, forward, map pin, menu |
+| Saving and file actions | Lucide `bookmark`, Material `cloud_upload` | Bookmark, folder, upload, download, link, share, trash |
+| Account and visibility | Lucide `lock-keyhole`, Material `visibility_off` | Lock, key, show, hide |
+| Feedback and scheduling | Lucide `triangle-alert`, Material `calendar_month` | Notification, success, warning, information, help, calendar, clock |
+| Media | Lucide `play`, Material `volume_off` | Play, pause, volume, mute, camera |
 
-The additions use Scout’s sculpted palette and rounded, lightly angled shapes. The collection still has limited coverage of directional arrows, text editing, media playback and accessibility controls.
+The illustrations are styled for visible texture and colour. Dedicated text formatting, accessibility controls, and many specialised variants remain gaps.
 
-## Run locally
+## License
 
-Serve the repository root with a static HTTP server, for example `python3 -m http.server 8000`, and open `http://localhost:8000`. GitHub Pages serves the same files from the main branch.
+Use and adapt the artwork in personal and commercial projects under **CC BY 4.0**. Credit Kilnfield, link to the license, and indicate changes.
 
-Search combines local descriptions, related terms and prefix matching with normalized [MiniLM embeddings](https://huggingface.co/Xenova/all-MiniLM-L6-v2) in a browser worker. The browser fetches the pinned Transformers.js runtime and model on demand and runs inference locally. The text index works immediately and remains available if the runtime cannot load. The GitHub badge fetches the public repository's current star count, with the direct repository link available independently.
+> Icon by [Kilnfield](https://zacbytes.github.io/kilnfield/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-After editing the catalog or artwork, regenerate the derived files with `node tools/build-svg.mjs` and `node tools/build-search.mjs`. The search builder requires `npm install --no-save --no-package-lock @huggingface/transformers@3.8.1`. The SVG builder has no third-party dependencies.
-
-## Licensing
-
-The source artwork has no published general-purpose reuse license. Public access to the artwork and catalog code does not grant additional reuse permission. National flag illustrations may be subject to local rules for use and display. The runtime and model are loaded from their upstream distributors under their respective [Transformers.js](https://github.com/huggingface/transformers.js/blob/main/LICENSE) and [MiniLM](https://huggingface.co/Xenova/all-MiniLM-L6-v2) licenses.
+[Artwork license and provenance](./ARTWORK-LICENSE.md).

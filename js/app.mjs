@@ -153,7 +153,7 @@ function showIcon(icon, addHash = true) {
   currentIcon = icon;
   detailHash = "#icon=" + icon.id;
   if (addHash) {
-    history.pushState({ scoutIcon: true }, "", detailHash);
+    history.pushState({ kilnfieldIcon: true }, "", detailHash);
   }
   byId("detail-category").textContent = catalog.categories[icon.category];
   byId("detail-title").textContent = icon.label;
@@ -182,7 +182,7 @@ function syncHash() {
 
 detail.addEventListener("close", () => {
   if (location.hash === detailHash) {
-    if (history.state?.scoutIcon) history.back();
+    if (history.state?.kilnfieldIcon) history.back();
     else history.replaceState(null, "", location.pathname + location.search + "#catalog");
   }
   currentIcon = null;
