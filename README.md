@@ -27,10 +27,10 @@ Each archive includes all 704 icons, including 200 country flags, with the catal
 
 ## Install with npm
 
-Install the versioned package from GitHub Releases. It contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
+Each new [GitHub release](https://github.com/ZacBytes/clayfold/releases) includes a versioned npm archive. The package contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
 
 ```sh
-npm install https://github.com/ZacBytes/clayfold/releases/download/npm-v1.0.0/clayfold-icons-1.0.0.tgz
+npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz
 ```
 
 Import individual files in a bundler with static image imports, such as Vite.
