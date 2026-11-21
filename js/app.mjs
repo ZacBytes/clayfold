@@ -2,6 +2,36 @@ import { prepareSearch, searchIcons } from "./search.mjs";
 
 const byId = id => document.getElementById(id);
 const setup = byId("use-clayfold");
+const detail = byId("icon-detail");
+let nextDismissal = 0;
+
+async function dismissDialog(dialog) {
+  if (!dialog.open || dialog.hasAttribute("data-closing")) return;
+  const dismissal = String(++nextDismissal);
+  dialog.dataset.closing = dismissal;
+  // Keep the native top layer and its focus trap in place during the exit.
+  const animations = dialog.getAnimations();
+  if (animations.length) await Promise.allSettled(animations.map(animation => animation.finished));
+  if (dialog.dataset.closing !== dismissal) return;
+  dialog.close();
+  delete dialog.dataset.closing;
+}
+
+for (const dialog of document.querySelectorAll("dialog")) {
+  dialog.addEventListener("submit", event => {
+    if (event.target.method !== "dialog") return;
+    event.preventDefault();
+    dismissDialog(dialog);
+  });
+  dialog.addEventListener("cancel", event => {
+    event.preventDefault();
+    dismissDialog(dialog);
+  });
+  dialog.addEventListener("click", event => {
+    if (event.target === dialog) dismissDialog(dialog);
+  });
+}
+
 for (const [link, dialog] of [
   [byId("download-pack"), byId("pack-downloads")],
   [byId("use-pack"), setup],
@@ -11,10 +41,8 @@ for (const [link, dialog] of [
   link.addEventListener("click", event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
+    link.focus({ preventScroll: true });
     dialog.showModal();
-  });
-  dialog.addEventListener("click", event => {
-    if (event.target === dialog) dialog.close();
   });
 }
 
@@ -71,7 +99,6 @@ const interfaceGroups = byId("interface-groups");
 const queryInput = byId("query");
 const clearSearch = byId("clear-search");
 const shortcut = byId("search-shortcut");
-const detail = byId("icon-detail");
 const copy = byId("copy-svg");
 const copyStatus = byId("copy-status");
 const copySource = byId("copy-source");
@@ -132,7 +159,7 @@ function renderInterfaceGroups() {
   }
 }
 
-function render() {
+function render(reveal = false) {
   if (!catalog) return;
   const query = queryInput.value.trim();
   const isInterface = category === "interface";
@@ -158,14 +185,14 @@ function render() {
 
   const focusedId = grid.contains(document.activeElement) ? document.activeElement.dataset.icon : null;
   grid.replaceChildren();
-  appendCards();
+  appendCards(reveal);
   if (focusedId) {
     const card = grid.querySelector(`[data-icon="${focusedId}"]`);
     (card ?? queryInput).focus({ preventScroll: true });
   }
 }
 
-function appendCards() {
+function appendCards(reveal = false) {
   const start = grid.childElementCount;
   const end = Math.min(pageLimit, matches.length);
   const cards = document.createDocumentFragment();
@@ -174,6 +201,7 @@ function appendCards() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "card";
+    if (reveal && index - start < 8) button.classList.add("card-reveal");
     button.dataset.icon = icon.id;
     button.dataset.category = icon.category;
     button.setAttribute("aria-haspopup", "dialog");
@@ -201,7 +229,7 @@ function appendCards() {
 byId("show-more").addEventListener("click", () => {
   const firstNewCard = grid.childElementCount;
   pageLimit += pageSize;
-  appendCards();
+  appendCards(true);
   grid.children[firstNewCard]?.focus();
 });
 
@@ -286,8 +314,12 @@ function showIcon(icon, addHash = true) {
 function syncHash() {
   const id = location.hash.match(/^#icon=([a-z0-9-]+)$/)?.[1];
   const icon = icons.find(item => item.id === id);
-  if (icon && icon !== currentIcon) showIcon(icon, false);
-  if (!icon && detail.open) detail.close();
+  if (icon) {
+    delete detail.dataset.closing;
+    if (icon !== currentIcon) showIcon(icon, false);
+  } else {
+    dismissDialog(detail);
+  }
 }
 
 detail.addEventListener("close", () => {
@@ -301,9 +333,6 @@ detail.addEventListener("close", () => {
   const trigger = lastTrigger && grid.querySelector(`[data-icon="${lastTrigger}"]`);
   if (trigger) trigger.focus({ preventScroll: true });
   lastTrigger = null;
-});
-detail.addEventListener("click", event => {
-  if (event.target === detail) detail.close();
 });
 window.addEventListener("hashchange", syncHash);
 
@@ -356,14 +385,14 @@ categories.addEventListener("click", event => {
   if (!button) return;
   if (category !== button.dataset.filter) interfaceGroup = "all";
   category = button.dataset.filter;
-  render();
+  render(true);
 });
 
 interfaceGroups.addEventListener("click", event => {
   const button = event.target.closest("button[data-group]");
   if (!button) return;
   interfaceGroup = button.dataset.group;
-  render();
+  render(true);
 });
 
 queryInput.addEventListener("input", updateQuery);
@@ -385,7 +414,7 @@ for (const example of document.querySelectorAll("[data-query]")) {
   });
 }
 document.addEventListener("keydown", event => {
-  if (event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey && !detail.open
+  if (event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey && !document.querySelector("dialog[open]")
       && !event.target.closest("input,textarea,[contenteditable]")) {
     event.preventDefault();
     queryInput.focus();

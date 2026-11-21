@@ -53,12 +53,14 @@ function updateSelection() {
   selectedList.replaceChildren(...items);
 }
 
-function appendCards() {
+function appendCards(reveal = false) {
   const fragment = document.createDocumentFragment();
-  for (const icon of visible.slice(grid.childElementCount, limit)) {
+  const start = grid.childElementCount;
+  for (const [index, icon] of visible.slice(start, limit).entries()) {
     const card = document.createElement("button");
     card.type = "button";
     card.className = "card font-tile";
+    if (reveal && index < 8) card.classList.add("card-reveal");
     card.dataset.icon = icon.id;
     card.setAttribute("aria-pressed", String(selected.has(icon.id)));
     const art = document.createElement("span");
@@ -80,7 +82,7 @@ function appendCards() {
   more.hidden = grid.childElementCount >= visible.length;
 }
 
-function renderResults() {
+function renderResults(reveal = false) {
   if (!catalog) return;
   const scope = category.value ? catalog.filter(icon => icon.category === category.value) : catalog;
   visible = searchIcons(scope, query.value);
@@ -90,15 +92,15 @@ function renderResults() {
     : "No matching icons";
   selectResults.disabled = !visible.some(icon => !selected.has(icon.id));
   grid.replaceChildren();
-  appendCards();
+  appendCards(reveal);
 }
 
-query.addEventListener("input", renderResults);
-category.addEventListener("change", renderResults);
+query.addEventListener("input", () => renderResults());
+category.addEventListener("change", () => renderResults(true));
 more.addEventListener("click", () => {
   const firstNew = grid.childElementCount;
   limit += pageSize;
-  appendCards();
+  appendCards(true);
   grid.children[firstNew]?.focus();
 });
 grid.addEventListener("click", event => {
