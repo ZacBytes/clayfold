@@ -78,6 +78,10 @@ kbd { min-width: 24px; padding: 1px 5px; border: 1px solid var(--line); border-r
 .results-header { display: flex; align-items: baseline; justify-content: space-between; gap: 9px 16px; flex-wrap: wrap; min-height: 38px; margin-bottom: 8px; }
 .results-header h3 { margin: 0; font: 400 29px/1.16 var(--serif); letter-spacing: -.048em; }
 .results-header p { margin: 0; color: var(--muted); font-size: 12px; font-weight: 600; }
+.interface-groups { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 13px; }
+.interface-group { min-height: 35px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); color: var(--green); text-align: start; font-size: 12px; font-weight: 600; }
+.interface-group:hover { background: #ecede4; }
+.interface-group[aria-pressed="true"] { background: var(--active); border-color: #b6c7ae; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(146px,1fr)); gap: 9px; }
 .card { --tint: #eeeee4; display: grid; grid-template-rows: 103px auto; min-width: 0; padding: 5px; border: 1px solid #e2e3d8; border-radius: 12px; text-align: start; background: var(--paper); transition: border-color 150ms ease, box-shadow 150ms ease; }
 .card:hover { border-color: #aab9a5; box-shadow: 0 4px 12px #263b2810; }

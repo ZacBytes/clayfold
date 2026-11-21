@@ -10,6 +10,15 @@
     "environment-society": "Environment & society",
     "country-flags": "Country flags"
   },
+  "interfaceGroups": {
+    "navigation": "Navigation & layout",
+    "files": "Files & actions",
+    "text": "Text editing",
+    "accessibility": "Accessibility",
+    "media": "Communication & media",
+    "system": "System & access",
+    "commerce": "Shopping & payments"
+  },
   "icons": [
     {
       "id": "maritime",
@@ -1279,13 +1288,14 @@
         "discovery",
         "zoom",
         "inspect"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "bookmark",
       "label": "Bookmark",
       "category": "interface",
-      "description": "A thick terracotta ribbon with a V-shaped notch.",
+      "description": "A straight terracotta ribbon with parallel sides and a centred V-notch.",
       "origin": "extension",
       "tags": [
         "save for later",
@@ -1296,7 +1306,8 @@
         "favorite",
         "page marker",
         "saved items"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "settings",
@@ -1311,7 +1322,8 @@
         "options",
         "adjust app controls",
         "set up"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "notification-bell",
@@ -1326,7 +1338,8 @@
         "ring",
         "subscribe",
         "get notified"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "calendar",
@@ -1341,7 +1354,8 @@
         "plans",
         "planner",
         "upcoming events"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "clock",
@@ -1358,7 +1372,8 @@
         "deadline",
         "recent",
         "history"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "folder",
@@ -1373,7 +1388,8 @@
         "archive",
         "directory",
         "file manager"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "chat",
@@ -1389,7 +1405,8 @@
         "comments",
         "discussion",
         "reply"
-      ]
+      ],
+      "group": "media"
     },
     {
       "id": "map-pin",
@@ -1405,7 +1422,8 @@
         "destination",
         "mark a place",
         "find where I am"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "cloud-download",
@@ -1419,7 +1437,8 @@
         "download files",
         "export",
         "retrieve from cloud"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "success",
@@ -1437,7 +1456,8 @@
         "everything went well",
         "task finished",
         "verified"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "warning",
@@ -1453,7 +1473,8 @@
         "something went wrong",
         "error",
         "risk"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "home",
@@ -1468,7 +1489,8 @@
         "main screen",
         "house",
         "residence"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "arrow-left",
@@ -1482,7 +1504,8 @@
         "previous page",
         "return",
         "navigate left"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "arrow-right",
@@ -1497,7 +1520,8 @@
         "continue",
         "proceed",
         "navigate right"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "plus",
@@ -1512,7 +1536,8 @@
         "append",
         "increase",
         "expand"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "close",
@@ -1527,7 +1552,8 @@
         "cross",
         "close window",
         "stop"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "cloud-upload",
@@ -1542,7 +1568,8 @@
         "backup documents",
         "import",
         "submit"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "share",
@@ -1557,7 +1584,8 @@
         "social",
         "distribute",
         "forward to a friend"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "link",
@@ -1572,7 +1600,8 @@
         "attach",
         "connect",
         "web address"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "refresh",
@@ -1587,7 +1616,8 @@
         "sync",
         "refresh the page",
         "restart"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "trash",
@@ -1603,7 +1633,8 @@
         "empty",
         "rubbish bin",
         "recycle bin"
-      ]
+      ],
+      "group": "files"
     },
     {
       "id": "lock",
@@ -1619,7 +1650,8 @@
         "restrict",
         "password",
         "encrypted"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "key",
@@ -1635,7 +1667,8 @@
         "passkey",
         "unlock",
         "password setup"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "eye",
@@ -1651,7 +1684,8 @@
         "preview",
         "visible",
         "view"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "eye-off",
@@ -1666,7 +1700,8 @@
         "invisible",
         "conceal",
         "visibility off"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "filter",
@@ -1681,7 +1716,8 @@
         "filter options",
         "screening",
         "filter funnel"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "star",
@@ -1697,7 +1733,8 @@
         "highlight",
         "stargazer",
         "review"
-      ]
+      ],
+      "group": "commerce"
     },
     {
       "id": "heart",
@@ -1712,7 +1749,8 @@
         "affection",
         "save to favourites",
         "wishlist"
-      ]
+      ],
+      "group": "commerce"
     },
     {
       "id": "info",
@@ -1727,7 +1765,8 @@
         "information tooltip",
         "learn more",
         "hint"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "help",
@@ -1742,7 +1781,8 @@
         "assistance",
         "get help",
         "guide"
-      ]
+      ],
+      "group": "system"
     },
     {
       "id": "menu",
@@ -1757,7 +1797,8 @@
         "sidebar",
         "open menu",
         "options"
-      ]
+      ],
+      "group": "navigation"
     },
     {
       "id": "play",
@@ -1771,7 +1812,8 @@
         "start playback",
         "resume clip",
         "media"
-      ]
+      ],
+      "group": "media"
     },
     {
       "id": "pause",
@@ -1785,7 +1827,8 @@
         "pause video",
         "pause audio",
         "media"
-      ]
+      ],
+      "group": "media"
     },
     {
       "id": "volume",
@@ -1800,7 +1843,8 @@
         "unmute",
         "adjust volume",
         "sound settings"
-      ]
+      ],
+      "group": "media"
     },
     {
       "id": "mute",
@@ -1815,7 +1859,8 @@
         "volume off",
         "quiet",
         "speaker muted"
-      ]
+      ],
+      "group": "media"
     },
     {
       "id": "camera",
@@ -1830,6 +1875,1041 @@
         "snapshot",
         "picture",
         "photography"
+      ],
+      "group": "media"
+    },
+    {
+      "id": "chevron-left",
+      "label": "Chevron left",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A softly bevelled teal chevron pointing left.",
+      "origin": "extension",
+      "tags": [
+        "previous page",
+        "breadcrumb",
+        "back",
+        "left caret"
+      ]
+    },
+    {
+      "id": "chevron-right",
+      "label": "Chevron right",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A softly bevelled teal chevron pointing right.",
+      "origin": "extension",
+      "tags": [
+        "next page",
+        "expand subpage",
+        "breadcrumb",
+        "right caret"
+      ]
+    },
+    {
+      "id": "chevron-up",
+      "label": "Chevron up",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A softly bevelled teal chevron pointing upward.",
+      "origin": "extension",
+      "tags": [
+        "collapse dropdown",
+        "expand less",
+        "show above",
+        "up caret"
+      ]
+    },
+    {
+      "id": "chevron-down",
+      "label": "Chevron down",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A softly bevelled teal chevron pointing downward.",
+      "origin": "extension",
+      "tags": [
+        "open a dropdown",
+        "expand section",
+        "show more",
+        "down caret"
+      ]
+    },
+    {
+      "id": "arrow-up",
+      "label": "Arrow up",
+      "category": "interface",
+      "group": "navigation",
+      "description": "An olive arrow pointing straight up.",
+      "origin": "extension",
+      "tags": [
+        "back to top",
+        "scroll up",
+        "move item higher",
+        "ascending"
+      ]
+    },
+    {
+      "id": "arrow-down",
+      "label": "Arrow down",
+      "category": "interface",
+      "group": "navigation",
+      "description": "An olive arrow pointing straight down.",
+      "origin": "extension",
+      "tags": [
+        "scroll down",
+        "move item lower",
+        "descending",
+        "downwards"
+      ]
+    },
+    {
+      "id": "external-link",
+      "label": "External link",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A small arrow leaving the upper-right corner of a square.",
+      "origin": "extension",
+      "tags": [
+        "open a site in a new tab",
+        "outbound link",
+        "open in a new window",
+        "external website"
+      ]
+    },
+    {
+      "id": "ellipsis",
+      "label": "More options",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Three rounded slate dots arranged horizontally.",
+      "origin": "extension",
+      "tags": [
+        "ellipsis",
+        "overflow menu",
+        "more actions",
+        "three dots",
+        "kebab menu"
+      ]
+    },
+    {
+      "id": "file",
+      "label": "File",
+      "category": "interface",
+      "group": "files",
+      "description": "A cream sheet with a folded top corner.",
+      "origin": "extension",
+      "tags": [
+        "document",
+        "blank file",
+        "single page",
+        "attachment",
+        "file manager"
+      ]
+    },
+    {
+      "id": "file-text",
+      "label": "File text",
+      "category": "interface",
+      "group": "files",
+      "description": "A cream sheet with short raised lines for text.",
+      "origin": "extension",
+      "tags": [
+        "written document",
+        "article",
+        "notes",
+        "report",
+        "text file"
+      ]
+    },
+    {
+      "id": "folder-plus",
+      "label": "New folder",
+      "category": "interface",
+      "group": "files",
+      "description": "An ochre folder with a plus sign.",
+      "origin": "extension",
+      "tags": [
+        "create a directory",
+        "add folder",
+        "organize a new collection",
+        "new folder"
+      ]
+    },
+    {
+      "id": "copy",
+      "label": "Copy",
+      "category": "interface",
+      "group": "files",
+      "description": "Two cream sheets laid one over the other.",
+      "origin": "extension",
+      "tags": [
+        "duplicate item",
+        "make a copy",
+        "clipboard copy",
+        "clone",
+        "replicate"
+      ]
+    },
+    {
+      "id": "clipboard",
+      "label": "Clipboard",
+      "category": "interface",
+      "group": "files",
+      "description": "A slate clipboard holding a cream sheet.",
+      "origin": "extension",
+      "tags": [
+        "paste content",
+        "clipboard",
+        "paste from clipboard",
+        "board",
+        "copy buffer"
+      ]
+    },
+    {
+      "id": "save",
+      "label": "Save",
+      "category": "interface",
+      "group": "files",
+      "description": "A slate floppy disk with a cream label.",
+      "origin": "extension",
+      "tags": [
+        "save changes",
+        "write file",
+        "floppy disk",
+        "save progress",
+        "persist"
+      ]
+    },
+    {
+      "id": "paperclip",
+      "label": "Paperclip",
+      "category": "interface",
+      "group": "files",
+      "description": "A sculpted slate paperclip.",
+      "origin": "extension",
+      "tags": [
+        "attach a file to an email",
+        "enclosure",
+        "attachment",
+        "attach document"
+      ]
+    },
+    {
+      "id": "archive",
+      "label": "Archive",
+      "category": "interface",
+      "group": "files",
+      "description": "An ochre archive box with a lid.",
+      "origin": "extension",
+      "tags": [
+        "store away",
+        "move to archive",
+        "record storage",
+        "filing box"
+      ]
+    },
+    {
+      "id": "bold",
+      "label": "Bold",
+      "category": "interface",
+      "group": "text",
+      "description": "A raised slate capital B.",
+      "origin": "extension",
+      "tags": [
+        "make words thicker",
+        "bold text",
+        "heavy font weight",
+        "rich text"
+      ]
+    },
+    {
+      "id": "italic",
+      "label": "Italic",
+      "category": "interface",
+      "group": "text",
+      "description": "A slanted slate capital I.",
+      "origin": "extension",
+      "tags": [
+        "slant words",
+        "italicize",
+        "emphasis",
+        "italic text"
+      ]
+    },
+    {
+      "id": "underline",
+      "label": "Underline",
+      "category": "interface",
+      "group": "text",
+      "description": "A slate capital U above a short horizontal line.",
+      "origin": "extension",
+      "tags": [
+        "draw a line under text",
+        "underline words",
+        "rich text"
+      ]
+    },
+    {
+      "id": "strikethrough",
+      "label": "Strikethrough",
+      "category": "interface",
+      "group": "text",
+      "description": "A slate capital S crossed by a horizontal stroke.",
+      "origin": "extension",
+      "tags": [
+        "cross out words",
+        "strike through text",
+        "deleted phrase",
+        "strikeout"
+      ]
+    },
+    {
+      "id": "align-left",
+      "label": "Align left",
+      "category": "interface",
+      "group": "text",
+      "description": "Stacked lines aligned to the left edge.",
+      "origin": "extension",
+      "tags": [
+        "left justify words",
+        "align paragraph on left",
+        "ragged right"
+      ]
+    },
+    {
+      "id": "align-center",
+      "label": "Align centre",
+      "category": "interface",
+      "group": "text",
+      "description": "Stacked lines centred on the same axis.",
+      "origin": "extension",
+      "tags": [
+        "center text",
+        "center a paragraph",
+        "align center",
+        "centered"
+      ]
+    },
+    {
+      "id": "list",
+      "label": "Bulleted list",
+      "category": "interface",
+      "group": "text",
+      "description": "Three round bullets beside three short lines.",
+      "origin": "extension",
+      "tags": [
+        "unordered list",
+        "bullet points",
+        "outline",
+        "item list"
+      ]
+    },
+    {
+      "id": "list-ordered",
+      "label": "Numbered list",
+      "category": "interface",
+      "group": "text",
+      "description": "Numbers beside short lines in an ordered list.",
+      "origin": "extension",
+      "tags": [
+        "ordered list",
+        "numbered steps",
+        "sequential list",
+        "list with numbers"
+      ]
+    },
+    {
+      "id": "pencil",
+      "label": "Pencil",
+      "category": "interface",
+      "group": "text",
+      "description": "An ochre pencil with a short terracotta eraser.",
+      "origin": "extension",
+      "tags": [
+        "edit an item",
+        "edit text",
+        "write",
+        "draw",
+        "rename",
+        "annotate"
+      ]
+    },
+    {
+      "id": "undo",
+      "label": "Undo",
+      "category": "interface",
+      "group": "text",
+      "description": "A terracotta curved arrow pointing back.",
+      "origin": "extension",
+      "tags": [
+        "reverse last edit",
+        "revert a mistake",
+        "go back a change",
+        "undo typing"
+      ]
+    },
+    {
+      "id": "redo",
+      "label": "Redo",
+      "category": "interface",
+      "group": "text",
+      "description": "A terracotta curved arrow pointing forward.",
+      "origin": "extension",
+      "tags": [
+        "restore undone change",
+        "repeat action",
+        "redo an edit"
+      ]
+    },
+    {
+      "id": "scissors",
+      "label": "Scissors",
+      "category": "interface",
+      "group": "text",
+      "description": "Softly sculpted scissors with teal handles.",
+      "origin": "extension",
+      "tags": [
+        "cut text",
+        "cut and paste",
+        "trim",
+        "crop",
+        "clipping"
+      ]
+    },
+    {
+      "id": "highlighter",
+      "label": "Highlighter",
+      "category": "interface",
+      "group": "text",
+      "description": "An ochre marker with a chisel tip.",
+      "origin": "extension",
+      "tags": [
+        "mark important text",
+        "highlight words",
+        "emphasis marker",
+        "annotation"
+      ]
+    },
+    {
+      "id": "quote",
+      "label": "Quote",
+      "category": "interface",
+      "group": "text",
+      "description": "A pair of raised terracotta quotation marks.",
+      "origin": "extension",
+      "tags": [
+        "blockquote",
+        "cite text",
+        "quotation",
+        "quoted passage",
+        "citation"
+      ]
+    },
+    {
+      "id": "list-checks",
+      "label": "Checklist",
+      "category": "interface",
+      "group": "text",
+      "description": "A stack of checkmarks beside short list lines.",
+      "origin": "extension",
+      "tags": [
+        "task list",
+        "to do",
+        "check items",
+        "checklist",
+        "completed tasks"
+      ]
+    },
+    {
+      "id": "type",
+      "label": "Type",
+      "category": "interface",
+      "group": "text",
+      "description": "A raised pair of slate upper- and lower-case A glyphs.",
+      "origin": "extension",
+      "tags": [
+        "typography",
+        "text tool",
+        "font picker",
+        "add text",
+        "letters",
+        "font family"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "label": "Universal access",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "An abstract clay pictogram with open arms.",
+      "origin": "extension",
+      "tags": [
+        "accessibility settings",
+        "inclusive use",
+        "accessible interface",
+        "universal access",
+        "a11y"
+      ]
+    },
+    {
+      "id": "wheelchair",
+      "label": "Wheelchair access",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "A geometric wheelchair accessibility pictogram.",
+      "origin": "extension",
+      "tags": [
+        "step free entrance",
+        "mobility access",
+        "wheelchair accessible",
+        "accessible route",
+        "barrier free"
+      ]
+    },
+    {
+      "id": "ear",
+      "label": "Hearing assistance",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "A softly sculpted ear symbol.",
+      "origin": "extension",
+      "tags": [
+        "hearing assistance",
+        "assistive listening",
+        "hearing loop",
+        "accessibility audio"
+      ]
+    },
+    {
+      "id": "captions",
+      "label": "Closed captions",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "Two raised cream Cs on a slate tile.",
+      "origin": "extension",
+      "tags": [
+        "subtitles in a video",
+        "CC",
+        "closed captions",
+        "video text",
+        "accessibility captions"
+      ]
+    },
+    {
+      "id": "contrast",
+      "label": "Contrast",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "A circle with a cream half and a slate half.",
+      "origin": "extension",
+      "tags": [
+        "high contrast",
+        "increase contrast",
+        "contrast settings",
+        "light and dark"
+      ]
+    },
+    {
+      "id": "text-size",
+      "label": "Text size",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "A pair of differently sized typographic glyphs.",
+      "origin": "extension",
+      "tags": [
+        "make words larger",
+        "change font size",
+        "enlarge text",
+        "reading size"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "A cream keyboard with dark raised keys.",
+      "origin": "extension",
+      "tags": [
+        "keyboard navigation",
+        "typing",
+        "shortcuts",
+        "input",
+        "keys"
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Focus",
+      "category": "interface",
+      "group": "accessibility",
+      "description": "Four small focus corners around a central dot.",
+      "origin": "extension",
+      "tags": [
+        "focus indicator",
+        "highlight active region",
+        "target",
+        "accessibility focus"
+      ]
+    },
+    {
+      "id": "layout-grid",
+      "label": "Grid layout",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Four rounded tiles in an even two-by-two grid.",
+      "origin": "extension",
+      "tags": [
+        "grid view",
+        "thumbnail gallery",
+        "tiled layout",
+        "switch to grid"
+      ]
+    },
+    {
+      "id": "layout-dashboard",
+      "label": "Dashboard layout",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A window frame with one large and two small panels.",
+      "origin": "extension",
+      "tags": [
+        "dashboard",
+        "overview layout",
+        "control panel",
+        "widgets",
+        "dashboard view"
+      ]
+    },
+    {
+      "id": "panel-left",
+      "label": "Left sidebar",
+      "category": "interface",
+      "group": "navigation",
+      "description": "A window with a left sidebar marked off from the content.",
+      "origin": "extension",
+      "tags": [
+        "toggle left panel",
+        "left dock",
+        "side navigation",
+        "split pane"
+      ]
+    },
+    {
+      "id": "columns",
+      "label": "Columns",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Two tall panels side by side.",
+      "origin": "extension",
+      "tags": [
+        "two column view",
+        "divide screen",
+        "side-by-side view",
+        "column layout"
+      ]
+    },
+    {
+      "id": "maximize",
+      "label": "Maximise",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Four corner marks opening outward.",
+      "origin": "extension",
+      "tags": [
+        "fullscreen",
+        "maximize",
+        "expand view",
+        "make window bigger",
+        "enter full screen"
+      ]
+    },
+    {
+      "id": "minimize",
+      "label": "Minimise",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Four corner marks pointing inward.",
+      "origin": "extension",
+      "tags": [
+        "minimize",
+        "exit fullscreen",
+        "reduce window",
+        "contract view",
+        "shrink window"
+      ]
+    },
+    {
+      "id": "layers",
+      "label": "Layers",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Three overlapping olive layers.",
+      "origin": "extension",
+      "tags": [
+        "arrange stacking order",
+        "layer panel",
+        "overlay",
+        "stacked surfaces",
+        "design layers"
+      ]
+    },
+    {
+      "id": "sliders",
+      "label": "Sliders",
+      "category": "interface",
+      "group": "navigation",
+      "description": "Three slate tracks with round ochre controls.",
+      "origin": "extension",
+      "tags": [
+        "fine tune",
+        "adjustable controls",
+        "preferences",
+        "sliders",
+        "equalizer"
+      ]
+    },
+    {
+      "id": "mail",
+      "label": "Mail",
+      "category": "interface",
+      "group": "media",
+      "description": "A closed cream envelope.",
+      "origin": "extension",
+      "tags": [
+        "email",
+        "inbox",
+        "send mail",
+        "envelope",
+        "message",
+        "mail notification"
+      ]
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "category": "interface",
+      "group": "media",
+      "description": "A curved teal telephone handset.",
+      "origin": "extension",
+      "tags": [
+        "make a call",
+        "contact by phone",
+        "telephone",
+        "ring",
+        "dial"
+      ]
+    },
+    {
+      "id": "send",
+      "label": "Send",
+      "category": "interface",
+      "group": "media",
+      "description": "A cream paper plane.",
+      "origin": "extension",
+      "tags": [
+        "send a message",
+        "submit",
+        "send now",
+        "paper airplane",
+        "deliver message"
+      ]
+    },
+    {
+      "id": "image",
+      "label": "Image",
+      "category": "interface",
+      "group": "media",
+      "description": "A framed mountain and sun scene.",
+      "origin": "extension",
+      "tags": [
+        "photo library",
+        "picture",
+        "image file",
+        "insert a picture",
+        "gallery"
+      ]
+    },
+    {
+      "id": "video",
+      "label": "Video camera",
+      "category": "interface",
+      "group": "media",
+      "description": "A small slate camera with a protruding lens hood.",
+      "origin": "extension",
+      "tags": [
+        "record video",
+        "video call",
+        "filming",
+        "movie camera",
+        "webcam"
+      ]
+    },
+    {
+      "id": "microphone",
+      "label": "Microphone",
+      "category": "interface",
+      "group": "media",
+      "description": "An ochre microphone on a short stand.",
+      "origin": "extension",
+      "tags": [
+        "record my voice",
+        "audio input",
+        "speech recording",
+        "voice note",
+        "mic"
+      ]
+    },
+    {
+      "id": "headphones",
+      "label": "Headphones",
+      "category": "interface",
+      "group": "media",
+      "description": "Softly rounded slate over-ear headphones.",
+      "origin": "extension",
+      "tags": [
+        "listen with headphones",
+        "headset",
+        "audio output",
+        "listening",
+        "sound"
+      ]
+    },
+    {
+      "id": "stop",
+      "label": "Stop",
+      "category": "interface",
+      "group": "media",
+      "description": "A rounded terracotta square.",
+      "origin": "extension",
+      "tags": [
+        "stop playback",
+        "stop recording",
+        "halt media",
+        "end video"
+      ]
+    },
+    {
+      "id": "log-in",
+      "label": "Sign in",
+      "category": "interface",
+      "group": "system",
+      "description": "A doorway with an entry arrow.",
+      "origin": "extension",
+      "tags": [
+        "log in",
+        "login",
+        "enter account",
+        "authenticate",
+        "sign into app"
+      ]
+    },
+    {
+      "id": "log-out",
+      "label": "Sign out",
+      "category": "interface",
+      "group": "system",
+      "description": "A doorway with an exit arrow.",
+      "origin": "extension",
+      "tags": [
+        "log out",
+        "logout",
+        "leave account",
+        "disconnect session",
+        "exit account"
+      ]
+    },
+    {
+      "id": "shield-check",
+      "label": "Verified shield",
+      "category": "interface",
+      "group": "system",
+      "description": "A teal shield with a raised checkmark.",
+      "origin": "extension",
+      "tags": [
+        "verification",
+        "secure check",
+        "trusted",
+        "security verified",
+        "safe account"
+      ]
+    },
+    {
+      "id": "unlock",
+      "label": "Unlock",
+      "category": "interface",
+      "group": "system",
+      "description": "An ochre padlock with an open shackle.",
+      "origin": "extension",
+      "tags": [
+        "open lock",
+        "grant access",
+        "unlocked",
+        "remove restriction",
+        "release"
+      ]
+    },
+    {
+      "id": "wifi",
+      "label": "Wi-Fi",
+      "category": "interface",
+      "group": "system",
+      "description": "Curved teal signal bands above a small dot.",
+      "origin": "extension",
+      "tags": [
+        "wireless internet",
+        "connection strength",
+        "WiFi",
+        "network signal",
+        "online"
+      ]
+    },
+    {
+      "id": "bluetooth",
+      "label": "Bluetooth",
+      "category": "interface",
+      "group": "system",
+      "description": "A sculpted slate Bluetooth rune.",
+      "origin": "extension",
+      "tags": [
+        "pair wireless device",
+        "device pairing",
+        "Bluetooth connection",
+        "short range"
+      ]
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud",
+      "category": "interface",
+      "group": "system",
+      "description": "A softly rounded cream cloud.",
+      "origin": "extension",
+      "tags": [
+        "cloud storage",
+        "cloud service",
+        "online storage",
+        "overcast weather"
+      ]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "category": "interface",
+      "group": "system",
+      "description": "A teal cylinder made of stacked discs.",
+      "origin": "extension",
+      "tags": [
+        "database storage",
+        "stored records",
+        "SQL",
+        "data source",
+        "datastore"
+      ]
+    },
+    {
+      "id": "shopping-cart",
+      "label": "Shopping cart",
+      "category": "interface",
+      "group": "commerce",
+      "description": "A slate shopping cart with two ochre wheels.",
+      "origin": "extension",
+      "tags": [
+        "add to basket",
+        "checkout",
+        "shopping trolley",
+        "buy item",
+        "order cart"
+      ]
+    },
+    {
+      "id": "credit-card",
+      "label": "Credit card",
+      "category": "interface",
+      "group": "commerce",
+      "description": "A dusty teal payment card with a light chip.",
+      "origin": "extension",
+      "tags": [
+        "pay with card",
+        "payment method",
+        "checkout",
+        "bank card",
+        "debit card"
+      ]
+    },
+    {
+      "id": "wallet",
+      "label": "Wallet",
+      "category": "interface",
+      "group": "commerce",
+      "description": "A warm terracotta wallet.",
+      "origin": "extension",
+      "tags": [
+        "digital wallet",
+        "payment balance",
+        "cash",
+        "funds",
+        "purse"
+      ]
+    },
+    {
+      "id": "receipt",
+      "label": "Receipt",
+      "category": "interface",
+      "group": "commerce",
+      "description": "A pale receipt with a wavy bottom and short dark lines.",
+      "origin": "extension",
+      "tags": [
+        "proof of purchase",
+        "invoice",
+        "order summary",
+        "transaction receipt",
+        "bill"
+      ]
+    },
+    {
+      "id": "tag",
+      "label": "Price tag",
+      "category": "interface",
+      "group": "commerce",
+      "description": "An ochre price tag with a single eyelet.",
+      "origin": "extension",
+      "tags": [
+        "pricing",
+        "label",
+        "discount",
+        "sale tag",
+        "coupon"
+      ]
+    },
+    {
+      "id": "sun",
+      "label": "Sun",
+      "category": "interface",
+      "group": "system",
+      "description": "A mustard sun encircled by short rounded rays.",
+      "origin": "extension",
+      "tags": [
+        "light mode",
+        "sunny weather",
+        "sunrise",
+        "brightness",
+        "daytime"
+      ]
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "category": "interface",
+      "group": "system",
+      "description": "A soft slate crescent.",
+      "origin": "extension",
+      "tags": [
+        "dark mode",
+        "night",
+        "lunar",
+        "bedtime",
+        "switch to night theme"
       ]
     }
   ]

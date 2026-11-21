@@ -3,6 +3,7 @@ import { prepareSearch, searchIcons } from "./search.mjs";
 const byId = id => document.getElementById(id);
 const grid = byId("icon-grid");
 const categories = byId("categories");
+const interfaceGroups = byId("interface-groups");
 const queryInput = byId("query");
 const clearSearch = byId("clear-search");
 const shortcut = byId("search-shortcut");
@@ -13,6 +14,7 @@ const copySource = byId("copy-source");
 const asset = (icon, extension) => `./assets/${icon.id}.${extension}`;
 
 let category = "all";
+let interfaceGroup = "all";
 let catalog;
 let icons = [];
 let currentIcon;
@@ -50,11 +52,30 @@ function renderCategories() {
   }
 }
 
+function renderInterfaceGroups() {
+  const groups = Object.entries({ all: "All types", ...catalog.interfaceGroups });
+  for (const [id, label] of groups) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "interface-group";
+    button.dataset.group = id;
+    button.textContent = label;
+    button.setAttribute("aria-controls", "icon-grid");
+    interfaceGroups.append(button);
+  }
+}
+
 function render() {
   if (!catalog) return;
   const query = queryInput.value.trim();
-  const scope = category === "all" ? icons : icons.filter(icon => icon.category === category);
+  const isInterface = category === "interface";
+  const scope = category === "all" ? icons : icons.filter(icon => icon.category === category
+    && (!isInterface || interfaceGroup === "all" || icon.group === interfaceGroup));
   const matches = searchIcons(scope, query, semanticScores);
+  interfaceGroups.hidden = !isInterface;
+  for (const button of interfaceGroups.querySelectorAll("button")) {
+    button.setAttribute("aria-pressed", String(button.dataset.group === interfaceGroup));
+  }
   for (const button of categories.querySelectorAll(".category")) {
     button.setAttribute("aria-pressed", String(button.dataset.filter === category));
   }
@@ -155,7 +176,7 @@ function showIcon(icon, addHash = true) {
   if (addHash) {
     history.pushState({ kilnfieldIcon: true }, "", detailHash);
   }
-  byId("detail-category").textContent = catalog.categories[icon.category];
+  byId("detail-category").textContent = catalog.interfaceGroups?.[icon.group] ?? catalog.categories[icon.category];
   byId("detail-title").textContent = icon.label;
   byId("detail-description").textContent = icon.description || icon.subject;
   byId("detail-art").dataset.category = icon.category;
@@ -244,7 +265,15 @@ grid.addEventListener("click", event => {
 categories.addEventListener("click", event => {
   const button = event.target.closest(".category");
   if (!button) return;
+  if (category !== button.dataset.filter) interfaceGroup = "all";
   category = button.dataset.filter;
+  render();
+});
+
+interfaceGroups.addEventListener("click", event => {
+  const button = event.target.closest("button[data-group]");
+  if (!button) return;
+  interfaceGroup = button.dataset.group;
   render();
 });
 
@@ -301,6 +330,7 @@ async function loadCatalog() {
     catalog = await response.json();
     icons = prepareSearch(catalog.icons);
     renderCategories();
+    renderInterfaceGroups();
     render();
     syncHash();
   } catch {
