@@ -45,6 +45,8 @@ Use an empty `alt` when nearby text already describes the icon. For an icon-only
 
 Every icon has a stable ID in [the catalog](./catalog.json). Files are named `assets/<id>.webp`, `assets/<id>.png`, and `assets/<id>.svg`.
 
+The [icon font builder](https://zacbytes.github.io/clayfold/font-demo.html) exports a color font with your selected icons. The ZIP includes the stylesheet, a name-to-glyph map, and the artwork license.
+
 ## Coverage
 
 - **Navigation and layout** — arrows, chevrons, menus, panels, grids, and window controls.

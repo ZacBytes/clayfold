@@ -167,6 +167,39 @@ body:has(dialog[open]) { overflow: hidden; }
 
 .brand, .hero h1, .info h1 { font-variant-ligatures: no-common-ligatures; }
 
+.font-builder { padding-block: clamp(32px, 5vw, 64px); }
+.font-builder h1 { margin: 0; font: 650 clamp(34px, 5vw, 65px)/1.05 var(--wordmark); letter-spacing: -.035em; }
+.font-builder > p { margin: 10px 0 26px; color: var(--muted); }
+.font-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 280px); gap: 20px; align-items: start; }
+.font-results { grid-column: 1; grid-row: 1; min-width: 0; }
+.font-selection { position: sticky; top: 16px; grid-column: 2; grid-row: 1; padding: 16px; border: 1px solid #dce1d4; border-radius: 12px; background: var(--paper); }
+.font-selection-header, .font-results-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.font-selection h2 { margin: 0; font: 650 18px/1.2 var(--wordmark); letter-spacing: -.018em; }
+#selected-count, #font-count { color: var(--muted); font-size: 13px; margin: 1px 0; }
+#export-font { margin-top: 13px; width: 100%; }
+#export-font:disabled { background: #e9ece3; color: var(--muted); border-color: #e1e6da; }
+.font-text-button { min-height: 32px; padding: 2px 6px; border: 0; border-radius: 5px; background: transparent; color: var(--green); font-size: 13px; font-weight: 650; }
+.font-text-button:hover { background: var(--active); }
+.font-text-button:disabled { opacity: .48; cursor: default; }
+.font-status { margin: 8px 0 0; overflow-wrap: anywhere; color: var(--muted); font-size: 12px; }
+.font-status:empty { display: none; }
+.selected-icons { display: grid; gap: 2px; max-height: 250px; margin: 8px 0 0; padding: 2px 4px; overflow: auto; list-style: none; }
+.selected-icons li { display: grid; grid-template-columns: 28px minmax(0,1fr) 30px; align-items: center; gap: 6px; padding: 1px 3px; border-radius: 6px; background: #f1f1e8; font-size: 12px; }
+.font-remove { width: 30px; height: 32px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: var(--green); font-size: 19px; }
+.font-remove:hover { background: var(--active); }
+.font-filters { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 8px; }
+.font-search { display: flex; gap: 10px; align-items: center; min-height: 43px; min-width: 0; padding-inline: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--green); }
+.font-search:focus-within { border-color: var(--green); }
+.font-search input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; font-size: 16px; }
+.font-filters select { max-width: 100%; min-height: 43px; padding: 4px 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; }
+.font-results-header { margin: 7px 0; }
+.font-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(112px,1fr)); gap: 8px; }
+.font-tile { position: relative; grid-template-rows: 76px auto; }
+.font-tile .card-art img { width: 66px; height: 66px; }
+.font-tile[aria-pressed="true"] { border-color: #739467; background: #f1f5ec; }
+.font-tile[aria-pressed="true"]::after { content: ""; position: absolute; top: 12px; right: 12px; width: 12px; height: 7px; border-left: 2px solid var(--green); border-bottom: 2px solid var(--green); transform: rotate(-45deg); }
+#more-font-icons { margin-top: 13px; }
+
 @media (max-width: 1100px) {
   .wrap { width: calc(100% - 56px); }
   .catalog-layout { grid-template-columns: 178px minmax(0, 1fr); gap: 15px; }
@@ -192,6 +225,11 @@ body:has(dialog[open]) { overflow: hidden; }
   .grid { grid-template-columns: repeat(auto-fill,minmax(117px,1fr)); }
   .card { grid-template-rows: 87px auto; }
   .card-art img { width: 73px; height: 73px; }
+  .font-layout { display: flex; flex-direction: column; gap: 16px; align-items: stretch; }
+  .font-selection { position: static; }
+  .selected-icons { max-height: 145px; }
+  .font-filters { grid-template-columns: minmax(0,1fr) minmax(0,48%); }
+  .font-filters select { width: 100%; font-size: 16px; }
 }
 @media (max-width: 375px) {
   .wrap { width: calc(100% - 26px); }
