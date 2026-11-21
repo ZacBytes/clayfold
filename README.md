@@ -17,15 +17,15 @@ The artwork contains no political figures or portraits. The generic population i
 
 ## Coverage
 
-Lucide’s [icon catalog](https://lucide.dev/icons/) covers a much wider range of reusable interface controls. Scout concentrates on recognisable objects and scenarios such as port equipment, undersea cables, grid infrastructure and extreme weather. The gap analysis used Lucide’s public catalog as a coverage reference.
+Lucide and Google Material Symbols cover a broader range of reusable interface controls. Scout concentrates on recognisable objects and scenarios such as port equipment, undersea cables, grid infrastructure and extreme weather. [Lucide icon catalog](https://lucide.dev/icons/) and [Material Symbols library](https://fonts.google.com/icons)
 
-| Need | Original Scout coverage | Public catalog additions |
-| --- | --- | --- |
-| Discovery and navigation | Magnifier and place pin appeared inside larger compositions | Standalone search and map pin |
-| Saving and organization | Sealed dossier, shipping boxes and server racks | Bookmark, folder and cloud download |
-| Preferences and communication | Antenna, news and fact-checking imagery | Settings, chat and notification bell |
-| Time and planning | No dedicated date or time symbols | Calendar and clock |
-| Feedback | Emergency siren and specialist safety imagery | Success and warning |
+| Need | Original Scout coverage | Examples from Lucide and Material Symbols | Public catalog additions |
+| --- | --- | --- | --- |
+| Discovery and navigation | Magnifier and place pin appeared inside larger compositions | `search` in Lucide, `location_on` in Material Symbols | Standalone search and map pin |
+| Saving and organization | Sealed dossier, shipping boxes and server racks | `bookmark` in Lucide, `cloud_download` in Material Symbols | Bookmark, folder and cloud download |
+| Preferences and communication | Antenna, news and fact-checking imagery | `bell` in Lucide, `chat` in Material Symbols | Settings, chat and notification bell |
+| Time and planning | No dedicated date or time symbols | `clock` in Lucide, `calendar_month` in Material Symbols | Calendar and clock |
+| Feedback | Emergency siren and specialist safety imagery | `triangle-alert` in Lucide, `check_circle` in Material Symbols | Success and warning |
 
 The additions use Scout’s sculpted palette and rounded, lightly angled shapes. The collection still has limited coverage of directional arrows, text editing, media playback and accessibility controls.
 
