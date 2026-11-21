@@ -12,6 +12,8 @@ Download individual icons from `https://zacbytes.github.io/clayfold/assets/<id>.
 
 Use an empty alt attribute for decorative artwork. Give icon-only controls an accessible name that describes the action.
 
+For projects that use npm and a bundler with static image imports, install the versioned package from the npm guide below. Import individual WebP files with `import bookmark from "clayfold-icons/assets/bookmark.webp"` and use the URL as the image source.
+
 The browser font builder exports only the selected icons. Keep the bundled CSS and both TTF files together. Use the ligature from `icons.json` to render an icon by name, such as `coffee_cup`.
 
 Credit Clayfold, link to CC BY 4.0 and indicate any changes when using artwork covered by that license. Check the artwork license for the scope of permission and any separate rules for national flags.
@@ -27,5 +29,6 @@ Credit Clayfold, link to CC BY 4.0 and indicate any changes when using artwork c
 ## Usage and licensing
 
 - [File formats and developer guide](https://zacbytes.github.io/clayfold/about.html#use-clayfold)
+- [npm installation and example](https://zacbytes.github.io/clayfold/about.html#npm)
 - [Artwork license](https://zacbytes.github.io/clayfold/ARTWORK-LICENSE.md)
 - [Clayfold on GitHub](https://github.com/ZacBytes/clayfold)

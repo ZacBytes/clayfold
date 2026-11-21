@@ -163,6 +163,7 @@
       <h2 id="use-title">Use Clayfold</h2>
       <div class="setup-tabs" role="tablist" aria-label="Integration options">
         <button id="setup-agent-tab" type="button" role="tab" aria-controls="setup-agent" aria-selected="true">Coding agent</button>
+        <button id="setup-npm-tab" type="button" role="tab" aria-controls="setup-npm" aria-selected="false" tabindex="-1">npm</button>
         <button id="setup-html-tab" type="button" role="tab" aria-controls="setup-html" aria-selected="false" tabindex="-1">HTML</button>
         <button id="setup-font-tab" type="button" role="tab" aria-controls="setup-font" aria-selected="false" tabindex="-1">Icon font</button>
       </div>
@@ -182,6 +183,15 @@ Preserve the original artwork and its aspect ratio. Give standalone icons meanin
 Implement the icons and verify that they load in the intended UI.</textarea>
         <div class="setup-actions">
           <button type="button" class="button solid" data-copy-field="agent-prompt" data-copy-message="Prompt copied.">Copy prompt</button>
+          <span class="setup-status" role="status"></span>
+        </div>
+      </section>
+      <section id="setup-npm" role="tabpanel" aria-labelledby="setup-npm-tab" hidden>
+        <p>Install all 704 WebP icons from the versioned package on GitHub. Import just the files your app uses.</p>
+        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false">npm install https://github.com/ZacBytes/clayfold/releases/download/npm-v1.0.0/clayfold-icons-1.0.0.tgz</textarea>
+        <div class="setup-actions">
+          <button type="button" class="button solid" data-copy-field="npm-command" data-copy-message="Install command copied.">Copy command</button>
+          <a class="button" href="./about.html#npm">Usage example</a>
           <span class="setup-status" role="status"></span>
         </div>
       </section>

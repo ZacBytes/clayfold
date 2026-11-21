@@ -25,6 +25,24 @@ Each archive includes all 704 icons, including 200 country flags, with the catal
 
 [PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-svg.zip)
 
+## Install with npm
+
+Install the versioned package from GitHub Releases. It contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
+
+```sh
+npm install https://github.com/ZacBytes/clayfold/releases/download/npm-v1.0.0/clayfold-icons-1.0.0.tgz
+```
+
+Import individual files in a bundler with static image imports, such as Vite.
+
+```js
+import bookmark from "clayfold-icons/assets/bookmark.webp";
+
+document.querySelector("#bookmark").src = bookmark;
+```
+
+Use the file names from [the catalog](./catalog.json), also available as `clayfold-icons/catalog.json`. Download PNG and SVG from the catalog or the full pack links above.
+
 ## Use an icon
 
 Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open any result to copy the SVG or download an individual file.

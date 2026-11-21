@@ -34,6 +34,14 @@
     <h2 id="use-clayfold">Use Clayfold</h2>
     <p>Download an icon from the catalog, add it to your app’s assets, and reference it with an image tag. Use the <a href="./font-demo.html">icon font builder</a> to export a color font containing the icons you select.</p>
     <p>The <a href="./catalog.json">JSON catalog</a> lists each icon’s stable ID, label, category and search tags. Use the <a href="./llms.txt">AI agent guide</a> for file URLs, integration examples and attribution details.</p>
+    <h2 id="npm">Install with npm</h2>
+    <p>The package includes all 704 WebP icons. Install it from the <a href="https://github.com/ZacBytes/clayfold/releases/tag/npm-v1.0.0">versioned GitHub release</a>.</p>
+    <pre><code>npm install https://github.com/ZacBytes/clayfold/releases/download/npm-v1.0.0/clayfold-icons-1.0.0.tgz</code></pre>
+    <p>In a bundler with static image imports, such as Vite, import each icon by its file name.</p>
+    <pre><code>import bookmark from "clayfold-icons/assets/bookmark.webp";
+
+document.querySelector("#bookmark").src = bookmark;</code></pre>
+    <p>The catalog is available as <code>clayfold-icons/catalog.json</code>. Use the original artwork license included with the package for attribution.</p>
     <h2>Country flags</h2>
     <p>Browse 200 flags covering all 193 UN member states, both observer states, and the Cook Islands, Kosovo, Niue, Taiwan, and Western Sahara. The flag artwork follows the original proportions and emblems with a clay texture and a gentle wave.</p>
     <h2 id="formats">File formats</h2>

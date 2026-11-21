@@ -167,6 +167,7 @@ dialog::backdrop { background: #20282184; }
 .info h2 { margin: 29px 0 8px; font-size: 30px; }
 .info p, .info li { color: var(--muted); }
 .info a { color: var(--green); text-underline-offset: 3px; }
+.info pre { overflow-x: auto; padding: 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); font: 13px/1.6 ui-monospace, Menlo, monospace; }
 
 .brand, .hero h1, .info h1 { font-variant-ligatures: no-common-ligatures; }
 
@@ -293,7 +294,7 @@ dialog::backdrop { background: #20282184; }
   .hero-actions .button { padding-inline: 9px; }
   .setup-body { padding: 19px; }
   .setup-body .close { top: 17px; right: 17px; }
-  .setup-tabs button { flex: 1 1 auto; white-space: nowrap; }
+  .setup-tabs button { flex: 1 1 auto; padding-inline: 3px; font-size: 12px; }
   .hero-art { left: 64%; }
   .hero-object { width: clamp(68px, 19vw, 99px); }
   .hero-object-one { left: -9%; top: 46%; }
