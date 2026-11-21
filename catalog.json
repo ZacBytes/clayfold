@@ -1140,136 +1140,112 @@
       ]
     },
     {
-      "id": "flag-singapore",
-      "label": "Singapore",
+      "id": "flag-afghanistan",
+      "label": "Afghanistan",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Red over white with a white crescent and five white five-pointed stars in a circle",
-      "origin": "original",
+      "countryCode": "AF",
+      "subject": "national flag of Afghanistan",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Afghanistan flag",
+        "Afghan",
+        "Afghan tricolour",
+        "UN mission flag",
+        "Islamic Republic of Afghanistan",
+        "AF"
+      ],
+      "description": "The black, red, and green Afghan tricolour with the national emblem, as used by Afghanistan’s permanent mission to the United Nations."
     },
     {
-      "id": "flag-malaysia",
-      "label": "Malaysia",
+      "id": "flag-albania",
+      "label": "Albania",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Fourteen red and white stripes, blue canton, yellow crescent and fourteen-point star",
-      "origin": "original",
+      "countryCode": "AL",
+      "subject": "national flag of Albania",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Albania flag",
+        "AL"
+      ],
+      "description": "Waving matte clay national flag of Albania."
     },
     {
-      "id": "flag-indonesia",
-      "label": "Indonesia",
+      "id": "flag-algeria",
+      "label": "Algeria",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Two equal horizontal bands, red above white",
-      "origin": "original",
+      "countryCode": "DZ",
+      "subject": "national flag of Algeria",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Algeria flag",
+        "DZ"
+      ],
+      "description": "Waving matte clay national flag of Algeria."
     },
     {
-      "id": "flag-thailand",
-      "label": "Thailand",
+      "id": "flag-andorra",
+      "label": "Andorra",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Red, white, blue, white, red horizontal bands in 1:1:2:1:1 proportions",
-      "origin": "original",
+      "countryCode": "AD",
+      "subject": "national flag of Andorra",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Andorra flag",
+        "AD"
+      ],
+      "description": "Waving matte clay national flag of Andorra."
     },
     {
-      "id": "flag-brunei",
-      "label": "Brunei",
+      "id": "flag-angola",
+      "label": "Angola",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Yellow field, descending white and black diagonal bands, central red national crest",
-      "origin": "original",
+      "countryCode": "AO",
+      "subject": "national flag of Angola",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Angola flag",
+        "AO"
+      ],
+      "description": "Waving matte clay national flag of Angola."
     },
     {
-      "id": "flag-philippines",
-      "label": "Philippines",
+      "id": "flag-antigua-and-barbuda",
+      "label": "Antigua and Barbuda",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Blue over red, white hoist triangle, eight-rayed gold sun and three five-pointed stars",
-      "origin": "original",
+      "countryCode": "AG",
+      "subject": "national flag of Antigua and Barbuda",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Antigua and Barbuda flag",
+        "AG"
+      ],
+      "description": "Waving matte clay national flag of Antigua and Barbuda."
     },
     {
-      "id": "flag-vietnam",
-      "label": "Vietnam",
+      "id": "flag-argentina",
+      "label": "Argentina",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Red field with one centered yellow five-pointed star",
-      "origin": "original",
+      "countryCode": "AR",
+      "subject": "national flag of Argentina",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
+        "Argentina flag",
+        "AR"
+      ],
+      "description": "Waving matte clay national flag of Argentina."
     },
     {
-      "id": "flag-cambodia",
-      "label": "Cambodia",
+      "id": "flag-armenia",
+      "label": "Armenia",
       "category": "country-flags",
-      "subject": "Waving matte clay national flag: Blue, red, blue bands in 1:2:1 proportions with white three-towered Angkor Wat",
-      "origin": "original",
+      "countryCode": "AM",
+      "subject": "national flag of Armenia",
+      "origin": "clay-render",
       "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
-    },
-    {
-      "id": "flag-laos",
-      "label": "Laos",
-      "category": "country-flags",
-      "subject": "Waving matte clay national flag: Red, blue, red bands in 1:2:1 proportions with a centered white disc",
-      "origin": "original",
-      "tags": [
-        "national flag",
-        "country",
-        "waving flag"
-      ]
-    },
-    {
-      "id": "flag-myanmar",
-      "label": "Myanmar",
-      "category": "country-flags",
-      "subject": "Waving matte clay national flag: Yellow, green, red equal bands with one large white five-pointed star",
-      "origin": "original",
-      "tags": [
-        "national flag",
-        "Burma",
-        "Southeast Asia"
-      ]
-    },
-    {
-      "id": "flag-timor-leste",
-      "label": "Timor-Leste",
-      "category": "country-flags",
-      "subject": "Waving matte clay national flag: Red field, overlapping yellow and black hoist triangles, tilted white five-pointed star",
-      "origin": "original",
-      "tags": [
-        "national flag",
-        "East Timor",
-        "Southeast Asia"
-      ]
+        "Armenia flag",
+        "AM"
+      ],
+      "description": "Waving matte clay national flag of Armenia."
     },
     {
       "id": "flag-australia",
@@ -1281,7 +1257,2664 @@
         "national flag",
         "country",
         "waving flag"
-      ]
+      ],
+      "countryCode": "AU"
+    },
+    {
+      "id": "flag-austria",
+      "label": "Austria",
+      "category": "country-flags",
+      "countryCode": "AT",
+      "subject": "national flag of Austria",
+      "origin": "clay-render",
+      "tags": [
+        "Austria flag",
+        "AT"
+      ],
+      "description": "Waving matte clay national flag of Austria."
+    },
+    {
+      "id": "flag-azerbaijan",
+      "label": "Azerbaijan",
+      "category": "country-flags",
+      "countryCode": "AZ",
+      "subject": "national flag of Azerbaijan",
+      "origin": "clay-render",
+      "tags": [
+        "Azerbaijan flag",
+        "AZ"
+      ],
+      "description": "Waving matte clay national flag of Azerbaijan."
+    },
+    {
+      "id": "flag-bahamas",
+      "label": "Bahamas",
+      "category": "country-flags",
+      "countryCode": "BS",
+      "subject": "national flag of Bahamas",
+      "origin": "clay-render",
+      "tags": [
+        "Bahamas flag",
+        "BS"
+      ],
+      "description": "Waving matte clay national flag of Bahamas."
+    },
+    {
+      "id": "flag-bahrain",
+      "label": "Bahrain",
+      "category": "country-flags",
+      "countryCode": "BH",
+      "subject": "national flag of Bahrain",
+      "origin": "clay-render",
+      "tags": [
+        "Bahrain flag",
+        "BH"
+      ],
+      "description": "Waving matte clay national flag of Bahrain."
+    },
+    {
+      "id": "flag-bangladesh",
+      "label": "Bangladesh",
+      "category": "country-flags",
+      "countryCode": "BD",
+      "subject": "national flag of Bangladesh",
+      "origin": "clay-render",
+      "tags": [
+        "Bangladesh flag",
+        "Bengali",
+        "red disc offset on green",
+        "BD"
+      ],
+      "description": "Waving matte clay national flag of Bangladesh."
+    },
+    {
+      "id": "flag-barbados",
+      "label": "Barbados",
+      "category": "country-flags",
+      "countryCode": "BB",
+      "subject": "national flag of Barbados",
+      "origin": "clay-render",
+      "tags": [
+        "Barbados flag",
+        "BB"
+      ],
+      "description": "Waving matte clay national flag of Barbados."
+    },
+    {
+      "id": "flag-belarus",
+      "label": "Belarus",
+      "category": "country-flags",
+      "countryCode": "BY",
+      "subject": "national flag of Belarus",
+      "origin": "clay-render",
+      "tags": [
+        "Belarus flag",
+        "BY"
+      ],
+      "description": "Waving matte clay national flag of Belarus."
+    },
+    {
+      "id": "flag-belgium",
+      "label": "Belgium",
+      "category": "country-flags",
+      "countryCode": "BE",
+      "subject": "national flag of Belgium",
+      "origin": "clay-render",
+      "tags": [
+        "Belgium flag",
+        "BE"
+      ],
+      "description": "Waving matte clay national flag of Belgium."
+    },
+    {
+      "id": "flag-belize",
+      "label": "Belize",
+      "category": "country-flags",
+      "countryCode": "BZ",
+      "subject": "national flag of Belize",
+      "origin": "clay-render",
+      "tags": [
+        "Belize flag",
+        "BZ"
+      ],
+      "description": "Waving matte clay national flag of Belize."
+    },
+    {
+      "id": "flag-benin",
+      "label": "Benin",
+      "category": "country-flags",
+      "countryCode": "BJ",
+      "subject": "national flag of Benin",
+      "origin": "clay-render",
+      "tags": [
+        "Benin flag",
+        "BJ"
+      ],
+      "description": "Waving matte clay national flag of Benin."
+    },
+    {
+      "id": "flag-bhutan",
+      "label": "Bhutan",
+      "category": "country-flags",
+      "countryCode": "BT",
+      "subject": "national flag of Bhutan",
+      "origin": "clay-render",
+      "tags": [
+        "Bhutan flag",
+        "Bhutanese",
+        "white dragon",
+        "BT"
+      ],
+      "description": "Waving matte clay national flag of Bhutan."
+    },
+    {
+      "id": "flag-bolivia",
+      "label": "Bolivia",
+      "category": "country-flags",
+      "countryCode": "BO",
+      "subject": "national flag of Bolivia",
+      "origin": "clay-render",
+      "tags": [
+        "Bolivia flag",
+        "Bolivian",
+        "BO"
+      ],
+      "description": "Waving matte clay national flag of Bolivia."
+    },
+    {
+      "id": "flag-bosnia-and-herzegovina",
+      "label": "Bosnia and Herzegovina",
+      "category": "country-flags",
+      "countryCode": "BA",
+      "subject": "national flag of Bosnia and Herzegovina",
+      "origin": "clay-render",
+      "tags": [
+        "Bosnia and Herzegovina flag",
+        "Bosnia",
+        "Bosnian",
+        "BA"
+      ],
+      "description": "Waving matte clay national flag of Bosnia and Herzegovina."
+    },
+    {
+      "id": "flag-botswana",
+      "label": "Botswana",
+      "category": "country-flags",
+      "countryCode": "BW",
+      "subject": "national flag of Botswana",
+      "origin": "clay-render",
+      "tags": [
+        "Botswana flag",
+        "BW"
+      ],
+      "description": "Waving matte clay national flag of Botswana."
+    },
+    {
+      "id": "flag-brazil",
+      "label": "Brazil",
+      "category": "country-flags",
+      "countryCode": "BR",
+      "subject": "national flag of Brazil",
+      "origin": "clay-render",
+      "tags": [
+        "Brazil flag",
+        "Brazilian",
+        "green field",
+        "yellow diamond",
+        "blue globe",
+        "Ordem e Progresso",
+        "BR"
+      ],
+      "description": "Waving matte clay national flag of Brazil."
+    },
+    {
+      "id": "flag-brunei",
+      "label": "Brunei",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Yellow field, descending white and black diagonal bands, central red national crest",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "BN"
+    },
+    {
+      "id": "flag-bulgaria",
+      "label": "Bulgaria",
+      "category": "country-flags",
+      "countryCode": "BG",
+      "subject": "national flag of Bulgaria",
+      "origin": "clay-render",
+      "tags": [
+        "Bulgaria flag",
+        "BG"
+      ],
+      "description": "Waving matte clay national flag of Bulgaria."
+    },
+    {
+      "id": "flag-burkina-faso",
+      "label": "Burkina Faso",
+      "category": "country-flags",
+      "countryCode": "BF",
+      "subject": "national flag of Burkina Faso",
+      "origin": "clay-render",
+      "tags": [
+        "Burkina Faso flag",
+        "BF"
+      ],
+      "description": "Waving matte clay national flag of Burkina Faso."
+    },
+    {
+      "id": "flag-burundi",
+      "label": "Burundi",
+      "category": "country-flags",
+      "countryCode": "BI",
+      "subject": "national flag of Burundi",
+      "origin": "clay-render",
+      "tags": [
+        "Burundi flag",
+        "BI"
+      ],
+      "description": "Waving matte clay national flag of Burundi."
+    },
+    {
+      "id": "flag-cabo-verde",
+      "label": "Cabo Verde",
+      "category": "country-flags",
+      "countryCode": "CV",
+      "subject": "national flag of Cabo Verde",
+      "origin": "clay-render",
+      "tags": [
+        "Cabo Verde flag",
+        "Cape Verde",
+        "Cape Verdean",
+        "CV"
+      ],
+      "description": "Waving matte clay national flag of Cabo Verde."
+    },
+    {
+      "id": "flag-cambodia",
+      "label": "Cambodia",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Blue, red, blue bands in 1:2:1 proportions with white three-towered Angkor Wat",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "KH"
+    },
+    {
+      "id": "flag-cameroon",
+      "label": "Cameroon",
+      "category": "country-flags",
+      "countryCode": "CM",
+      "subject": "national flag of Cameroon",
+      "origin": "clay-render",
+      "tags": [
+        "Cameroon flag",
+        "CM"
+      ],
+      "description": "Waving matte clay national flag of Cameroon."
+    },
+    {
+      "id": "flag-canada",
+      "label": "Canada",
+      "category": "country-flags",
+      "countryCode": "CA",
+      "subject": "national flag of Canada",
+      "origin": "clay-render",
+      "tags": [
+        "Canada flag",
+        "Canadian",
+        "maple leaf",
+        "11-point leaf",
+        "CA"
+      ],
+      "description": "Waving matte clay national flag of Canada."
+    },
+    {
+      "id": "flag-central-african-republic",
+      "label": "Central African Republic",
+      "category": "country-flags",
+      "countryCode": "CF",
+      "subject": "national flag of Central African Republic",
+      "origin": "clay-render",
+      "tags": [
+        "Central African Republic flag",
+        "CF"
+      ],
+      "description": "Waving matte clay national flag of Central African Republic."
+    },
+    {
+      "id": "flag-chad",
+      "label": "Chad",
+      "category": "country-flags",
+      "countryCode": "TD",
+      "subject": "national flag of Chad",
+      "origin": "clay-render",
+      "tags": [
+        "Chad flag",
+        "TD"
+      ],
+      "description": "Waving matte clay national flag of Chad."
+    },
+    {
+      "id": "flag-chile",
+      "label": "Chile",
+      "category": "country-flags",
+      "countryCode": "CL",
+      "subject": "national flag of Chile",
+      "origin": "clay-render",
+      "tags": [
+        "Chile flag",
+        "CL"
+      ],
+      "description": "Waving matte clay national flag of Chile."
+    },
+    {
+      "id": "flag-china",
+      "label": "China",
+      "category": "country-flags",
+      "countryCode": "CN",
+      "subject": "national flag of China",
+      "origin": "clay-render",
+      "tags": [
+        "China flag",
+        "Chinese",
+        "PRC",
+        "People’s Republic of China",
+        "five yellow stars",
+        "CN"
+      ],
+      "description": "Waving matte clay national flag of China."
+    },
+    {
+      "id": "flag-colombia",
+      "label": "Colombia",
+      "category": "country-flags",
+      "countryCode": "CO",
+      "subject": "national flag of Colombia",
+      "origin": "clay-render",
+      "tags": [
+        "Colombia flag",
+        "CO"
+      ],
+      "description": "Waving matte clay national flag of Colombia."
+    },
+    {
+      "id": "flag-comoros",
+      "label": "Comoros",
+      "category": "country-flags",
+      "countryCode": "KM",
+      "subject": "national flag of Comoros",
+      "origin": "clay-render",
+      "tags": [
+        "Comoros flag",
+        "KM"
+      ],
+      "description": "Waving matte clay national flag of Comoros."
+    },
+    {
+      "id": "flag-cook-islands",
+      "label": "Cook Islands",
+      "category": "country-flags",
+      "countryCode": "CK",
+      "subject": "national flag of Cook Islands",
+      "origin": "clay-render",
+      "tags": [
+        "Cook Islands flag",
+        "Cook Islands Ensign",
+        "CK"
+      ],
+      "description": "Waving matte clay national flag of Cook Islands."
+    },
+    {
+      "id": "flag-costa-rica",
+      "label": "Costa Rica",
+      "category": "country-flags",
+      "countryCode": "CR",
+      "subject": "national flag of Costa Rica",
+      "origin": "clay-render",
+      "tags": [
+        "Costa Rica flag",
+        "CR"
+      ],
+      "description": "Waving matte clay national flag of Costa Rica."
+    },
+    {
+      "id": "flag-cote-divoire",
+      "label": "Côte d’Ivoire",
+      "category": "country-flags",
+      "countryCode": "CI",
+      "subject": "national flag of Côte d’Ivoire",
+      "origin": "clay-render",
+      "tags": [
+        "Côte d’Ivoire flag",
+        "Ivory Coast",
+        "Ivorian",
+        "CI"
+      ],
+      "description": "Waving matte clay national flag of Côte d’Ivoire."
+    },
+    {
+      "id": "flag-croatia",
+      "label": "Croatia",
+      "category": "country-flags",
+      "countryCode": "HR",
+      "subject": "national flag of Croatia",
+      "origin": "clay-render",
+      "tags": [
+        "Croatia flag",
+        "HR"
+      ],
+      "description": "Waving matte clay national flag of Croatia."
+    },
+    {
+      "id": "flag-cuba",
+      "label": "Cuba",
+      "category": "country-flags",
+      "countryCode": "CU",
+      "subject": "national flag of Cuba",
+      "origin": "clay-render",
+      "tags": [
+        "Cuba flag",
+        "CU"
+      ],
+      "description": "Waving matte clay national flag of Cuba."
+    },
+    {
+      "id": "flag-cyprus",
+      "label": "Cyprus",
+      "category": "country-flags",
+      "countryCode": "CY",
+      "subject": "national flag of Cyprus",
+      "origin": "clay-render",
+      "tags": [
+        "Cyprus flag",
+        "Cypriot",
+        "copper island",
+        "olive branches",
+        "CY"
+      ],
+      "description": "Waving matte clay national flag of Cyprus."
+    },
+    {
+      "id": "flag-czechia",
+      "label": "Czechia",
+      "category": "country-flags",
+      "countryCode": "CZ",
+      "subject": "national flag of Czechia",
+      "origin": "clay-render",
+      "tags": [
+        "Czechia flag",
+        "Czech Republic",
+        "Czech",
+        "CZ"
+      ],
+      "description": "Waving matte clay national flag of Czechia."
+    },
+    {
+      "id": "flag-democratic-republic-of-the-congo",
+      "label": "Democratic Republic of the Congo",
+      "category": "country-flags",
+      "countryCode": "CD",
+      "subject": "national flag of Democratic Republic of the Congo",
+      "origin": "clay-render",
+      "tags": [
+        "Democratic Republic of the Congo flag",
+        "DR Congo",
+        "DRC",
+        "Congo-Kinshasa",
+        "CD"
+      ],
+      "description": "Waving matte clay national flag of Democratic Republic of the Congo."
+    },
+    {
+      "id": "flag-denmark",
+      "label": "Denmark",
+      "category": "country-flags",
+      "countryCode": "DK",
+      "subject": "national flag of Denmark",
+      "origin": "clay-render",
+      "tags": [
+        "Denmark flag",
+        "Danish",
+        "Dannebrog",
+        "white Nordic cross",
+        "DK"
+      ],
+      "description": "Waving matte clay national flag of Denmark."
+    },
+    {
+      "id": "flag-djibouti",
+      "label": "Djibouti",
+      "category": "country-flags",
+      "countryCode": "DJ",
+      "subject": "national flag of Djibouti",
+      "origin": "clay-render",
+      "tags": [
+        "Djibouti flag",
+        "DJ"
+      ],
+      "description": "Waving matte clay national flag of Djibouti."
+    },
+    {
+      "id": "flag-dominica",
+      "label": "Dominica",
+      "category": "country-flags",
+      "countryCode": "DM",
+      "subject": "national flag of Dominica",
+      "origin": "clay-render",
+      "tags": [
+        "Dominica flag",
+        "DM"
+      ],
+      "description": "Waving matte clay national flag of Dominica."
+    },
+    {
+      "id": "flag-dominican-republic",
+      "label": "Dominican Republic",
+      "category": "country-flags",
+      "countryCode": "DO",
+      "subject": "national flag of Dominican Republic",
+      "origin": "clay-render",
+      "tags": [
+        "Dominican Republic flag",
+        "DO"
+      ],
+      "description": "Waving matte clay national flag of Dominican Republic."
+    },
+    {
+      "id": "flag-ecuador",
+      "label": "Ecuador",
+      "category": "country-flags",
+      "countryCode": "EC",
+      "subject": "national flag of Ecuador",
+      "origin": "clay-render",
+      "tags": [
+        "Ecuador flag",
+        "EC"
+      ],
+      "description": "Waving matte clay national flag of Ecuador."
+    },
+    {
+      "id": "flag-egypt",
+      "label": "Egypt",
+      "category": "country-flags",
+      "countryCode": "EG",
+      "subject": "national flag of Egypt",
+      "origin": "clay-render",
+      "tags": [
+        "Egypt flag",
+        "EG"
+      ],
+      "description": "Waving matte clay national flag of Egypt."
+    },
+    {
+      "id": "flag-el-salvador",
+      "label": "El Salvador",
+      "category": "country-flags",
+      "countryCode": "SV",
+      "subject": "national flag of El Salvador",
+      "origin": "clay-render",
+      "tags": [
+        "El Salvador flag",
+        "SV"
+      ],
+      "description": "Waving matte clay national flag of El Salvador."
+    },
+    {
+      "id": "flag-equatorial-guinea",
+      "label": "Equatorial Guinea",
+      "category": "country-flags",
+      "countryCode": "GQ",
+      "subject": "national flag of Equatorial Guinea",
+      "origin": "clay-render",
+      "tags": [
+        "Equatorial Guinea flag",
+        "GQ"
+      ],
+      "description": "Waving matte clay national flag of Equatorial Guinea."
+    },
+    {
+      "id": "flag-eritrea",
+      "label": "Eritrea",
+      "category": "country-flags",
+      "countryCode": "ER",
+      "subject": "national flag of Eritrea",
+      "origin": "clay-render",
+      "tags": [
+        "Eritrea flag",
+        "ER"
+      ],
+      "description": "Waving matte clay national flag of Eritrea."
+    },
+    {
+      "id": "flag-estonia",
+      "label": "Estonia",
+      "category": "country-flags",
+      "countryCode": "EE",
+      "subject": "national flag of Estonia",
+      "origin": "clay-render",
+      "tags": [
+        "Estonia flag",
+        "EE"
+      ],
+      "description": "Waving matte clay national flag of Estonia."
+    },
+    {
+      "id": "flag-eswatini",
+      "label": "Eswatini",
+      "category": "country-flags",
+      "countryCode": "SZ",
+      "subject": "national flag of Eswatini",
+      "origin": "clay-render",
+      "tags": [
+        "Eswatini flag",
+        "Swaziland",
+        "Swazi",
+        "SZ"
+      ],
+      "description": "Waving matte clay national flag of Eswatini."
+    },
+    {
+      "id": "flag-ethiopia",
+      "label": "Ethiopia",
+      "category": "country-flags",
+      "countryCode": "ET",
+      "subject": "national flag of Ethiopia",
+      "origin": "clay-render",
+      "tags": [
+        "Ethiopia flag",
+        "ET"
+      ],
+      "description": "Waving matte clay national flag of Ethiopia."
+    },
+    {
+      "id": "flag-federated-states-of-micronesia",
+      "label": "Federated States of Micronesia",
+      "category": "country-flags",
+      "countryCode": "FM",
+      "subject": "national flag of Federated States of Micronesia",
+      "origin": "clay-render",
+      "tags": [
+        "Federated States of Micronesia flag",
+        "FM"
+      ],
+      "description": "Waving matte clay national flag of Federated States of Micronesia."
+    },
+    {
+      "id": "flag-fiji",
+      "label": "Fiji",
+      "category": "country-flags",
+      "countryCode": "FJ",
+      "subject": "national flag of Fiji",
+      "origin": "clay-render",
+      "tags": [
+        "Fiji flag",
+        "FJ"
+      ],
+      "description": "Waving matte clay national flag of Fiji."
+    },
+    {
+      "id": "flag-finland",
+      "label": "Finland",
+      "category": "country-flags",
+      "countryCode": "FI",
+      "subject": "national flag of Finland",
+      "origin": "clay-render",
+      "tags": [
+        "Finland flag",
+        "Finnish",
+        "blue Nordic cross",
+        "FI"
+      ],
+      "description": "Waving matte clay national flag of Finland."
+    },
+    {
+      "id": "flag-france",
+      "label": "France",
+      "category": "country-flags",
+      "countryCode": "FR",
+      "subject": "national flag of France",
+      "origin": "clay-render",
+      "tags": [
+        "France flag",
+        "French",
+        "French tricolour",
+        "FR"
+      ],
+      "description": "Waving matte clay national flag of France."
+    },
+    {
+      "id": "flag-gabon",
+      "label": "Gabon",
+      "category": "country-flags",
+      "countryCode": "GA",
+      "subject": "national flag of Gabon",
+      "origin": "clay-render",
+      "tags": [
+        "Gabon flag",
+        "GA"
+      ],
+      "description": "Waving matte clay national flag of Gabon."
+    },
+    {
+      "id": "flag-gambia",
+      "label": "Gambia",
+      "category": "country-flags",
+      "countryCode": "GM",
+      "subject": "national flag of Gambia",
+      "origin": "clay-render",
+      "tags": [
+        "Gambia flag",
+        "The Gambia",
+        "Gambian",
+        "GM"
+      ],
+      "description": "Waving matte clay national flag of Gambia."
+    },
+    {
+      "id": "flag-georgia",
+      "label": "Georgia",
+      "category": "country-flags",
+      "countryCode": "GE",
+      "subject": "national flag of Georgia",
+      "origin": "clay-render",
+      "tags": [
+        "Georgia flag",
+        "Georgian",
+        "five crosses",
+        "GE"
+      ],
+      "description": "Waving matte clay national flag of Georgia."
+    },
+    {
+      "id": "flag-germany",
+      "label": "Germany",
+      "category": "country-flags",
+      "countryCode": "DE",
+      "subject": "national flag of Germany",
+      "origin": "clay-render",
+      "tags": [
+        "Germany flag",
+        "DE"
+      ],
+      "description": "Waving matte clay national flag of Germany."
+    },
+    {
+      "id": "flag-ghana",
+      "label": "Ghana",
+      "category": "country-flags",
+      "countryCode": "GH",
+      "subject": "national flag of Ghana",
+      "origin": "clay-render",
+      "tags": [
+        "Ghana flag",
+        "GH"
+      ],
+      "description": "Waving matte clay national flag of Ghana."
+    },
+    {
+      "id": "flag-greece",
+      "label": "Greece",
+      "category": "country-flags",
+      "countryCode": "GR",
+      "subject": "national flag of Greece",
+      "origin": "clay-render",
+      "tags": [
+        "Greece flag",
+        "Greek",
+        "blue and white nine stripes",
+        "GR"
+      ],
+      "description": "Waving matte clay national flag of Greece."
+    },
+    {
+      "id": "flag-grenada",
+      "label": "Grenada",
+      "category": "country-flags",
+      "countryCode": "GD",
+      "subject": "national flag of Grenada",
+      "origin": "clay-render",
+      "tags": [
+        "Grenada flag",
+        "GD"
+      ],
+      "description": "Waving matte clay national flag of Grenada."
+    },
+    {
+      "id": "flag-guatemala",
+      "label": "Guatemala",
+      "category": "country-flags",
+      "countryCode": "GT",
+      "subject": "national flag of Guatemala",
+      "origin": "clay-render",
+      "tags": [
+        "Guatemala flag",
+        "GT"
+      ],
+      "description": "Waving matte clay national flag of Guatemala."
+    },
+    {
+      "id": "flag-guinea",
+      "label": "Guinea",
+      "category": "country-flags",
+      "countryCode": "GN",
+      "subject": "national flag of Guinea",
+      "origin": "clay-render",
+      "tags": [
+        "Guinea flag",
+        "GN"
+      ],
+      "description": "Waving matte clay national flag of Guinea."
+    },
+    {
+      "id": "flag-guinea-bissau",
+      "label": "Guinea-Bissau",
+      "category": "country-flags",
+      "countryCode": "GW",
+      "subject": "national flag of Guinea-Bissau",
+      "origin": "clay-render",
+      "tags": [
+        "Guinea-Bissau flag",
+        "GW"
+      ],
+      "description": "Waving matte clay national flag of Guinea-Bissau."
+    },
+    {
+      "id": "flag-guyana",
+      "label": "Guyana",
+      "category": "country-flags",
+      "countryCode": "GY",
+      "subject": "national flag of Guyana",
+      "origin": "clay-render",
+      "tags": [
+        "Guyana flag",
+        "GY"
+      ],
+      "description": "Waving matte clay national flag of Guyana."
+    },
+    {
+      "id": "flag-haiti",
+      "label": "Haiti",
+      "category": "country-flags",
+      "countryCode": "HT",
+      "subject": "national flag of Haiti",
+      "origin": "clay-render",
+      "tags": [
+        "Haiti flag",
+        "HT"
+      ],
+      "description": "Waving matte clay national flag of Haiti."
+    },
+    {
+      "id": "flag-honduras",
+      "label": "Honduras",
+      "category": "country-flags",
+      "countryCode": "HN",
+      "subject": "national flag of Honduras",
+      "origin": "clay-render",
+      "tags": [
+        "Honduras flag",
+        "HN"
+      ],
+      "description": "Waving matte clay national flag of Honduras."
+    },
+    {
+      "id": "flag-hungary",
+      "label": "Hungary",
+      "category": "country-flags",
+      "countryCode": "HU",
+      "subject": "national flag of Hungary",
+      "origin": "clay-render",
+      "tags": [
+        "Hungary flag",
+        "HU"
+      ],
+      "description": "Waving matte clay national flag of Hungary."
+    },
+    {
+      "id": "flag-iceland",
+      "label": "Iceland",
+      "category": "country-flags",
+      "countryCode": "IS",
+      "subject": "national flag of Iceland",
+      "origin": "clay-render",
+      "tags": [
+        "Iceland flag",
+        "Icelandic",
+        "Nordic cross",
+        "IS"
+      ],
+      "description": "Waving matte clay national flag of Iceland."
+    },
+    {
+      "id": "flag-india",
+      "label": "India",
+      "category": "country-flags",
+      "countryCode": "IN",
+      "subject": "national flag of India",
+      "origin": "clay-render",
+      "tags": [
+        "India flag",
+        "Indian",
+        "Ashoka Chakra",
+        "24-spoke wheel",
+        "IN"
+      ],
+      "description": "Waving matte clay national flag of India."
+    },
+    {
+      "id": "flag-indonesia",
+      "label": "Indonesia",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Two equal horizontal bands, red above white",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "ID"
+    },
+    {
+      "id": "flag-iran",
+      "label": "Iran",
+      "category": "country-flags",
+      "countryCode": "IR",
+      "subject": "national flag of Iran",
+      "origin": "clay-render",
+      "tags": [
+        "Iran flag",
+        "IR"
+      ],
+      "description": "Waving matte clay national flag of Iran."
+    },
+    {
+      "id": "flag-iraq",
+      "label": "Iraq",
+      "category": "country-flags",
+      "countryCode": "IQ",
+      "subject": "national flag of Iraq",
+      "origin": "clay-render",
+      "tags": [
+        "Iraq flag",
+        "IQ"
+      ],
+      "description": "Waving matte clay national flag of Iraq."
+    },
+    {
+      "id": "flag-ireland",
+      "label": "Ireland",
+      "category": "country-flags",
+      "countryCode": "IE",
+      "subject": "national flag of Ireland",
+      "origin": "clay-render",
+      "tags": [
+        "Ireland flag",
+        "Irish",
+        "green white orange tricolour",
+        "IE"
+      ],
+      "description": "Waving matte clay national flag of Ireland."
+    },
+    {
+      "id": "flag-israel",
+      "label": "Israel",
+      "category": "country-flags",
+      "countryCode": "IL",
+      "subject": "national flag of Israel",
+      "origin": "clay-render",
+      "tags": [
+        "Israel flag",
+        "Israeli",
+        "Star of David",
+        "IL"
+      ],
+      "description": "Waving matte clay national flag of Israel."
+    },
+    {
+      "id": "flag-italy",
+      "label": "Italy",
+      "category": "country-flags",
+      "countryCode": "IT",
+      "subject": "national flag of Italy",
+      "origin": "clay-render",
+      "tags": [
+        "Italy flag",
+        "Italian",
+        "green white red tricolour",
+        "IT"
+      ],
+      "description": "Waving matte clay national flag of Italy."
+    },
+    {
+      "id": "flag-jamaica",
+      "label": "Jamaica",
+      "category": "country-flags",
+      "countryCode": "JM",
+      "subject": "national flag of Jamaica",
+      "origin": "clay-render",
+      "tags": [
+        "Jamaica flag",
+        "JM"
+      ],
+      "description": "Waving matte clay national flag of Jamaica."
+    },
+    {
+      "id": "flag-japan",
+      "label": "Japan",
+      "category": "country-flags",
+      "countryCode": "JP",
+      "subject": "national flag of Japan",
+      "origin": "clay-render",
+      "tags": [
+        "Japan flag",
+        "Japanese",
+        "Hinomaru",
+        "rising sun",
+        "red disc on white",
+        "JP"
+      ],
+      "description": "Waving matte clay national flag of Japan."
+    },
+    {
+      "id": "flag-jordan",
+      "label": "Jordan",
+      "category": "country-flags",
+      "countryCode": "JO",
+      "subject": "national flag of Jordan",
+      "origin": "clay-render",
+      "tags": [
+        "Jordan flag",
+        "JO"
+      ],
+      "description": "Waving matte clay national flag of Jordan."
+    },
+    {
+      "id": "flag-kazakhstan",
+      "label": "Kazakhstan",
+      "category": "country-flags",
+      "countryCode": "KZ",
+      "subject": "national flag of Kazakhstan",
+      "origin": "clay-render",
+      "tags": [
+        "Kazakhstan flag",
+        "KZ"
+      ],
+      "description": "Waving matte clay national flag of Kazakhstan."
+    },
+    {
+      "id": "flag-kenya",
+      "label": "Kenya",
+      "category": "country-flags",
+      "countryCode": "KE",
+      "subject": "national flag of Kenya",
+      "origin": "clay-render",
+      "tags": [
+        "Kenya flag",
+        "Kenyan",
+        "Maasai shield",
+        "crossed spears",
+        "KE"
+      ],
+      "description": "Waving matte clay national flag of Kenya."
+    },
+    {
+      "id": "flag-kiribati",
+      "label": "Kiribati",
+      "category": "country-flags",
+      "countryCode": "KI",
+      "subject": "national flag of Kiribati",
+      "origin": "clay-render",
+      "tags": [
+        "Kiribati flag",
+        "KI"
+      ],
+      "description": "Waving matte clay national flag of Kiribati."
+    },
+    {
+      "id": "flag-kosovo",
+      "label": "Kosovo",
+      "category": "country-flags",
+      "countryCode": "XK",
+      "subject": "national flag of Kosovo",
+      "origin": "clay-render",
+      "tags": [
+        "Kosovo flag",
+        "Kosovar",
+        "six white stars",
+        "gold map",
+        "XK"
+      ],
+      "description": "Waving matte clay national flag of Kosovo."
+    },
+    {
+      "id": "flag-kuwait",
+      "label": "Kuwait",
+      "category": "country-flags",
+      "countryCode": "KW",
+      "subject": "national flag of Kuwait",
+      "origin": "clay-render",
+      "tags": [
+        "Kuwait flag",
+        "KW"
+      ],
+      "description": "Waving matte clay national flag of Kuwait."
+    },
+    {
+      "id": "flag-kyrgyzstan",
+      "label": "Kyrgyzstan",
+      "category": "country-flags",
+      "countryCode": "KG",
+      "subject": "national flag of Kyrgyzstan",
+      "origin": "clay-render",
+      "tags": [
+        "Kyrgyzstan flag",
+        "Kyrgyz",
+        "Kyrgyz Republic",
+        "straight sun rays",
+        "tunduk",
+        "KG"
+      ],
+      "description": "The red flag of Kyrgyzstan with a yellow sun, 40 straight rays, and a tunduk at its centre."
+    },
+    {
+      "id": "flag-laos",
+      "label": "Laos",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Red, blue, red bands in 1:2:1 proportions with a centered white disc",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "LA"
+    },
+    {
+      "id": "flag-latvia",
+      "label": "Latvia",
+      "category": "country-flags",
+      "countryCode": "LV",
+      "subject": "national flag of Latvia",
+      "origin": "clay-render",
+      "tags": [
+        "Latvia flag",
+        "LV"
+      ],
+      "description": "Waving matte clay national flag of Latvia."
+    },
+    {
+      "id": "flag-lebanon",
+      "label": "Lebanon",
+      "category": "country-flags",
+      "countryCode": "LB",
+      "subject": "national flag of Lebanon",
+      "origin": "clay-render",
+      "tags": [
+        "Lebanon flag",
+        "LB"
+      ],
+      "description": "Waving matte clay national flag of Lebanon."
+    },
+    {
+      "id": "flag-lesotho",
+      "label": "Lesotho",
+      "category": "country-flags",
+      "countryCode": "LS",
+      "subject": "national flag of Lesotho",
+      "origin": "clay-render",
+      "tags": [
+        "Lesotho flag",
+        "LS"
+      ],
+      "description": "Waving matte clay national flag of Lesotho."
+    },
+    {
+      "id": "flag-liberia",
+      "label": "Liberia",
+      "category": "country-flags",
+      "countryCode": "LR",
+      "subject": "national flag of Liberia",
+      "origin": "clay-render",
+      "tags": [
+        "Liberia flag",
+        "LR"
+      ],
+      "description": "Waving matte clay national flag of Liberia."
+    },
+    {
+      "id": "flag-libya",
+      "label": "Libya",
+      "category": "country-flags",
+      "countryCode": "LY",
+      "subject": "national flag of Libya",
+      "origin": "clay-render",
+      "tags": [
+        "Libya flag",
+        "LY"
+      ],
+      "description": "Waving matte clay national flag of Libya."
+    },
+    {
+      "id": "flag-liechtenstein",
+      "label": "Liechtenstein",
+      "category": "country-flags",
+      "countryCode": "LI",
+      "subject": "national flag of Liechtenstein",
+      "origin": "clay-render",
+      "tags": [
+        "Liechtenstein flag",
+        "LI"
+      ],
+      "description": "Waving matte clay national flag of Liechtenstein."
+    },
+    {
+      "id": "flag-lithuania",
+      "label": "Lithuania",
+      "category": "country-flags",
+      "countryCode": "LT",
+      "subject": "national flag of Lithuania",
+      "origin": "clay-render",
+      "tags": [
+        "Lithuania flag",
+        "LT"
+      ],
+      "description": "Waving matte clay national flag of Lithuania."
+    },
+    {
+      "id": "flag-luxembourg",
+      "label": "Luxembourg",
+      "category": "country-flags",
+      "countryCode": "LU",
+      "subject": "national flag of Luxembourg",
+      "origin": "clay-render",
+      "tags": [
+        "Luxembourg flag",
+        "LU"
+      ],
+      "description": "Waving matte clay national flag of Luxembourg."
+    },
+    {
+      "id": "flag-madagascar",
+      "label": "Madagascar",
+      "category": "country-flags",
+      "countryCode": "MG",
+      "subject": "national flag of Madagascar",
+      "origin": "clay-render",
+      "tags": [
+        "Madagascar flag",
+        "MG"
+      ],
+      "description": "Waving matte clay national flag of Madagascar."
+    },
+    {
+      "id": "flag-malawi",
+      "label": "Malawi",
+      "category": "country-flags",
+      "countryCode": "MW",
+      "subject": "national flag of Malawi",
+      "origin": "clay-render",
+      "tags": [
+        "Malawi flag",
+        "MW"
+      ],
+      "description": "Waving matte clay national flag of Malawi."
+    },
+    {
+      "id": "flag-malaysia",
+      "label": "Malaysia",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Fourteen red and white stripes, blue canton, yellow crescent and fourteen-point star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "MY"
+    },
+    {
+      "id": "flag-maldives",
+      "label": "Maldives",
+      "category": "country-flags",
+      "countryCode": "MV",
+      "subject": "national flag of Maldives",
+      "origin": "clay-render",
+      "tags": [
+        "Maldives flag",
+        "MV"
+      ],
+      "description": "Waving matte clay national flag of Maldives."
+    },
+    {
+      "id": "flag-mali",
+      "label": "Mali",
+      "category": "country-flags",
+      "countryCode": "ML",
+      "subject": "national flag of Mali",
+      "origin": "clay-render",
+      "tags": [
+        "Mali flag",
+        "ML"
+      ],
+      "description": "Waving matte clay national flag of Mali."
+    },
+    {
+      "id": "flag-malta",
+      "label": "Malta",
+      "category": "country-flags",
+      "countryCode": "MT",
+      "subject": "national flag of Malta",
+      "origin": "clay-render",
+      "tags": [
+        "Malta flag",
+        "MT"
+      ],
+      "description": "Waving matte clay national flag of Malta."
+    },
+    {
+      "id": "flag-marshall-islands",
+      "label": "Marshall Islands",
+      "category": "country-flags",
+      "countryCode": "MH",
+      "subject": "national flag of Marshall Islands",
+      "origin": "clay-render",
+      "tags": [
+        "Marshall Islands flag",
+        "Marshallese",
+        "MH"
+      ],
+      "description": "Waving matte clay national flag of Marshall Islands."
+    },
+    {
+      "id": "flag-mauritania",
+      "label": "Mauritania",
+      "category": "country-flags",
+      "countryCode": "MR",
+      "subject": "national flag of Mauritania",
+      "origin": "clay-render",
+      "tags": [
+        "Mauritania flag",
+        "MR"
+      ],
+      "description": "Waving matte clay national flag of Mauritania."
+    },
+    {
+      "id": "flag-mauritius",
+      "label": "Mauritius",
+      "category": "country-flags",
+      "countryCode": "MU",
+      "subject": "national flag of Mauritius",
+      "origin": "clay-render",
+      "tags": [
+        "Mauritius flag",
+        "MU"
+      ],
+      "description": "Waving matte clay national flag of Mauritius."
+    },
+    {
+      "id": "flag-mexico",
+      "label": "Mexico",
+      "category": "country-flags",
+      "countryCode": "MX",
+      "subject": "national flag of Mexico",
+      "origin": "clay-render",
+      "tags": [
+        "Mexico flag",
+        "Mexican",
+        "eagle with a snake",
+        "prickly pear cactus",
+        "MX"
+      ],
+      "description": "Waving matte clay national flag of Mexico."
+    },
+    {
+      "id": "flag-moldova",
+      "label": "Moldova",
+      "category": "country-flags",
+      "countryCode": "MD",
+      "subject": "national flag of Moldova",
+      "origin": "clay-render",
+      "tags": [
+        "Moldova flag",
+        "Moldovan",
+        "MD"
+      ],
+      "description": "Waving matte clay national flag of Moldova."
+    },
+    {
+      "id": "flag-monaco",
+      "label": "Monaco",
+      "category": "country-flags",
+      "countryCode": "MC",
+      "subject": "national flag of Monaco",
+      "origin": "clay-render",
+      "tags": [
+        "Monaco flag",
+        "MC"
+      ],
+      "description": "Waving matte clay national flag of Monaco."
+    },
+    {
+      "id": "flag-mongolia",
+      "label": "Mongolia",
+      "category": "country-flags",
+      "countryCode": "MN",
+      "subject": "national flag of Mongolia",
+      "origin": "clay-render",
+      "tags": [
+        "Mongolia flag",
+        "MN"
+      ],
+      "description": "Waving matte clay national flag of Mongolia."
+    },
+    {
+      "id": "flag-montenegro",
+      "label": "Montenegro",
+      "category": "country-flags",
+      "countryCode": "ME",
+      "subject": "national flag of Montenegro",
+      "origin": "clay-render",
+      "tags": [
+        "Montenegro flag",
+        "ME"
+      ],
+      "description": "Waving matte clay national flag of Montenegro."
+    },
+    {
+      "id": "flag-morocco",
+      "label": "Morocco",
+      "category": "country-flags",
+      "countryCode": "MA",
+      "subject": "national flag of Morocco",
+      "origin": "clay-render",
+      "tags": [
+        "Morocco flag",
+        "Moroccan",
+        "green pentagram",
+        "MA"
+      ],
+      "description": "Waving matte clay national flag of Morocco."
+    },
+    {
+      "id": "flag-mozambique",
+      "label": "Mozambique",
+      "category": "country-flags",
+      "countryCode": "MZ",
+      "subject": "national flag of Mozambique",
+      "origin": "clay-render",
+      "tags": [
+        "Mozambique flag",
+        "MZ"
+      ],
+      "description": "Waving matte clay national flag of Mozambique."
+    },
+    {
+      "id": "flag-myanmar",
+      "label": "Myanmar",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Yellow, green, red equal bands with one large white five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "Burma",
+        "Southeast Asia"
+      ],
+      "countryCode": "MM"
+    },
+    {
+      "id": "flag-namibia",
+      "label": "Namibia",
+      "category": "country-flags",
+      "countryCode": "NA",
+      "subject": "national flag of Namibia",
+      "origin": "clay-render",
+      "tags": [
+        "Namibia flag",
+        "NA"
+      ],
+      "description": "Waving matte clay national flag of Namibia."
+    },
+    {
+      "id": "flag-nauru",
+      "label": "Nauru",
+      "category": "country-flags",
+      "countryCode": "NR",
+      "subject": "national flag of Nauru",
+      "origin": "clay-render",
+      "tags": [
+        "Nauru flag",
+        "NR"
+      ],
+      "description": "Waving matte clay national flag of Nauru."
+    },
+    {
+      "id": "flag-nepal",
+      "label": "Nepal",
+      "category": "country-flags",
+      "countryCode": "NP",
+      "subject": "national flag of Nepal",
+      "origin": "clay-render",
+      "tags": [
+        "Nepal flag",
+        "Nepali",
+        "Nepalese",
+        "double pennant",
+        "non-rectangular flag",
+        "sun and moon",
+        "NP"
+      ],
+      "description": "Nepal’s crimson double pennant with a blue border, a white crescent moon, and a white sun."
+    },
+    {
+      "id": "flag-netherlands",
+      "label": "Netherlands",
+      "category": "country-flags",
+      "countryCode": "NL",
+      "subject": "national flag of Netherlands",
+      "origin": "clay-render",
+      "tags": [
+        "Netherlands flag",
+        "NL"
+      ],
+      "description": "Waving matte clay national flag of Netherlands."
+    },
+    {
+      "id": "flag-new-zealand",
+      "label": "New Zealand",
+      "category": "country-flags",
+      "countryCode": "NZ",
+      "subject": "national flag of New Zealand",
+      "origin": "clay-render",
+      "tags": [
+        "New Zealand flag",
+        "New Zealander",
+        "four red Southern Cross stars",
+        "Aotearoa",
+        "Union Jack",
+        "NZ"
+      ],
+      "description": "Waving matte clay national flag of New Zealand."
+    },
+    {
+      "id": "flag-nicaragua",
+      "label": "Nicaragua",
+      "category": "country-flags",
+      "countryCode": "NI",
+      "subject": "national flag of Nicaragua",
+      "origin": "clay-render",
+      "tags": [
+        "Nicaragua flag",
+        "NI"
+      ],
+      "description": "Waving matte clay national flag of Nicaragua."
+    },
+    {
+      "id": "flag-niger",
+      "label": "Niger",
+      "category": "country-flags",
+      "countryCode": "NE",
+      "subject": "national flag of Niger",
+      "origin": "clay-render",
+      "tags": [
+        "Niger flag",
+        "NE"
+      ],
+      "description": "Waving matte clay national flag of Niger."
+    },
+    {
+      "id": "flag-nigeria",
+      "label": "Nigeria",
+      "category": "country-flags",
+      "countryCode": "NG",
+      "subject": "national flag of Nigeria",
+      "origin": "clay-render",
+      "tags": [
+        "Nigeria flag",
+        "NG"
+      ],
+      "description": "Waving matte clay national flag of Nigeria."
+    },
+    {
+      "id": "flag-niue",
+      "label": "Niue",
+      "category": "country-flags",
+      "countryCode": "NU",
+      "subject": "national flag of Niue",
+      "origin": "clay-render",
+      "tags": [
+        "Niue flag",
+        "NU"
+      ],
+      "description": "Waving matte clay national flag of Niue."
+    },
+    {
+      "id": "flag-north-korea",
+      "label": "North Korea",
+      "category": "country-flags",
+      "countryCode": "KP",
+      "subject": "national flag of North Korea",
+      "origin": "clay-render",
+      "tags": [
+        "North Korea flag",
+        "DPRK",
+        "Democratic People’s Republic of Korea",
+        "KP"
+      ],
+      "description": "Waving matte clay national flag of North Korea."
+    },
+    {
+      "id": "flag-north-macedonia",
+      "label": "North Macedonia",
+      "category": "country-flags",
+      "countryCode": "MK",
+      "subject": "national flag of North Macedonia",
+      "origin": "clay-render",
+      "tags": [
+        "North Macedonia flag",
+        "Macedonia",
+        "Macedonian",
+        "MK"
+      ],
+      "description": "Waving matte clay national flag of North Macedonia."
+    },
+    {
+      "id": "flag-norway",
+      "label": "Norway",
+      "category": "country-flags",
+      "countryCode": "NO",
+      "subject": "national flag of Norway",
+      "origin": "clay-render",
+      "tags": [
+        "Norway flag",
+        "Norwegian",
+        "Nordic cross",
+        "NO"
+      ],
+      "description": "Waving matte clay national flag of Norway."
+    },
+    {
+      "id": "flag-oman",
+      "label": "Oman",
+      "category": "country-flags",
+      "countryCode": "OM",
+      "subject": "national flag of Oman",
+      "origin": "clay-render",
+      "tags": [
+        "Oman flag",
+        "Omani",
+        "khanjar",
+        "OM"
+      ],
+      "description": "Waving matte clay national flag of Oman."
+    },
+    {
+      "id": "flag-pakistan",
+      "label": "Pakistan",
+      "category": "country-flags",
+      "countryCode": "PK",
+      "subject": "national flag of Pakistan",
+      "origin": "clay-render",
+      "tags": [
+        "Pakistan flag",
+        "Pakistani",
+        "crescent and star",
+        "PK"
+      ],
+      "description": "Waving matte clay national flag of Pakistan."
+    },
+    {
+      "id": "flag-palau",
+      "label": "Palau",
+      "category": "country-flags",
+      "countryCode": "PW",
+      "subject": "national flag of Palau",
+      "origin": "clay-render",
+      "tags": [
+        "Palau flag",
+        "PW"
+      ],
+      "description": "Waving matte clay national flag of Palau."
+    },
+    {
+      "id": "flag-palestine",
+      "label": "Palestine",
+      "category": "country-flags",
+      "countryCode": "PS",
+      "subject": "national flag of Palestine",
+      "origin": "clay-render",
+      "tags": [
+        "Palestine flag",
+        "Palestinian",
+        "State of Palestine",
+        "Palestinian territories",
+        "PS"
+      ],
+      "description": "Waving matte clay national flag of Palestine."
+    },
+    {
+      "id": "flag-panama",
+      "label": "Panama",
+      "category": "country-flags",
+      "countryCode": "PA",
+      "subject": "national flag of Panama",
+      "origin": "clay-render",
+      "tags": [
+        "Panama flag",
+        "Panamanian",
+        "PA"
+      ],
+      "description": "Waving matte clay national flag of Panama."
+    },
+    {
+      "id": "flag-papua-new-guinea",
+      "label": "Papua New Guinea",
+      "category": "country-flags",
+      "countryCode": "PG",
+      "subject": "national flag of Papua New Guinea",
+      "origin": "clay-render",
+      "tags": [
+        "Papua New Guinea flag",
+        "PG"
+      ],
+      "description": "Waving matte clay national flag of Papua New Guinea."
+    },
+    {
+      "id": "flag-paraguay",
+      "label": "Paraguay",
+      "category": "country-flags",
+      "countryCode": "PY",
+      "subject": "national flag of Paraguay",
+      "origin": "clay-render",
+      "tags": [
+        "Paraguay flag",
+        "PY"
+      ],
+      "description": "Waving matte clay national flag of Paraguay."
+    },
+    {
+      "id": "flag-peru",
+      "label": "Peru",
+      "category": "country-flags",
+      "countryCode": "PE",
+      "subject": "national flag of Peru",
+      "origin": "clay-render",
+      "tags": [
+        "Peru flag",
+        "PE"
+      ],
+      "description": "Peru’s national flag with three vertical red, white, and red bands."
+    },
+    {
+      "id": "flag-philippines",
+      "label": "Philippines",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Blue over red, white hoist triangle, eight-rayed gold sun and three five-pointed stars",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "PH"
+    },
+    {
+      "id": "flag-poland",
+      "label": "Poland",
+      "category": "country-flags",
+      "countryCode": "PL",
+      "subject": "national flag of Poland",
+      "origin": "clay-render",
+      "tags": [
+        "Poland flag",
+        "PL"
+      ],
+      "description": "Waving matte clay national flag of Poland."
+    },
+    {
+      "id": "flag-portugal",
+      "label": "Portugal",
+      "category": "country-flags",
+      "countryCode": "PT",
+      "subject": "national flag of Portugal",
+      "origin": "clay-render",
+      "tags": [
+        "Portugal flag",
+        "PT"
+      ],
+      "description": "Waving matte clay national flag of Portugal."
+    },
+    {
+      "id": "flag-qatar",
+      "label": "Qatar",
+      "category": "country-flags",
+      "countryCode": "QA",
+      "subject": "national flag of Qatar",
+      "origin": "clay-render",
+      "tags": [
+        "Qatar flag",
+        "Qatari",
+        "maroon",
+        "serrated band",
+        "nine points",
+        "QA"
+      ],
+      "description": "Qatar’s elongated white and maroon flag with nine serrations, rendered in the traditional 11:28 ratio."
+    },
+    {
+      "id": "flag-republic-of-the-congo",
+      "label": "Republic of the Congo",
+      "category": "country-flags",
+      "countryCode": "CG",
+      "subject": "national flag of Republic of the Congo",
+      "origin": "clay-render",
+      "tags": [
+        "Republic of the Congo flag",
+        "Congo-Brazzaville",
+        "CG"
+      ],
+      "description": "Waving matte clay national flag of Republic of the Congo."
+    },
+    {
+      "id": "flag-romania",
+      "label": "Romania",
+      "category": "country-flags",
+      "countryCode": "RO",
+      "subject": "national flag of Romania",
+      "origin": "clay-render",
+      "tags": [
+        "Romania flag",
+        "RO"
+      ],
+      "description": "Waving matte clay national flag of Romania."
+    },
+    {
+      "id": "flag-russia",
+      "label": "Russia",
+      "category": "country-flags",
+      "countryCode": "RU",
+      "subject": "national flag of Russia",
+      "origin": "clay-render",
+      "tags": [
+        "Russia flag",
+        "Russian",
+        "Russian Federation",
+        "RU"
+      ],
+      "description": "Waving matte clay national flag of Russia."
+    },
+    {
+      "id": "flag-rwanda",
+      "label": "Rwanda",
+      "category": "country-flags",
+      "countryCode": "RW",
+      "subject": "national flag of Rwanda",
+      "origin": "clay-render",
+      "tags": [
+        "Rwanda flag",
+        "RW"
+      ],
+      "description": "Waving matte clay national flag of Rwanda."
+    },
+    {
+      "id": "flag-saint-kitts-and-nevis",
+      "label": "Saint Kitts and Nevis",
+      "category": "country-flags",
+      "countryCode": "KN",
+      "subject": "national flag of Saint Kitts and Nevis",
+      "origin": "clay-render",
+      "tags": [
+        "Saint Kitts and Nevis flag",
+        "St Kitts and Nevis",
+        "KN"
+      ],
+      "description": "Waving matte clay national flag of Saint Kitts and Nevis."
+    },
+    {
+      "id": "flag-saint-lucia",
+      "label": "Saint Lucia",
+      "category": "country-flags",
+      "countryCode": "LC",
+      "subject": "national flag of Saint Lucia",
+      "origin": "clay-render",
+      "tags": [
+        "Saint Lucia flag",
+        "St Lucia",
+        "LC"
+      ],
+      "description": "Waving matte clay national flag of Saint Lucia."
+    },
+    {
+      "id": "flag-saint-vincent-and-the-grenadines",
+      "label": "Saint Vincent and the Grenadines",
+      "category": "country-flags",
+      "countryCode": "VC",
+      "subject": "national flag of Saint Vincent and the Grenadines",
+      "origin": "clay-render",
+      "tags": [
+        "Saint Vincent and the Grenadines flag",
+        "St Vincent and the Grenadines",
+        "VC"
+      ],
+      "description": "Waving matte clay national flag of Saint Vincent and the Grenadines."
+    },
+    {
+      "id": "flag-samoa",
+      "label": "Samoa",
+      "category": "country-flags",
+      "countryCode": "WS",
+      "subject": "national flag of Samoa",
+      "origin": "clay-render",
+      "tags": [
+        "Samoa flag",
+        "Samoan",
+        "Western Samoa",
+        "WS"
+      ],
+      "description": "Waving matte clay national flag of Samoa."
+    },
+    {
+      "id": "flag-san-marino",
+      "label": "San Marino",
+      "category": "country-flags",
+      "countryCode": "SM",
+      "subject": "national flag of San Marino",
+      "origin": "clay-render",
+      "tags": [
+        "San Marino flag",
+        "SM"
+      ],
+      "description": "Waving matte clay national flag of San Marino."
+    },
+    {
+      "id": "flag-sao-tome-and-principe",
+      "label": "São Tomé and Príncipe",
+      "category": "country-flags",
+      "countryCode": "ST",
+      "subject": "national flag of São Tomé and Príncipe",
+      "origin": "clay-render",
+      "tags": [
+        "São Tomé and Príncipe flag",
+        "Sao Tome and Principe",
+        "ST"
+      ],
+      "description": "Waving matte clay national flag of São Tomé and Príncipe."
+    },
+    {
+      "id": "flag-saudi-arabia",
+      "label": "Saudi Arabia",
+      "category": "country-flags",
+      "countryCode": "SA",
+      "subject": "national flag of Saudi Arabia",
+      "origin": "clay-render",
+      "tags": [
+        "Saudi Arabia flag",
+        "Saudi",
+        "shahada",
+        "Arabic inscription and sword",
+        "SA"
+      ],
+      "description": "Saudi Arabia’s green flag featuring the white shahada above a white sword."
+    },
+    {
+      "id": "flag-senegal",
+      "label": "Senegal",
+      "category": "country-flags",
+      "countryCode": "SN",
+      "subject": "national flag of Senegal",
+      "origin": "clay-render",
+      "tags": [
+        "Senegal flag",
+        "SN"
+      ],
+      "description": "Waving matte clay national flag of Senegal."
+    },
+    {
+      "id": "flag-serbia",
+      "label": "Serbia",
+      "category": "country-flags",
+      "countryCode": "RS",
+      "subject": "national flag of Serbia",
+      "origin": "clay-render",
+      "tags": [
+        "Serbia flag",
+        "RS"
+      ],
+      "description": "Waving matte clay national flag of Serbia."
+    },
+    {
+      "id": "flag-seychelles",
+      "label": "Seychelles",
+      "category": "country-flags",
+      "countryCode": "SC",
+      "subject": "national flag of Seychelles",
+      "origin": "clay-render",
+      "tags": [
+        "Seychelles flag",
+        "Seychellois",
+        "five radiating bands",
+        "SC"
+      ],
+      "description": "Waving matte clay national flag of Seychelles."
+    },
+    {
+      "id": "flag-sierra-leone",
+      "label": "Sierra Leone",
+      "category": "country-flags",
+      "countryCode": "SL",
+      "subject": "national flag of Sierra Leone",
+      "origin": "clay-render",
+      "tags": [
+        "Sierra Leone flag",
+        "SL"
+      ],
+      "description": "Waving matte clay national flag of Sierra Leone."
+    },
+    {
+      "id": "flag-singapore",
+      "label": "Singapore",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Red over white with a white crescent and five white five-pointed stars in a circle",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "SG"
+    },
+    {
+      "id": "flag-slovakia",
+      "label": "Slovakia",
+      "category": "country-flags",
+      "countryCode": "SK",
+      "subject": "national flag of Slovakia",
+      "origin": "clay-render",
+      "tags": [
+        "Slovakia flag",
+        "SK"
+      ],
+      "description": "Waving matte clay national flag of Slovakia."
+    },
+    {
+      "id": "flag-slovenia",
+      "label": "Slovenia",
+      "category": "country-flags",
+      "countryCode": "SI",
+      "subject": "national flag of Slovenia",
+      "origin": "clay-render",
+      "tags": [
+        "Slovenia flag",
+        "SI"
+      ],
+      "description": "Waving matte clay national flag of Slovenia."
+    },
+    {
+      "id": "flag-solomon-islands",
+      "label": "Solomon Islands",
+      "category": "country-flags",
+      "countryCode": "SB",
+      "subject": "national flag of Solomon Islands",
+      "origin": "clay-render",
+      "tags": [
+        "Solomon Islands flag",
+        "SB"
+      ],
+      "description": "Waving matte clay national flag of Solomon Islands."
+    },
+    {
+      "id": "flag-somalia",
+      "label": "Somalia",
+      "category": "country-flags",
+      "countryCode": "SO",
+      "subject": "national flag of Somalia",
+      "origin": "clay-render",
+      "tags": [
+        "Somalia flag",
+        "SO"
+      ],
+      "description": "Waving matte clay national flag of Somalia."
+    },
+    {
+      "id": "flag-south-africa",
+      "label": "South Africa",
+      "category": "country-flags",
+      "countryCode": "ZA",
+      "subject": "national flag of South Africa",
+      "origin": "clay-render",
+      "tags": [
+        "South Africa flag",
+        "South African",
+        "green Y",
+        "ZA"
+      ],
+      "description": "Waving matte clay national flag of South Africa."
+    },
+    {
+      "id": "flag-south-korea",
+      "label": "South Korea",
+      "category": "country-flags",
+      "countryCode": "KR",
+      "subject": "national flag of South Korea",
+      "origin": "clay-render",
+      "tags": [
+        "South Korea flag",
+        "Korean",
+        "Republic of Korea",
+        "Taegeukgi",
+        "four trigrams",
+        "KR"
+      ],
+      "description": "Waving matte clay national flag of South Korea."
+    },
+    {
+      "id": "flag-south-sudan",
+      "label": "South Sudan",
+      "category": "country-flags",
+      "countryCode": "SS",
+      "subject": "national flag of South Sudan",
+      "origin": "clay-render",
+      "tags": [
+        "South Sudan flag",
+        "South Sudanese",
+        "SS"
+      ],
+      "description": "Waving matte clay national flag of South Sudan."
+    },
+    {
+      "id": "flag-spain",
+      "label": "Spain",
+      "category": "country-flags",
+      "countryCode": "ES",
+      "subject": "national flag of Spain",
+      "origin": "clay-render",
+      "tags": [
+        "Spain flag",
+        "Spanish",
+        "Pillars of Hercules",
+        "ES"
+      ],
+      "description": "Waving matte clay national flag of Spain."
+    },
+    {
+      "id": "flag-sri-lanka",
+      "label": "Sri Lanka",
+      "category": "country-flags",
+      "countryCode": "LK",
+      "subject": "national flag of Sri Lanka",
+      "origin": "clay-render",
+      "tags": [
+        "Sri Lanka flag",
+        "Sri Lankan",
+        "sword lion",
+        "Bo leaves",
+        "LK"
+      ],
+      "description": "Waving matte clay national flag of Sri Lanka."
+    },
+    {
+      "id": "flag-sudan",
+      "label": "Sudan",
+      "category": "country-flags",
+      "countryCode": "SD",
+      "subject": "national flag of Sudan",
+      "origin": "clay-render",
+      "tags": [
+        "Sudan flag",
+        "SD"
+      ],
+      "description": "Waving matte clay national flag of Sudan."
+    },
+    {
+      "id": "flag-suriname",
+      "label": "Suriname",
+      "category": "country-flags",
+      "countryCode": "SR",
+      "subject": "national flag of Suriname",
+      "origin": "clay-render",
+      "tags": [
+        "Suriname flag",
+        "SR"
+      ],
+      "description": "Waving matte clay national flag of Suriname."
+    },
+    {
+      "id": "flag-sweden",
+      "label": "Sweden",
+      "category": "country-flags",
+      "countryCode": "SE",
+      "subject": "national flag of Sweden",
+      "origin": "clay-render",
+      "tags": [
+        "Sweden flag",
+        "Swedish",
+        "yellow Nordic cross",
+        "SE"
+      ],
+      "description": "Waving matte clay national flag of Sweden."
+    },
+    {
+      "id": "flag-switzerland",
+      "label": "Switzerland",
+      "category": "country-flags",
+      "countryCode": "CH",
+      "subject": "national flag of Switzerland",
+      "origin": "clay-render",
+      "tags": [
+        "Switzerland flag",
+        "Swiss",
+        "square flag",
+        "white cross",
+        "CH"
+      ],
+      "description": "Waving matte clay national flag of Switzerland."
+    },
+    {
+      "id": "flag-syria",
+      "label": "Syria",
+      "category": "country-flags",
+      "countryCode": "SY",
+      "subject": "national flag of Syria",
+      "origin": "clay-render",
+      "tags": [
+        "Syria flag",
+        "Syrian",
+        "Syrian Arab Republic",
+        "green white black three red stars",
+        "Independence Flag",
+        "SY"
+      ],
+      "description": "Syria’s green, white, and black tricolour with three red five-pointed stars."
+    },
+    {
+      "id": "flag-taiwan",
+      "label": "Taiwan",
+      "category": "country-flags",
+      "countryCode": "TW",
+      "subject": "national flag of Taiwan",
+      "origin": "clay-render",
+      "tags": [
+        "Taiwan flag",
+        "Taiwanese",
+        "Republic of China",
+        "white sun on blue sky",
+        "TW"
+      ],
+      "description": "Waving matte clay national flag of Taiwan."
+    },
+    {
+      "id": "flag-tajikistan",
+      "label": "Tajikistan",
+      "category": "country-flags",
+      "countryCode": "TJ",
+      "subject": "national flag of Tajikistan",
+      "origin": "clay-render",
+      "tags": [
+        "Tajikistan flag",
+        "TJ"
+      ],
+      "description": "Waving matte clay national flag of Tajikistan."
+    },
+    {
+      "id": "flag-tanzania",
+      "label": "Tanzania",
+      "category": "country-flags",
+      "countryCode": "TZ",
+      "subject": "national flag of Tanzania",
+      "origin": "clay-render",
+      "tags": [
+        "Tanzania flag",
+        "United Republic of Tanzania",
+        "Tanzanian",
+        "TZ"
+      ],
+      "description": "Waving matte clay national flag of Tanzania."
+    },
+    {
+      "id": "flag-thailand",
+      "label": "Thailand",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Red, white, blue, white, red horizontal bands in 1:1:2:1:1 proportions",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "TH"
+    },
+    {
+      "id": "flag-timor-leste",
+      "label": "Timor-Leste",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Red field, overlapping yellow and black hoist triangles, tilted white five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "East Timor",
+        "Southeast Asia"
+      ],
+      "countryCode": "TL"
+    },
+    {
+      "id": "flag-togo",
+      "label": "Togo",
+      "category": "country-flags",
+      "countryCode": "TG",
+      "subject": "national flag of Togo",
+      "origin": "clay-render",
+      "tags": [
+        "Togo flag",
+        "TG"
+      ],
+      "description": "Waving matte clay national flag of Togo."
+    },
+    {
+      "id": "flag-tonga",
+      "label": "Tonga",
+      "category": "country-flags",
+      "countryCode": "TO",
+      "subject": "national flag of Tonga",
+      "origin": "clay-render",
+      "tags": [
+        "Tonga flag",
+        "TO"
+      ],
+      "description": "Waving matte clay national flag of Tonga."
+    },
+    {
+      "id": "flag-trinidad-and-tobago",
+      "label": "Trinidad and Tobago",
+      "category": "country-flags",
+      "countryCode": "TT",
+      "subject": "national flag of Trinidad and Tobago",
+      "origin": "clay-render",
+      "tags": [
+        "Trinidad and Tobago flag",
+        "TT"
+      ],
+      "description": "Waving matte clay national flag of Trinidad and Tobago."
+    },
+    {
+      "id": "flag-tunisia",
+      "label": "Tunisia",
+      "category": "country-flags",
+      "countryCode": "TN",
+      "subject": "national flag of Tunisia",
+      "origin": "clay-render",
+      "tags": [
+        "Tunisia flag",
+        "TN"
+      ],
+      "description": "Waving matte clay national flag of Tunisia."
+    },
+    {
+      "id": "flag-turkiye",
+      "label": "Türkiye",
+      "category": "country-flags",
+      "countryCode": "TR",
+      "subject": "national flag of Türkiye",
+      "origin": "clay-render",
+      "tags": [
+        "Türkiye flag",
+        "Turkey",
+        "Turkish",
+        "white crescent and star",
+        "TR"
+      ],
+      "description": "Waving matte clay national flag of Türkiye."
+    },
+    {
+      "id": "flag-turkmenistan",
+      "label": "Turkmenistan",
+      "category": "country-flags",
+      "countryCode": "TM",
+      "subject": "national flag of Turkmenistan",
+      "origin": "clay-render",
+      "tags": [
+        "Turkmenistan flag",
+        "TM"
+      ],
+      "description": "Waving matte clay national flag of Turkmenistan."
+    },
+    {
+      "id": "flag-tuvalu",
+      "label": "Tuvalu",
+      "category": "country-flags",
+      "countryCode": "TV",
+      "subject": "national flag of Tuvalu",
+      "origin": "clay-render",
+      "tags": [
+        "Tuvalu flag",
+        "TV"
+      ],
+      "description": "Waving matte clay national flag of Tuvalu."
+    },
+    {
+      "id": "flag-uganda",
+      "label": "Uganda",
+      "category": "country-flags",
+      "countryCode": "UG",
+      "subject": "national flag of Uganda",
+      "origin": "clay-render",
+      "tags": [
+        "Uganda flag",
+        "UG"
+      ],
+      "description": "Waving matte clay national flag of Uganda."
+    },
+    {
+      "id": "flag-ukraine",
+      "label": "Ukraine",
+      "category": "country-flags",
+      "countryCode": "UA",
+      "subject": "national flag of Ukraine",
+      "origin": "clay-render",
+      "tags": [
+        "Ukraine flag",
+        "Ukrainian",
+        "blue over yellow",
+        "UA"
+      ],
+      "description": "Waving matte clay national flag of Ukraine."
+    },
+    {
+      "id": "flag-united-arab-emirates",
+      "label": "United Arab Emirates",
+      "category": "country-flags",
+      "countryCode": "AE",
+      "subject": "national flag of United Arab Emirates",
+      "origin": "clay-render",
+      "tags": [
+        "United Arab Emirates flag",
+        "AE"
+      ],
+      "description": "Waving matte clay national flag of United Arab Emirates."
+    },
+    {
+      "id": "flag-united-kingdom",
+      "label": "United Kingdom",
+      "category": "country-flags",
+      "countryCode": "GB",
+      "subject": "national flag of United Kingdom",
+      "origin": "clay-render",
+      "tags": [
+        "United Kingdom flag",
+        "UK",
+        "Britain",
+        "British",
+        "Great Britain",
+        "Union Jack",
+        "Union Flag",
+        "GB"
+      ],
+      "description": "Waving matte clay national flag of United Kingdom."
+    },
+    {
+      "id": "flag-united-states",
+      "label": "United States",
+      "category": "country-flags",
+      "countryCode": "US",
+      "subject": "national flag of United States",
+      "origin": "clay-render",
+      "tags": [
+        "United States flag",
+        "USA",
+        "United States of America",
+        "American",
+        "Stars and Stripes",
+        "Old Glory",
+        "50 stars",
+        "13 stripes",
+        "US"
+      ],
+      "description": "The United States flag with 13 alternating red and white stripes and 50 white stars in a blue canton."
+    },
+    {
+      "id": "flag-uruguay",
+      "label": "Uruguay",
+      "category": "country-flags",
+      "countryCode": "UY",
+      "subject": "national flag of Uruguay",
+      "origin": "clay-render",
+      "tags": [
+        "Uruguay flag",
+        "UY"
+      ],
+      "description": "Waving matte clay national flag of Uruguay."
+    },
+    {
+      "id": "flag-uzbekistan",
+      "label": "Uzbekistan",
+      "category": "country-flags",
+      "countryCode": "UZ",
+      "subject": "national flag of Uzbekistan",
+      "origin": "clay-render",
+      "tags": [
+        "Uzbekistan flag",
+        "UZ"
+      ],
+      "description": "Waving matte clay national flag of Uzbekistan."
+    },
+    {
+      "id": "flag-vanuatu",
+      "label": "Vanuatu",
+      "category": "country-flags",
+      "countryCode": "VU",
+      "subject": "national flag of Vanuatu",
+      "origin": "clay-render",
+      "tags": [
+        "Vanuatu flag",
+        "VU"
+      ],
+      "description": "Waving matte clay national flag of Vanuatu."
+    },
+    {
+      "id": "flag-vatican-city",
+      "label": "Vatican City",
+      "category": "country-flags",
+      "countryCode": "VA",
+      "subject": "national flag of Vatican City",
+      "origin": "clay-render",
+      "tags": [
+        "Vatican City flag",
+        "Holy See",
+        "Vatican",
+        "crossed keys",
+        "papal tiara",
+        "square flag",
+        "VA"
+      ],
+      "description": "Vatican City’s square yellow and white flag with the crossed keys and papal tiara."
+    },
+    {
+      "id": "flag-venezuela",
+      "label": "Venezuela",
+      "category": "country-flags",
+      "countryCode": "VE",
+      "subject": "national flag of Venezuela",
+      "origin": "clay-render",
+      "tags": [
+        "Venezuela flag",
+        "Venezuelan",
+        "VE"
+      ],
+      "description": "Waving matte clay national flag of Venezuela."
+    },
+    {
+      "id": "flag-vietnam",
+      "label": "Vietnam",
+      "category": "country-flags",
+      "subject": "Waving matte clay national flag: Red field with one centered yellow five-pointed star",
+      "origin": "original",
+      "tags": [
+        "national flag",
+        "country",
+        "waving flag"
+      ],
+      "countryCode": "VN"
+    },
+    {
+      "id": "flag-western-sahara",
+      "label": "Western Sahara",
+      "category": "country-flags",
+      "countryCode": "EH",
+      "subject": "national flag of Western Sahara",
+      "origin": "clay-render",
+      "tags": [
+        "Western Sahara flag",
+        "Sahrawi Arab Democratic Republic",
+        "SADR",
+        "Sahrawi flag",
+        "EH"
+      ],
+      "description": "The flag of the Sahrawi Arab Democratic Republic, with black, white, and green bands, a red triangle, and a red crescent and star."
+    },
+    {
+      "id": "flag-yemen",
+      "label": "Yemen",
+      "category": "country-flags",
+      "countryCode": "YE",
+      "subject": "national flag of Yemen",
+      "origin": "clay-render",
+      "tags": [
+        "Yemen flag",
+        "YE"
+      ],
+      "description": "Waving matte clay national flag of Yemen."
+    },
+    {
+      "id": "flag-zambia",
+      "label": "Zambia",
+      "category": "country-flags",
+      "countryCode": "ZM",
+      "subject": "national flag of Zambia",
+      "origin": "clay-render",
+      "tags": [
+        "Zambia flag",
+        "ZM"
+      ],
+      "description": "Waving matte clay national flag of Zambia."
+    },
+    {
+      "id": "flag-zimbabwe",
+      "label": "Zimbabwe",
+      "category": "country-flags",
+      "countryCode": "ZW",
+      "subject": "national flag of Zimbabwe",
+      "origin": "clay-render",
+      "tags": [
+        "Zimbabwe flag",
+        "ZW"
+      ],
+      "description": "Waving matte clay national flag of Zimbabwe."
     },
     {
       "id": "search",

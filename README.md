@@ -1,21 +1,22 @@
 <div align="center">
-  <h1>Kilnfield</h1>
-  <p>Soft 3D icons for apps and websites.</p>
+  <h1>Clayfold</h1>
+  <p>Clay-style 3D icons for apps and websites.</p>
   <p>
-    <a href="https://zacbytes.github.io/kilnfield/"><img src="https://img.shields.io/badge/Browse-the%20catalog-324c39?style=flat-square" alt="Browse the catalog"></a>
-    <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-500-c79545?style=flat-square" alt="500 icons"></a>
+    <a href="https://zacbytes.github.io/clayfold/"><img src="https://img.shields.io/badge/Browse-the%20catalog-324c39?style=flat-square" alt="Browse the catalog"></a>
+    <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-688-c79545?style=flat-square" alt="688 icons"></a>
     <a href="./ARTWORK-LICENSE.md"><img src="https://img.shields.io/badge/Artwork-CC%20BY%204.0-547454?style=flat-square" alt="Artwork licensed CC BY 4.0"></a>
-    <a href="https://github.com/ZacBytes/kilnfield/stargazers"><img src="https://img.shields.io/github/stars/ZacBytes/kilnfield?style=flat-square&amp;logo=github&amp;color=324c39" alt="GitHub stars"></a>
+    <a href="https://github.com/ZacBytes/clayfold/stargazers"><img src="https://img.shields.io/github/stars/ZacBytes/clayfold?style=flat-square&amp;logo=github&amp;color=324c39" alt="GitHub stars"></a>
+    <a href="#coverage"><img src="https://img.shields.io/badge/Flags-200-83593e?style=flat-square" alt="200 country flags"></a>
   </p>
   <p>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=maritime"><img src="./assets/maritime.webp" width="88" height="88" alt="Cargo ship"></a>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=bookmark"><img src="./assets/bookmark.webp" width="88" height="88" alt="Bookmark"></a>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=coffee-cup"><img src="./assets/coffee-cup.webp" width="88" height="88" alt="Coffee cup"></a>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=captions"><img src="./assets/captions.webp" width="88" height="88" alt="Closed captions"></a>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=laptop"><img src="./assets/laptop.webp" width="88" height="88" alt="Laptop"></a>
-    <a href="https://zacbytes.github.io/kilnfield/#icon=star"><img src="./assets/star.webp" width="88" height="88" alt="Star"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=maritime"><img src="./assets/maritime.webp" width="88" height="88" alt="Cargo ship"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=bookmark"><img src="./assets/bookmark.webp" width="88" height="88" alt="Bookmark"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=coffee-cup"><img src="./assets/coffee-cup.webp" width="88" height="88" alt="Coffee cup"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=captions"><img src="./assets/captions.webp" width="88" height="88" alt="Closed captions"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=laptop"><img src="./assets/laptop.webp" width="88" height="88" alt="Laptop"></a>
+    <a href="https://zacbytes.github.io/clayfold/#icon=star"><img src="./assets/star.webp" width="88" height="88" alt="Star"></a>
   </p>
-  <p><a href="https://zacbytes.github.io/kilnfield/"><strong>Explore the icons</strong></a> &nbsp;&nbsp;&nbsp; <a href="./assets">Browse the files</a></p>
+  <p><a href="https://zacbytes.github.io/clayfold/"><strong>Explore the icons</strong></a> &nbsp;&nbsp;&nbsp; <a href="./assets">Browse the files</a></p>
 </div>
 
 ## Use an icon
@@ -50,12 +51,13 @@ Every icon has a stable ID in [the catalog](./catalog.json). Files are named `as
 - **Food and drink** — produce, meals, drinks, and kitchen equipment.
 - **Travel and recreation** — vehicles, places, sports equipment, games, and instruments.
 - **Nature, health, and learning** — wildlife, weather, medical equipment, and classroom tools.
-- **Topic illustrations** — infrastructure, technology, society, and country flags.
+- **Topic illustrations** — infrastructure, technology, and society.
+- **Country flags** — 200 clay-style designs covering all 193 UN member states, both observer states, and the Cook Islands, Kosovo, Niue, Taiwan, and Western Sahara.
 
 ## License
 
-Use and adapt the artwork in personal and commercial projects under **CC BY 4.0**. Credit Kilnfield, link to the license, and indicate changes.
+Use and adapt the artwork in personal and commercial projects under **CC BY 4.0**. Credit Clayfold, link to the license, and indicate changes.
 
-> Icon by [Kilnfield](https://zacbytes.github.io/kilnfield/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+> Icon by [Clayfold](https://zacbytes.github.io/clayfold/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 [Artwork license and provenance](./ARTWORK-LICENSE.md).
