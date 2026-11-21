@@ -6189,6 +6189,151 @@
       ]
     },
     {
+      "id": "coconut",
+      "label": "Coconut",
+      "category": "food-drink",
+      "description": "A coconut half with a fibrous brown shell and thick white flesh.",
+      "origin": "extension",
+      "tags": [
+        "tropical fruit",
+        "coconut flesh",
+        "produce"
+      ]
+    },
+    {
+      "id": "raspberries",
+      "label": "Raspberries",
+      "category": "food-drink",
+      "description": "Two soft red raspberries with hollow centres and rounded drupelets.",
+      "origin": "extension",
+      "tags": [
+        "raspberry",
+        "red berries",
+        "summer fruit"
+      ]
+    },
+    {
+      "id": "blackberries",
+      "label": "Blackberries",
+      "category": "food-drink",
+      "description": "Two deep-purple blackberries with a small green leaf.",
+      "origin": "extension",
+      "tags": [
+        "blackberry",
+        "bramble",
+        "dark berries"
+      ]
+    },
+    {
+      "id": "papaya",
+      "label": "Papaya",
+      "category": "food-drink",
+      "description": "An orange-fleshed papaya half with a cluster of dark seeds.",
+      "origin": "extension",
+      "tags": [
+        "pawpaw",
+        "tropical fruit",
+        "seeds"
+      ]
+    },
+    {
+      "id": "grapefruit",
+      "label": "Grapefruit",
+      "category": "food-drink",
+      "description": "A pink grapefruit half showing its citrus segments and yellow rind.",
+      "origin": "extension",
+      "tags": [
+        "pink grapefruit",
+        "citrus",
+        "breakfast fruit"
+      ]
+    },
+    {
+      "id": "fig",
+      "label": "Fig",
+      "category": "food-drink",
+      "description": "A purple fig half with a pink interior dotted with seeds.",
+      "origin": "extension",
+      "tags": [
+        "purple fig",
+        "fresh fruit",
+        "produce"
+      ]
+    },
+    {
+      "id": "dragon-fruit",
+      "label": "Dragon fruit",
+      "category": "food-drink",
+      "description": "A pink dragon fruit half with green tips and white flesh speckled with seeds.",
+      "origin": "extension",
+      "tags": [
+        "pitaya",
+        "pitahaya",
+        "tropical fruit"
+      ]
+    },
+    {
+      "id": "lychee",
+      "label": "Lychee",
+      "category": "food-drink",
+      "description": "Pink lychees with bumpy skins and one peeled white fruit.",
+      "origin": "extension",
+      "tags": [
+        "litchi",
+        "lichee",
+        "tropical fruit"
+      ]
+    },
+    {
+      "id": "durian",
+      "label": "Durian",
+      "category": "food-drink",
+      "description": "An open spiky green durian with three creamy yellow lobes.",
+      "origin": "extension",
+      "tags": [
+        "spiky fruit",
+        "tropical fruit",
+        "king of fruits"
+      ]
+    },
+    {
+      "id": "mangosteen",
+      "label": "Mangosteen",
+      "category": "food-drink",
+      "description": "An open mangosteen with a thick purple rind and white segments.",
+      "origin": "extension",
+      "tags": [
+        "purple mangosteen",
+        "tropical fruit",
+        "queen of fruits"
+      ]
+    },
+    {
+      "id": "passion-fruit",
+      "label": "Passion fruit",
+      "category": "food-drink",
+      "description": "A purple passion fruit half with yellow pulp and dark seeds.",
+      "origin": "extension",
+      "tags": [
+        "passionfruit",
+        "maracuya",
+        "granadilla",
+        "tropical fruit"
+      ]
+    },
+    {
+      "id": "starfruit",
+      "label": "Starfruit",
+      "category": "food-drink",
+      "description": "A golden five-point slice with a whole ridged starfruit behind it.",
+      "origin": "extension",
+      "tags": [
+        "star fruit",
+        "carambola",
+        "tropical fruit"
+      ]
+    },
+    {
       "id": "carrot",
       "label": "Carrot",
       "category": "food-drink",
@@ -7482,6 +7627,56 @@
       "tags": [
         "Salad bowl",
         "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "label": "Pancakes",
+      "category": "food-drink",
+      "description": "Three golden pancakes with a pat of butter and maple syrup.",
+      "origin": "extension",
+      "tags": [
+        "hotcakes",
+        "flapjacks",
+        "breakfast",
+        "brunch"
+      ]
+    },
+    {
+      "id": "dumplings",
+      "label": "Dumplings",
+      "category": "food-drink",
+      "description": "Two pale crescent dumplings with neatly pinched pleats.",
+      "origin": "extension",
+      "tags": [
+        "gyoza",
+        "jiaozi",
+        "potstickers",
+        "filled dough"
+      ]
+    },
+    {
+      "id": "chicken-drumstick",
+      "label": "Chicken drumstick",
+      "category": "food-drink",
+      "description": "A golden roasted chicken drumstick with a short white bone.",
+      "origin": "extension",
+      "tags": [
+        "roast chicken",
+        "chicken leg",
+        "poultry"
+      ]
+    },
+    {
+      "id": "pretzel",
+      "label": "Pretzel",
+      "category": "food-drink",
+      "description": "A soft golden-brown pretzel with a traditional knot and coarse salt.",
+      "origin": "extension",
+      "tags": [
+        "soft pretzel",
+        "bakery",
+        "baked snack"
       ]
     },
     {

@@ -3,7 +3,7 @@
   <p>Clay-style 3D icons for apps and websites.</p>
   <p>
     <a href="https://zacbytes.github.io/clayfold/"><img src="https://img.shields.io/badge/Browse-the%20catalog-324c39?style=flat-square" alt="Browse the catalog"></a>
-    <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-688-c79545?style=flat-square" alt="688 icons"></a>
+    <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-704-c79545?style=flat-square" alt="704 icons"></a>
     <a href="./ARTWORK-LICENSE.md"><img src="https://img.shields.io/badge/Artwork-CC%20BY%204.0-547454?style=flat-square" alt="Artwork licensed CC BY 4.0"></a>
     <a href="https://github.com/ZacBytes/clayfold/stargazers"><img src="https://img.shields.io/github/stars/ZacBytes/clayfold?style=flat-square&amp;logo=github&amp;color=324c39" alt="GitHub stars"></a>
     <a href="#coverage"><img src="https://img.shields.io/badge/Flags-200-83593e?style=flat-square" alt="200 country flags"></a>
@@ -21,9 +21,9 @@
 
 ## Download the full pack
 
-Each archive includes all 688 icons, including 200 country flags, with the catalog and artwork license.
+Each archive includes all 704 icons, including 200 country flags, with the catalog and artwork license.
 
-[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.0.0/clayfold-svg.zip)
+[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-svg.zip)
 
 ## Use an icon
 
