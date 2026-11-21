@@ -45,6 +45,8 @@ export function prepareSearch(icons) {
   return icons.map(icon => ({
     ...icon,
     labelWords: new Set(tokens(icon.label + " " + icon.id)),
+    labelPhrase: tokens(icon.label).join(" "),
+    idPhrase: tokens(icon.id).join(" "),
     tagWords: new Set(tokens([icon.subject, icon.description, ...(icon.tags ?? [])].join(" "))),
   }));
 }
@@ -58,7 +60,7 @@ export function searchIcons(icons, query, semanticScores) {
   const bestSemantic = semanticScores ? Math.max(...icons.map(icon => semanticScores[icon.id] ?? 0)) : 0;
 
   for (const icon of icons) {
-    const exact = tokens(icon.label).join(" ") === phrase || tokens(icon.id).join(" ") === phrase;
+    const exact = icon.labelPhrase === phrase || icon.idPhrase === phrase;
     let lexical = 0;
     for (const word of terms) {
       if (icon.labelWords.has(word)) lexical += 1;
@@ -76,5 +78,5 @@ export function searchIcons(icons, query, semanticScores) {
     }
   }
   matches.sort((a, b) => b.relevance - a.relevance || a.icon.label.localeCompare(b.icon.label));
-  return matches.slice(0, 32).map(match => match.icon);
+  return matches.map(match => match.icon);
 }

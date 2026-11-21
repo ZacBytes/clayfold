@@ -8,7 +8,12 @@
     "society-risk": "Society & risk",
     "security-operations": "Security & operations",
     "environment-society": "Environment & society",
-    "country-flags": "Country flags"
+    "country-flags": "Country flags",
+    "devices": "Devices & computing",
+    "food-drink": "Food & drink",
+    "travel-places": "Travel & places",
+    "sports-leisure": "Sports & leisure",
+    "health-learning": "Health & learning"
   },
   "interfaceGroups": {
     "navigation": "Navigation & layout",
@@ -166,7 +171,10 @@
         "wind farm",
         "solar panels",
         "green power",
-        "sustainable electricity"
+        "sustainable electricity",
+        "generate electricity from sunlight and wind",
+        "solar panels harvest sunlight",
+        "wind turbines use moving air"
       ]
     },
     {
@@ -2910,6 +2918,3506 @@
         "lunar",
         "bedtime",
         "switch to night theme"
+      ]
+    },
+    {
+      "id": "desktop-monitor",
+      "label": "Computer monitor",
+      "category": "devices",
+      "description": "A navy desktop screen with teal glass and a low stand.",
+      "origin": "extension",
+      "tags": [
+        "desktop computer display",
+        "workstation",
+        "display screen",
+        "monitor"
+      ]
+    },
+    {
+      "id": "laptop",
+      "label": "Laptop",
+      "category": "devices",
+      "description": "An open sandstone laptop with a teal screen.",
+      "origin": "extension",
+      "tags": [
+        "portable computer",
+        "notebook computer",
+        "working from a laptop"
+      ]
+    },
+    {
+      "id": "smartphone",
+      "label": "Smartphone",
+      "category": "devices",
+      "description": "A dark slate touchscreen phone angled slightly in perspective.",
+      "origin": "extension",
+      "tags": [
+        "handheld computer",
+        "mobile phone",
+        "touchscreen",
+        "cell phone",
+        "app"
+      ]
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "category": "devices",
+      "description": "A wide tablet with screen and camera dot.",
+      "origin": "extension",
+      "tags": [
+        "Tablet",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "smartwatch",
+      "label": "Smartwatch",
+      "category": "devices",
+      "description": "A teal watch with a dark dial and curved strap.",
+      "origin": "extension",
+      "tags": [
+        "Smartwatch",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "e-reader",
+      "label": "E-reader",
+      "category": "devices",
+      "description": "A handheld reader with ruled lines on cream display.",
+      "origin": "extension",
+      "tags": [
+        "ebook device",
+        "electronic book",
+        "digital reader"
+      ]
+    },
+    {
+      "id": "desktop-tower",
+      "label": "Desktop tower",
+      "category": "devices",
+      "description": "A rounded navy computer tower with a power button.",
+      "origin": "extension",
+      "tags": [
+        "desktop case",
+        "personal computer",
+        "PC chassis"
+      ]
+    },
+    {
+      "id": "computer-mouse",
+      "label": "Computer mouse",
+      "category": "devices",
+      "description": "A rounded slate mouse with teal scroll wheel.",
+      "origin": "extension",
+      "tags": [
+        "mouse pointer",
+        "click",
+        "input device",
+        "scroll wheel"
+      ]
+    },
+    {
+      "id": "desk-printer",
+      "label": "Printer",
+      "category": "devices",
+      "description": "A small printer with one sheet coming out.",
+      "origin": "extension",
+      "tags": [
+        "printing",
+        "turn a document into paper",
+        "print a file"
+      ]
+    },
+    {
+      "id": "flatbed-scanner",
+      "label": "Flatbed scanner",
+      "category": "devices",
+      "description": "A scanner lid open above a teal glass bed.",
+      "origin": "extension",
+      "tags": [
+        "scan paper documents",
+        "copy a photo digitally",
+        "scanner"
+      ]
+    },
+    {
+      "id": "hard-drive",
+      "label": "Hard drive",
+      "category": "devices",
+      "description": "A small hard drive with exposed silver platter.",
+      "origin": "extension",
+      "tags": [
+        "HDD",
+        "disk storage",
+        "magnetic drive",
+        "computer storage"
+      ]
+    },
+    {
+      "id": "solid-state-drive",
+      "label": "Solid-state drive",
+      "category": "devices",
+      "description": "A compact dark drive with golden connector.",
+      "origin": "extension",
+      "tags": [
+        "SSD",
+        "flash storage",
+        "non-mechanical disk"
+      ]
+    },
+    {
+      "id": "usb-drive",
+      "label": "USB drive",
+      "category": "devices",
+      "description": "A teal thumb drive with metal tip.",
+      "origin": "extension",
+      "tags": [
+        "thumb drive",
+        "flash drive",
+        "portable storage",
+        "memory stick"
+      ]
+    },
+    {
+      "id": "memory-card",
+      "label": "Memory card",
+      "category": "devices",
+      "description": "A slate SD card with gold leads.",
+      "origin": "extension",
+      "tags": [
+        "SD card",
+        "flash storage",
+        "camera card"
+      ]
+    },
+    {
+      "id": "memory-module",
+      "label": "Memory module",
+      "category": "devices",
+      "description": "A narrow teal RAM circuit board.",
+      "origin": "extension",
+      "tags": [
+        "RAM",
+        "DIMM",
+        "computer memory",
+        "desktop memory stick"
+      ]
+    },
+    {
+      "id": "processor",
+      "label": "Processor",
+      "category": "devices",
+      "description": "A small square chip with rounded edges and gold legs on all four sides.",
+      "origin": "extension",
+      "tags": [
+        "CPU",
+        "integrated circuit",
+        "central processor",
+        "computing chip"
+      ]
+    },
+    {
+      "id": "graphics-card",
+      "label": "Graphics card",
+      "category": "devices",
+      "description": "A short board with two inset fan circles.",
+      "origin": "extension",
+      "tags": [
+        "GPU",
+        "graphics processing",
+        "gaming hardware",
+        "video card"
+      ]
+    },
+    {
+      "id": "motherboard",
+      "label": "Motherboard",
+      "category": "devices",
+      "description": "A square circuit board with chip socket and rails.",
+      "origin": "extension",
+      "tags": [
+        "Motherboard",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "server-rack",
+      "label": "Server rack",
+      "category": "devices",
+      "description": "A rack with stacked units and olive lamps.",
+      "origin": "extension",
+      "tags": [
+        "data centre",
+        "datacenter",
+        "rack server",
+        "cloud hardware"
+      ]
+    },
+    {
+      "id": "wifi-router",
+      "label": "Wi-Fi router",
+      "category": "devices",
+      "description": "A tabletop router with two raised antennas.",
+      "origin": "extension",
+      "tags": [
+        "wireless network",
+        "share internet connection",
+        "home networking"
+      ]
+    },
+    {
+      "id": "network-switch",
+      "label": "Network switch",
+      "category": "devices",
+      "description": "Five ethernet jacks aligned on a small navy box.",
+      "origin": "extension",
+      "tags": [
+        "wired networking",
+        "Ethernet switch",
+        "switch ports"
+      ]
+    },
+    {
+      "id": "ethernet-plug",
+      "label": "Ethernet plug",
+      "category": "devices",
+      "description": "A small RJ45 plug and short curved tail.",
+      "origin": "extension",
+      "tags": [
+        "Ethernet plug",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "usb-c-cable",
+      "label": "USB-C cable",
+      "category": "devices",
+      "description": "An open loop of thick teal cable with a small connector at either end.",
+      "origin": "extension",
+      "tags": [
+        "charging cable",
+        "USB C connector",
+        "power cable",
+        "data cable"
+      ]
+    },
+    {
+      "id": "wall-adapter",
+      "label": "Wall adapter",
+      "category": "devices",
+      "description": "A cream rectangular power brick with two prongs.",
+      "origin": "extension",
+      "tags": [
+        "power adapter",
+        "charger plug",
+        "power brick",
+        "wall charger"
+      ]
+    },
+    {
+      "id": "power-bank",
+      "label": "Power bank",
+      "category": "devices",
+      "description": "A teal battery pack with cream charge indicator and one port.",
+      "origin": "extension",
+      "tags": [
+        "Power bank",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "charging-dock",
+      "label": "Charging dock",
+      "category": "devices",
+      "description": "A small slate charging stand with a phone seated on it.",
+      "origin": "extension",
+      "tags": [
+        "Charging dock",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "battery-full",
+      "label": "Full battery",
+      "category": "devices",
+      "description": "A horizontal battery outline filled with olive.",
+      "origin": "extension",
+      "tags": [
+        "fully charged",
+        "battery 100 percent",
+        "battery charge indicator"
+      ]
+    },
+    {
+      "id": "battery-low",
+      "label": "Low battery",
+      "category": "devices",
+      "description": "A horizontal battery outline with a short terracotta fill on the left.",
+      "origin": "extension",
+      "tags": [
+        "low charge",
+        "running out of power",
+        "almost empty battery"
+      ]
+    },
+    {
+      "id": "battery-charging",
+      "label": "Battery charging",
+      "category": "devices",
+      "description": "A horizontal battery with a mustard lightning bolt.",
+      "origin": "extension",
+      "tags": [
+        "plugged in",
+        "charging state",
+        "battery with lightning bolt"
+      ]
+    },
+    {
+      "id": "power-outlet",
+      "label": "Power outlet",
+      "category": "devices",
+      "description": "A cream wall socket with dark slots.",
+      "origin": "extension",
+      "tags": [
+        "socket",
+        "electricity",
+        "wall socket",
+        "wall power"
+      ]
+    },
+    {
+      "id": "video-projector",
+      "label": "Projector",
+      "category": "devices",
+      "description": "A cream desktop projector with slate lens.",
+      "origin": "extension",
+      "tags": [
+        "Projector",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "webcam",
+      "label": "Webcam",
+      "category": "devices",
+      "description": "A small tilted webcam on a short mount.",
+      "origin": "extension",
+      "tags": [
+        "computer camera",
+        "camera for a video call",
+        "webcam"
+      ]
+    },
+    {
+      "id": "studio-speaker",
+      "label": "Studio speaker",
+      "category": "devices",
+      "description": "A navy monitor speaker with two distinct cones.",
+      "origin": "extension",
+      "tags": [
+        "Studio speaker",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "vr-headset",
+      "label": "VR headset",
+      "category": "devices",
+      "description": "Round cream goggles with a dark faceplate and visible strap.",
+      "origin": "extension",
+      "tags": [
+        "virtual reality",
+        "VR goggles",
+        "immersive headset"
+      ]
+    },
+    {
+      "id": "smart-display",
+      "label": "Smart display",
+      "category": "devices",
+      "description": "A compact angled clock screen on a teal wedge.",
+      "origin": "extension",
+      "tags": [
+        "Smart display",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "remote-control",
+      "label": "Remote control",
+      "category": "devices",
+      "description": "An angled slate remote with rounded keys.",
+      "origin": "extension",
+      "tags": [
+        "Remote control",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "walkie-talkie",
+      "label": "Walkie-talkie",
+      "category": "devices",
+      "description": "A radio handset with antenna and speaker grille.",
+      "origin": "extension",
+      "tags": [
+        "Walkie-talkie",
+        "computing and electronics"
+      ]
+    },
+    {
+      "id": "apple-fruit",
+      "label": "Apple",
+      "category": "food-drink",
+      "description": "A warm red apple with one green leaf.",
+      "origin": "extension",
+      "tags": [
+        "red fruit from an orchard",
+        "apple fruit",
+        "apple snack"
+      ]
+    },
+    {
+      "id": "pear",
+      "label": "Pear",
+      "category": "food-drink",
+      "description": "A soft green pear with short stem.",
+      "origin": "extension",
+      "tags": [
+        "Pear",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "banana",
+      "label": "Banana",
+      "category": "food-drink",
+      "description": "A curved golden banana with cream edges.",
+      "origin": "extension",
+      "tags": [
+        "Banana",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "orange-fruit",
+      "label": "Orange",
+      "category": "food-drink",
+      "description": "A round orange fruit with leaf.",
+      "origin": "extension",
+      "tags": [
+        "citrus fruit",
+        "fresh orange",
+        "orange peel"
+      ]
+    },
+    {
+      "id": "lemon",
+      "label": "Lemon",
+      "category": "food-drink",
+      "description": "An oblong textured yellow lemon.",
+      "origin": "extension",
+      "tags": [
+        "Lemon",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "lime",
+      "label": "Lime",
+      "category": "food-drink",
+      "description": "A green lime cut in half showing radial segments.",
+      "origin": "extension",
+      "tags": [
+        "Lime",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "label": "Watermelon",
+      "category": "food-drink",
+      "description": "A wedge with coral flesh and green rind.",
+      "origin": "extension",
+      "tags": [
+        "Watermelon",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "label": "Strawberry",
+      "category": "food-drink",
+      "description": "A red strawberry with cream pips and leafy top.",
+      "origin": "extension",
+      "tags": [
+        "Strawberry",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "cherries",
+      "label": "Cherries",
+      "category": "food-drink",
+      "description": "Two terracotta cherries joined by stems.",
+      "origin": "extension",
+      "tags": [
+        "Cherries",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "grapes",
+      "label": "Grapes",
+      "category": "food-drink",
+      "description": "A cluster of muted purple grapes.",
+      "origin": "extension",
+      "tags": [
+        "Grapes",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "peach",
+      "label": "Peach",
+      "category": "food-drink",
+      "description": "A warm peach with subtle central crease and leaf.",
+      "origin": "extension",
+      "tags": [
+        "Peach",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "pineapple",
+      "label": "Pineapple",
+      "category": "food-drink",
+      "description": "A small golden pineapple with green crown.",
+      "origin": "extension",
+      "tags": [
+        "Pineapple",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "avocado",
+      "label": "Avocado",
+      "category": "food-drink",
+      "description": "An avocado half with brown stone.",
+      "origin": "extension",
+      "tags": [
+        "Avocado",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "blueberry",
+      "label": "Blueberries",
+      "category": "food-drink",
+      "description": "Three blue berries with tiny crowns.",
+      "origin": "extension",
+      "tags": [
+        "Blueberries",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "label": "Pomegranate",
+      "category": "food-drink",
+      "description": "A pomegranate half with visibly rounded seeds.",
+      "origin": "extension",
+      "tags": [
+        "Pomegranate",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "mango",
+      "label": "Mango",
+      "category": "food-drink",
+      "description": "An oval mango half with scored golden cubes.",
+      "origin": "extension",
+      "tags": [
+        "Mango",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "kiwi",
+      "label": "Kiwi",
+      "category": "food-drink",
+      "description": "A kiwi half with neat ring of tiny seeds.",
+      "origin": "extension",
+      "tags": [
+        "Kiwi",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "carrot",
+      "label": "Carrot",
+      "category": "food-drink",
+      "description": "A tapered ochre carrot with restrained green top.",
+      "origin": "extension",
+      "tags": [
+        "Carrot",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "tomato",
+      "label": "Tomato",
+      "category": "food-drink",
+      "description": "A plump terracotta tomato with small green calyx.",
+      "origin": "extension",
+      "tags": [
+        "Tomato",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "broccoli",
+      "label": "Broccoli",
+      "category": "food-drink",
+      "description": "A green broccoli floret on short sturdy stalk.",
+      "origin": "extension",
+      "tags": [
+        "Broccoli",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "corn",
+      "label": "Corn",
+      "category": "food-drink",
+      "description": "Yellow corn cob in pale green husk.",
+      "origin": "extension",
+      "tags": [
+        "Corn",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "bell-pepper",
+      "label": "Bell pepper",
+      "category": "food-drink",
+      "description": "A red bell pepper with green stem.",
+      "origin": "extension",
+      "tags": [
+        "Bell pepper",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "chili-pepper",
+      "label": "Chilli pepper",
+      "category": "food-drink",
+      "description": "One slim curling terracotta chilli.",
+      "origin": "extension",
+      "tags": [
+        "chilli",
+        "chili",
+        "spicy pepper",
+        "heat"
+      ]
+    },
+    {
+      "id": "potato",
+      "label": "Potato",
+      "category": "food-drink",
+      "description": "A warm brown potato with subtle dimples.",
+      "origin": "extension",
+      "tags": [
+        "Potato",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "eggplant",
+      "label": "Aubergine",
+      "category": "food-drink",
+      "description": "An oval aubergine with olive cap.",
+      "origin": "extension",
+      "tags": [
+        "eggplant",
+        "aubergine",
+        "brinjal"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "label": "Cucumber",
+      "category": "food-drink",
+      "description": "A dark green cucumber with two pale cut slices.",
+      "origin": "extension",
+      "tags": [
+        "Cucumber",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "onion",
+      "label": "Onion",
+      "category": "food-drink",
+      "description": "A single rounded cream onion with subtle papery lines.",
+      "origin": "extension",
+      "tags": [
+        "Onion",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "garlic",
+      "label": "Garlic",
+      "category": "food-drink",
+      "description": "A gently divided ivory garlic bulb.",
+      "origin": "extension",
+      "tags": [
+        "Garlic",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "ginger",
+      "label": "Ginger",
+      "category": "food-drink",
+      "description": "A short branching sandstone ginger root.",
+      "origin": "extension",
+      "tags": [
+        "Ginger",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "mushroom-food",
+      "label": "Cooking mushroom",
+      "category": "food-drink",
+      "description": "One pale button mushroom with rounded cap.",
+      "origin": "extension",
+      "tags": [
+        "Cooking mushroom",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "label": "Pumpkin",
+      "category": "food-drink",
+      "description": "A shallow ochre pumpkin with sculpted lobes.",
+      "origin": "extension",
+      "tags": [
+        "Pumpkin",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "peas",
+      "label": "Peas",
+      "category": "food-drink",
+      "description": "An open green pea pod with three round peas.",
+      "origin": "extension",
+      "tags": [
+        "Peas",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "lettuce",
+      "label": "Lettuce",
+      "category": "food-drink",
+      "description": "A round lettuce head with layered leaves.",
+      "origin": "extension",
+      "tags": [
+        "Lettuce",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "radish",
+      "label": "Radish",
+      "category": "food-drink",
+      "description": "Two compact pink radishes with leafy tops.",
+      "origin": "extension",
+      "tags": [
+        "Radish",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "egg",
+      "label": "Egg",
+      "category": "food-drink",
+      "description": "One matte ivory egg.",
+      "origin": "extension",
+      "tags": [
+        "Egg",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "honey-jar",
+      "label": "Honey jar",
+      "category": "food-drink",
+      "description": "A golden honey pot with simple ochre lid.",
+      "origin": "extension",
+      "tags": [
+        "Honey jar",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "jam-jar",
+      "label": "Jam jar",
+      "category": "food-drink",
+      "description": "A plum jam jar with cloth top and small berry emblem.",
+      "origin": "extension",
+      "tags": [
+        "Jam jar",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "label": "Olive oil",
+      "category": "food-drink",
+      "description": "An olive green oil bottle and two olives.",
+      "origin": "extension",
+      "tags": [
+        "Olive oil",
+        "produce and pantry"
+      ]
+    },
+    {
+      "id": "sedan",
+      "label": "Sedan",
+      "category": "travel-places",
+      "description": "A compact rounded teal sedan, shallow three-quarter view.",
+      "origin": "extension",
+      "tags": [
+        "passenger car",
+        "drive",
+        "compact car",
+        "car"
+      ]
+    },
+    {
+      "id": "pickup-truck",
+      "label": "Pickup truck",
+      "category": "travel-places",
+      "description": "A slate pickup with open cargo bed.",
+      "origin": "extension",
+      "tags": [
+        "Pickup truck",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "taxi",
+      "label": "Taxi",
+      "category": "travel-places",
+      "description": "A mustard taxi with a small roof light, no letters.",
+      "origin": "extension",
+      "tags": [
+        "cab",
+        "book a ride",
+        "hire car",
+        "rideshare"
+      ]
+    },
+    {
+      "id": "city-bus",
+      "label": "City bus",
+      "category": "travel-places",
+      "description": "A teal city bus with a single row of windows.",
+      "origin": "extension",
+      "tags": [
+        "City bus",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "school-bus",
+      "label": "School bus",
+      "category": "travel-places",
+      "description": "An ochre long school bus with rounded bonnet.",
+      "origin": "extension",
+      "tags": [
+        "School bus",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "label": "Ambulance",
+      "category": "travel-places",
+      "description": "A cream ambulance with a terracotta medical cross and blue light.",
+      "origin": "extension",
+      "tags": [
+        "Ambulance",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "bicycle",
+      "label": "Bicycle",
+      "category": "travel-places",
+      "description": "An olive city bike with thin wheels and handlebars.",
+      "origin": "extension",
+      "tags": [
+        "Bicycle",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "kick-scooter",
+      "label": "Kick scooter",
+      "category": "travel-places",
+      "description": "A compact teal standing scooter with two small wheels.",
+      "origin": "extension",
+      "tags": [
+        "Kick scooter",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "motorbike",
+      "label": "Motorbike",
+      "category": "travel-places",
+      "description": "A dark slate motorbike with a mustard tank.",
+      "origin": "extension",
+      "tags": [
+        "Motorbike",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "tram",
+      "label": "Tram",
+      "category": "travel-places",
+      "description": "A rust streetcar with a pantograph.",
+      "origin": "extension",
+      "tags": [
+        "Tram",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "cable-car",
+      "label": "Cable car",
+      "category": "travel-places",
+      "description": "A suspended ochre gondola cabin and short cable.",
+      "origin": "extension",
+      "tags": [
+        "gondola",
+        "aerial lift",
+        "ropeway",
+        "cable transport"
+      ]
+    },
+    {
+      "id": "ferry",
+      "label": "Ferry",
+      "category": "travel-places",
+      "description": "A two-tier cream passenger ferry with slate hull.",
+      "origin": "extension",
+      "tags": [
+        "Ferry",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "sailboat",
+      "label": "Sailboat",
+      "category": "travel-places",
+      "description": "Two ivory sails and a little teal sailboat.",
+      "origin": "extension",
+      "tags": [
+        "sailing",
+        "yacht",
+        "sailing boat",
+        "wind sailing"
+      ]
+    },
+    {
+      "id": "kayak",
+      "label": "Kayak",
+      "category": "travel-places",
+      "description": "A teal kayak with crossed golden paddle.",
+      "origin": "extension",
+      "tags": [
+        "Kayak",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "hot-air-balloon",
+      "label": "Hot-air balloon",
+      "category": "travel-places",
+      "description": "A round rust-and-cream balloon with small basket.",
+      "origin": "extension",
+      "tags": [
+        "Hot-air balloon",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "parachute",
+      "label": "Parachute",
+      "category": "travel-places",
+      "description": "A small half-dome teal parachute canopy with short lines and crate.",
+      "origin": "extension",
+      "tags": [
+        "Parachute",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "rocket-launch",
+      "label": "Space rocket",
+      "category": "travel-places",
+      "description": "A small cream space launch rocket with rust fins and teal window.",
+      "origin": "extension",
+      "tags": [
+        "launch vehicle",
+        "spaceship",
+        "rocket ship",
+        "spacecraft"
+      ]
+    },
+    {
+      "id": "airport-tower",
+      "label": "Airport tower",
+      "category": "travel-places",
+      "description": "A small cream control tower with teal windows.",
+      "origin": "extension",
+      "tags": [
+        "Airport tower",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "traffic-light",
+      "label": "Traffic light",
+      "category": "travel-places",
+      "description": "A stoplight with red ochre and olive lenses.",
+      "origin": "extension",
+      "tags": [
+        "traffic signal",
+        "stoplight",
+        "road junction"
+      ]
+    },
+    {
+      "id": "traffic-cone",
+      "label": "Traffic cone",
+      "category": "travel-places",
+      "description": "A small rust-and-cream road cone.",
+      "origin": "extension",
+      "tags": [
+        "Traffic cone",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "parking-meter",
+      "label": "Parking meter",
+      "category": "travel-places",
+      "description": "A parking meter with round teal dial and slate pole.",
+      "origin": "extension",
+      "tags": [
+        "Parking meter",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "electric-charger",
+      "label": "EV charging station",
+      "category": "travel-places",
+      "description": "A compact teal vehicle charger with cable and cream lightning mark.",
+      "origin": "extension",
+      "tags": [
+        "EV charger",
+        "car charging station",
+        "electric vehicle",
+        "car charger"
+      ]
+    },
+    {
+      "id": "fuel-pump",
+      "label": "Fuel pump",
+      "category": "travel-places",
+      "description": "A terracotta petrol pump with slate hose.",
+      "origin": "extension",
+      "tags": [
+        "petrol station",
+        "gas station",
+        "refuel a car",
+        "gasoline"
+      ]
+    },
+    {
+      "id": "signpost",
+      "label": "Signpost",
+      "category": "travel-places",
+      "description": "Two simple clay direction signs on a post.",
+      "origin": "extension",
+      "tags": [
+        "Signpost",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "folded-map",
+      "label": "Folded map",
+      "category": "travel-places",
+      "description": "A cream folding paper map with green path.",
+      "origin": "extension",
+      "tags": [
+        "paper map",
+        "find directions",
+        "route planning"
+      ]
+    },
+    {
+      "id": "compass-rose",
+      "label": "Compass",
+      "category": "travel-places",
+      "description": "A physical round brass compass with slate pointer.",
+      "origin": "extension",
+      "tags": [
+        "Compass",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "travel-luggage",
+      "label": "Suitcase",
+      "category": "travel-places",
+      "description": "A teal upright travel trolley with wheels and extended handle.",
+      "origin": "extension",
+      "tags": [
+        "suitcase",
+        "baggage",
+        "luggage",
+        "carry on"
+      ]
+    },
+    {
+      "id": "backpack",
+      "label": "Backpack",
+      "category": "travel-places",
+      "description": "A compact rust backpack with front pocket and rounded straps.",
+      "origin": "extension",
+      "tags": [
+        "Backpack",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "hotel",
+      "label": "Hotel",
+      "category": "travel-places",
+      "description": "A small cream hotel with a balcony and navy windows.",
+      "origin": "extension",
+      "tags": [
+        "Hotel",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "hotel-bed",
+      "label": "Hotel bed",
+      "category": "travel-places",
+      "description": "A soft bed with teal duvet and one pillow.",
+      "origin": "extension",
+      "tags": [
+        "Hotel bed",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "caravan",
+      "label": "Caravan",
+      "category": "travel-places",
+      "description": "A small cream camping trailer with rounded corners.",
+      "origin": "extension",
+      "tags": [
+        "Caravan",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "lighthouse",
+      "label": "Lighthouse",
+      "category": "travel-places",
+      "description": "A creamy lighthouse with two terracotta stripes.",
+      "origin": "extension",
+      "tags": [
+        "Lighthouse",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "dock",
+      "label": "Pier",
+      "category": "travel-places",
+      "description": "A short jetty with three supporting poles above muted teal water.",
+      "origin": "extension",
+      "tags": [
+        "Pier",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "castle",
+      "label": "Castle",
+      "category": "travel-places",
+      "description": "An old stone gatehouse with two rounded towers.",
+      "origin": "extension",
+      "tags": [
+        "Castle",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "library-building",
+      "label": "Library",
+      "category": "travel-places",
+      "description": "A cream library with slate windows and book relief.",
+      "origin": "extension",
+      "tags": [
+        "Library",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital",
+      "category": "travel-places",
+      "description": "A compact cream hospital with one terracotta medical cross.",
+      "origin": "extension",
+      "tags": [
+        "Hospital",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "label": "Warehouse",
+      "category": "travel-places",
+      "description": "A teal warehouse with rounded dark rolling door.",
+      "origin": "extension",
+      "tags": [
+        "Warehouse",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "label": "Greenhouse",
+      "category": "travel-places",
+      "description": "A small glass greenhouse with green seedlings.",
+      "origin": "extension",
+      "tags": [
+        "Greenhouse",
+        "travel and places"
+      ]
+    },
+    {
+      "id": "pine-tree",
+      "label": "Pine tree",
+      "category": "environment-society",
+      "description": "A single little evergreen pine with layered dark teal foliage.",
+      "origin": "extension",
+      "tags": [
+        "Pine tree",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "deciduous-tree",
+      "label": "Deciduous tree",
+      "category": "environment-society",
+      "description": "A round olive tree with separately sculpted foliage clusters.",
+      "origin": "extension",
+      "tags": [
+        "Deciduous tree",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "palm-tree",
+      "label": "Palm tree",
+      "category": "environment-society",
+      "description": "A clay palm tree with curved sandstone trunk.",
+      "origin": "extension",
+      "tags": [
+        "Palm tree",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "cactus",
+      "label": "Cactus",
+      "category": "environment-society",
+      "description": "A compact rounded cactus with two arms in a terracotta pot.",
+      "origin": "extension",
+      "tags": [
+        "Cactus",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "sprout",
+      "label": "Sprout",
+      "category": "environment-society",
+      "description": "A two-leaf seedling emerging from a little soil mound.",
+      "origin": "extension",
+      "tags": [
+        "Sprout",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "fern",
+      "label": "Fern",
+      "category": "environment-society",
+      "description": "An olive fern frond with even natural leaflets.",
+      "origin": "extension",
+      "tags": [
+        "Fern",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "sunflower",
+      "label": "Sunflower",
+      "category": "environment-society",
+      "description": "A sunny yellow flower with round russet centre and green stem.",
+      "origin": "extension",
+      "tags": [
+        "Sunflower",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "tulip",
+      "label": "Tulip",
+      "category": "environment-society",
+      "description": "A terracotta tulip in shallow perspective.",
+      "origin": "extension",
+      "tags": [
+        "Tulip",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "maple-leaf",
+      "label": "Maple leaf",
+      "category": "environment-society",
+      "description": "A single warm red leaf with five sculpted lobes.",
+      "origin": "extension",
+      "tags": [
+        "Maple leaf",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "pinecone",
+      "label": "Pinecone",
+      "category": "environment-society",
+      "description": "A small rust pinecone with distinct overlapping scales.",
+      "origin": "extension",
+      "tags": [
+        "Pinecone",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "mountain",
+      "label": "Mountains",
+      "category": "environment-society",
+      "description": "Two small slate mountain peaks with pale snowcaps.",
+      "origin": "extension",
+      "tags": [
+        "Mountains",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "desert",
+      "label": "Dunes",
+      "category": "environment-society",
+      "description": "Three ochre sand dunes at different depths.",
+      "origin": "extension",
+      "tags": [
+        "Dunes",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "island",
+      "label": "Island",
+      "category": "environment-society",
+      "description": "A small sand island with palm and dark teal waves.",
+      "origin": "extension",
+      "tags": [
+        "Island",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "category": "environment-society",
+      "description": "A group of three small evergreen trees.",
+      "origin": "extension",
+      "tags": [
+        "Forest",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "waterfall",
+      "label": "Waterfall",
+      "category": "environment-society",
+      "description": "A short cream-and-teal waterfall over a sculpted rocky ledge.",
+      "origin": "extension",
+      "tags": [
+        "Waterfall",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "river",
+      "label": "River",
+      "category": "environment-society",
+      "description": "A curved blue river running through a patch of light green land.",
+      "origin": "extension",
+      "tags": [
+        "River",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "rainbow",
+      "label": "Rainbow",
+      "category": "environment-society",
+      "description": "A compact clay rainbow in rust ochre and olive with cream end clouds.",
+      "origin": "extension",
+      "tags": [
+        "Rainbow",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "fog",
+      "label": "Fog",
+      "category": "environment-society",
+      "description": "A small cream cloud above three slate fog bars.",
+      "origin": "extension",
+      "tags": [
+        "low visibility",
+        "mist",
+        "cloudy air",
+        "foggy weather"
+      ]
+    },
+    {
+      "id": "wind",
+      "label": "Wind",
+      "category": "environment-society",
+      "description": "Three rounded blue wind swirls with clearly separate curves.",
+      "origin": "extension",
+      "tags": [
+        "Wind",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "umbrella",
+      "label": "Umbrella",
+      "category": "environment-society",
+      "description": "A teal umbrella with navy hook handle.",
+      "origin": "extension",
+      "tags": [
+        "Umbrella",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "raindrop",
+      "label": "Raindrop",
+      "category": "environment-society",
+      "description": "A single soft blue teardrop with slight highlight.",
+      "origin": "extension",
+      "tags": [
+        "water drop",
+        "rain",
+        "hydration",
+        "droplet"
+      ]
+    },
+    {
+      "id": "snowflake",
+      "label": "Snowflake",
+      "category": "environment-society",
+      "description": "A small six-armed powder-blue snow crystal with rounded tips.",
+      "origin": "extension",
+      "tags": [
+        "snow",
+        "icy weather",
+        "winter",
+        "cold"
+      ]
+    },
+    {
+      "id": "paw-print",
+      "label": "Paw print",
+      "category": "environment-society",
+      "description": "A four-toed warm terracotta paw print.",
+      "origin": "extension",
+      "tags": [
+        "Paw print",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "dog",
+      "label": "Dog",
+      "category": "environment-society",
+      "description": "A small clay dog head with floppy ears, an animal only.",
+      "origin": "extension",
+      "tags": [
+        "puppy",
+        "dog face",
+        "pet",
+        "canine"
+      ]
+    },
+    {
+      "id": "cat",
+      "label": "Cat",
+      "category": "environment-society",
+      "description": "A small ochre cat head with pointed ears and simple whiskers.",
+      "origin": "extension",
+      "tags": [
+        "kitten",
+        "cat face",
+        "pet",
+        "feline"
+      ]
+    },
+    {
+      "id": "rabbit",
+      "label": "Rabbit",
+      "category": "environment-society",
+      "description": "A cream rabbit head with upright terracotta-lined ears.",
+      "origin": "extension",
+      "tags": [
+        "Rabbit",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "bear",
+      "label": "Bear",
+      "category": "environment-society",
+      "description": "A russet bear head with unmistakable round ears and pale muzzle.",
+      "origin": "extension",
+      "tags": [
+        "Bear",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "owl",
+      "label": "Owl",
+      "category": "environment-society",
+      "description": "A tiny ochre owl with two big eyes in shallow three-quarter view.",
+      "origin": "extension",
+      "tags": [
+        "Owl",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "songbird",
+      "label": "Songbird",
+      "category": "environment-society",
+      "description": "A small slate-blue songbird with pointed beak.",
+      "origin": "extension",
+      "tags": [
+        "bird",
+        "sparrow",
+        "birdwatching"
+      ]
+    },
+    {
+      "id": "duck",
+      "label": "Duck",
+      "category": "environment-society",
+      "description": "A small ochre duck with orange beak.",
+      "origin": "extension",
+      "tags": [
+        "Duck",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "fish",
+      "label": "Fish",
+      "category": "environment-society",
+      "description": "A teal fish with side fin and forked tail.",
+      "origin": "extension",
+      "tags": [
+        "Fish",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "turtle",
+      "label": "Turtle",
+      "category": "environment-society",
+      "description": "A little teal turtle with olive segmented shell.",
+      "origin": "extension",
+      "tags": [
+        "Turtle",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "snail",
+      "label": "Snail",
+      "category": "environment-society",
+      "description": "A small rust snail with spiralling cream shell.",
+      "origin": "extension",
+      "tags": [
+        "Snail",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "ladybug",
+      "label": "Ladybug",
+      "category": "environment-society",
+      "description": "A little red ladybug with three dark spots per wing.",
+      "origin": "extension",
+      "tags": [
+        "Ladybug",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "bee",
+      "label": "Bee",
+      "category": "environment-society",
+      "description": "A gold-and-navy bee with cream wings.",
+      "origin": "extension",
+      "tags": [
+        "Bee",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "butterfly",
+      "label": "Butterfly",
+      "category": "environment-society",
+      "description": "A softly sculpted purple and ochre butterfly.",
+      "origin": "extension",
+      "tags": [
+        "Butterfly",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "feather",
+      "label": "Feather",
+      "category": "environment-society",
+      "description": "A single slate blue feather with a cream quill.",
+      "origin": "extension",
+      "tags": [
+        "Feather",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "birdhouse",
+      "label": "Birdhouse",
+      "category": "environment-society",
+      "description": "A tiny house-shaped teal nesting box with roof.",
+      "origin": "extension",
+      "tags": [
+        "Birdhouse",
+        "nature and weather"
+      ]
+    },
+    {
+      "id": "ringed-planet",
+      "label": "Ringed planet",
+      "category": "environment-society",
+      "description": "One ochre planet with a clean cream ring.",
+      "origin": "extension",
+      "tags": [
+        "Saturn",
+        "astronomy",
+        "planetary rings",
+        "outer space"
+      ]
+    },
+    {
+      "id": "bread-loaf",
+      "label": "Bread loaf",
+      "category": "food-drink",
+      "description": "A small wheat loaf with three score marks and a warm brown crust.",
+      "origin": "extension",
+      "tags": [
+        "Bread loaf",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "croissant",
+      "label": "Croissant",
+      "category": "food-drink",
+      "description": "One golden croissant with sculpted layered folds.",
+      "origin": "extension",
+      "tags": [
+        "Croissant",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "baguette",
+      "label": "Baguette",
+      "category": "food-drink",
+      "description": "One slender golden baguette on a diagonal with score marks.",
+      "origin": "extension",
+      "tags": [
+        "Baguette",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cheese-wedge",
+      "label": "Cheese wedge",
+      "category": "food-drink",
+      "description": "An ochre wedge with a few rounded holes.",
+      "origin": "extension",
+      "tags": [
+        "Cheese wedge",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "fried-egg",
+      "label": "Fried egg",
+      "category": "food-drink",
+      "description": "An ivory egg white and mustard yolk.",
+      "origin": "extension",
+      "tags": [
+        "Fried egg",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "burger",
+      "label": "Burger",
+      "category": "food-drink",
+      "description": "A golden burger with recognisable lettuce and patty layers.",
+      "origin": "extension",
+      "tags": [
+        "Burger",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "pizza-slice",
+      "label": "Pizza slice",
+      "category": "food-drink",
+      "description": "One clay pizza wedge with small terracotta topping rounds.",
+      "origin": "extension",
+      "tags": [
+        "pizza wedge",
+        "restaurant menu",
+        "pepperoni"
+      ]
+    },
+    {
+      "id": "sandwich",
+      "label": "Sandwich",
+      "category": "food-drink",
+      "description": "Two stacked cream bread triangles with green filling.",
+      "origin": "extension",
+      "tags": [
+        "Sandwich",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "french-fries",
+      "label": "French fries",
+      "category": "food-drink",
+      "description": "Thick golden fries in a terracotta carton.",
+      "origin": "extension",
+      "tags": [
+        "chips",
+        "fries",
+        "takeaway",
+        "fast food",
+        "potatoes"
+      ]
+    },
+    {
+      "id": "taco",
+      "label": "Taco",
+      "category": "food-drink",
+      "description": "A curved golden taco shell with small lettuce and tomato pieces.",
+      "origin": "extension",
+      "tags": [
+        "Mexican food",
+        "tortilla",
+        "taco shell",
+        "spicy lunch"
+      ]
+    },
+    {
+      "id": "burrito",
+      "label": "Burrito",
+      "category": "food-drink",
+      "description": "One cream folded tortilla with exposed filling at one end.",
+      "origin": "extension",
+      "tags": [
+        "Burrito",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "sushi",
+      "label": "Sushi",
+      "category": "food-drink",
+      "description": "Two small seaweed sushi rolls with pale rice and rust centre.",
+      "origin": "extension",
+      "tags": [
+        "sushi roll",
+        "maki",
+        "nori",
+        "Japanese meal"
+      ]
+    },
+    {
+      "id": "rice-bowl",
+      "label": "Rice bowl",
+      "category": "food-drink",
+      "description": "A teal bowl holding a softly rounded mound of rice.",
+      "origin": "extension",
+      "tags": [
+        "Rice bowl",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "noodle-bowl",
+      "label": "Noodle bowl",
+      "category": "food-drink",
+      "description": "A navy bowl of noodles with two ochre chopsticks.",
+      "origin": "extension",
+      "tags": [
+        "Noodle bowl",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "soup-bowl",
+      "label": "Soup bowl",
+      "category": "food-drink",
+      "description": "A cream bowl of tomato soup showing the inside.",
+      "origin": "extension",
+      "tags": [
+        "Soup bowl",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "salad-bowl",
+      "label": "Salad bowl",
+      "category": "food-drink",
+      "description": "An ivory bowl holding a few leafy vegetables.",
+      "origin": "extension",
+      "tags": [
+        "Salad bowl",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "label": "Ice cream",
+      "category": "food-drink",
+      "description": "A small golden cone with a plum scoop.",
+      "origin": "extension",
+      "tags": [
+        "Ice cream",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cupcake",
+      "label": "Cupcake",
+      "category": "food-drink",
+      "description": "One ochre cupcake with lavender icing and tiny cherry.",
+      "origin": "extension",
+      "tags": [
+        "Cupcake",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cake-slice",
+      "label": "Cake slice",
+      "category": "food-drink",
+      "description": "One triangular cream sponge cake with a warm berry layer.",
+      "origin": "extension",
+      "tags": [
+        "Cake slice",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "donut",
+      "label": "Donut",
+      "category": "food-drink",
+      "description": "A ring doughnut with coral icing and three cream sprinkles.",
+      "origin": "extension",
+      "tags": [
+        "Donut",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cookie",
+      "label": "Cookie",
+      "category": "food-drink",
+      "description": "One warm round cookie with visible dark chocolate chips.",
+      "origin": "extension",
+      "tags": [
+        "Cookie",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "chocolate-bar",
+      "label": "Chocolate bar",
+      "category": "food-drink",
+      "description": "A cocoa bar with scored squares partially unwrapped in ochre paper.",
+      "origin": "extension",
+      "tags": [
+        "Chocolate bar",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "coffee-cup",
+      "label": "Coffee cup",
+      "category": "food-drink",
+      "description": "A short cream cup on a saucer with dark coffee visible.",
+      "origin": "extension",
+      "tags": [
+        "hot coffee in a cup",
+        "coffee break",
+        "espresso",
+        "mug",
+        "cafe"
+      ]
+    },
+    {
+      "id": "takeaway-coffee",
+      "label": "Takeaway coffee",
+      "category": "food-drink",
+      "description": "A tall cream paper coffee cup with slate lid and rust sleeve.",
+      "origin": "extension",
+      "tags": [
+        "coffee to go",
+        "takeaway cup",
+        "coffee on the move"
+      ]
+    },
+    {
+      "id": "teapot",
+      "label": "Teapot",
+      "category": "food-drink",
+      "description": "A squat teal teapot with curved spout and handle.",
+      "origin": "extension",
+      "tags": [
+        "Teapot",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "tea-bag",
+      "label": "Tea bag",
+      "category": "food-drink",
+      "description": "One tiny cream tea sachet with string and teal tag.",
+      "origin": "extension",
+      "tags": [
+        "Tea bag",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "water-glass",
+      "label": "Glass of water",
+      "category": "food-drink",
+      "description": "A matte translucent pale teal glass with a waterline.",
+      "origin": "extension",
+      "tags": [
+        "glass of water",
+        "drinking water",
+        "thirst",
+        "cup of water"
+      ]
+    },
+    {
+      "id": "juice-carton",
+      "label": "Juice carton",
+      "category": "food-drink",
+      "description": "An ochre juice carton with small orange fruit illustration.",
+      "origin": "extension",
+      "tags": [
+        "Juice carton",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "milk-carton",
+      "label": "Milk carton",
+      "category": "food-drink",
+      "description": "A cream milk carton with teal cap and tear drop on front.",
+      "origin": "extension",
+      "tags": [
+        "Milk carton",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "water-bottle",
+      "label": "Water bottle",
+      "category": "food-drink",
+      "description": "A slate and teal refillable bottle with simple lid.",
+      "origin": "extension",
+      "tags": [
+        "Water bottle",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "wine-glass",
+      "label": "Wine glass",
+      "category": "food-drink",
+      "description": "A thin cream footed glass filled partly with muted burgundy.",
+      "origin": "extension",
+      "tags": [
+        "Wine glass",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "beer-mug",
+      "label": "Beer mug",
+      "category": "food-drink",
+      "description": "A clay beer mug with rounded handle and foam top.",
+      "origin": "extension",
+      "tags": [
+        "Beer mug",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cocktail",
+      "label": "Cocktail",
+      "category": "food-drink",
+      "description": "A small slate cocktail glass with lime garnish.",
+      "origin": "extension",
+      "tags": [
+        "Cocktail",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "soda-can",
+      "label": "Soda can",
+      "category": "food-drink",
+      "description": "A soft rust drink can with pull-tab and cream wave accent.",
+      "origin": "extension",
+      "tags": [
+        "soft drink",
+        "soda",
+        "pop",
+        "fizzy drink"
+      ]
+    },
+    {
+      "id": "cooking-pot",
+      "label": "Cooking pot",
+      "category": "food-drink",
+      "description": "A lidded cream pot with two short teal handles.",
+      "origin": "extension",
+      "tags": [
+        "Cooking pot",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "frying-pan",
+      "label": "Frying pan",
+      "category": "food-drink",
+      "description": "A shallow slate pan with short handle.",
+      "origin": "extension",
+      "tags": [
+        "Frying pan",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "cutlery",
+      "label": "Cutlery",
+      "category": "food-drink",
+      "description": "A cream-handled fork and spoon angled next to each other.",
+      "origin": "extension",
+      "tags": [
+        "Cutlery",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "mortar-pestle",
+      "label": "Mortar and pestle",
+      "category": "food-drink",
+      "description": "A sandstone mortar and rounded diagonal pestle.",
+      "origin": "extension",
+      "tags": [
+        "Mortar and pestle",
+        "prepared food and drinks"
+      ]
+    },
+    {
+      "id": "football-ball",
+      "label": "Football",
+      "category": "sports-leisure",
+      "description": "One cream round football with a few slate patches.",
+      "origin": "extension",
+      "tags": [
+        "soccer",
+        "football",
+        "sports ball",
+        "football match"
+      ]
+    },
+    {
+      "id": "basketball",
+      "label": "Basketball",
+      "category": "sports-leisure",
+      "description": "One ochre ball with gently inset seams.",
+      "origin": "extension",
+      "tags": [
+        "Basketball",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "tennis-ball",
+      "label": "Tennis ball",
+      "category": "sports-leisure",
+      "description": "An olive tennis ball with two cream curved seams.",
+      "origin": "extension",
+      "tags": [
+        "Tennis ball",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball",
+      "category": "sports-leisure",
+      "description": "One cream baseball with two rows of terracotta stitching.",
+      "origin": "extension",
+      "tags": [
+        "Baseball",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "volleyball",
+      "label": "Volleyball",
+      "category": "sports-leisure",
+      "description": "An ivory ball with a small teal curved panel.",
+      "origin": "extension",
+      "tags": [
+        "Volleyball",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "golf-ball",
+      "label": "Golf ball and tee",
+      "category": "sports-leisure",
+      "description": "One ivory dimpled golf ball on a tiny ochre tee.",
+      "origin": "extension",
+      "tags": [
+        "Golf ball and tee",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "bowling-ball",
+      "label": "Bowling ball",
+      "category": "sports-leisure",
+      "description": "One deep slate bowling ball with three finger holes.",
+      "origin": "extension",
+      "tags": [
+        "Bowling ball",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "bowling-pin",
+      "label": "Bowling pin",
+      "category": "sports-leisure",
+      "description": "One white bowling pin with two rust rings.",
+      "origin": "extension",
+      "tags": [
+        "Bowling pin",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "ping-pong",
+      "label": "Table tennis paddle",
+      "category": "sports-leisure",
+      "description": "A rust table tennis paddle with little cream ball beside it.",
+      "origin": "extension",
+      "tags": [
+        "ping pong",
+        "table tennis bat",
+        "table tennis racket"
+      ]
+    },
+    {
+      "id": "tennis-racket",
+      "label": "Tennis racket",
+      "category": "sports-leisure",
+      "description": "A navy strung tennis racket with a golden grip.",
+      "origin": "extension",
+      "tags": [
+        "Tennis racket",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "badminton-shuttle",
+      "label": "Badminton shuttle",
+      "category": "sports-leisure",
+      "description": "An ivory shuttlecock with splayed pale fins and cork tip.",
+      "origin": "extension",
+      "tags": [
+        "shuttlecock",
+        "badminton birdie",
+        "badminton equipment"
+      ]
+    },
+    {
+      "id": "hockey-stick",
+      "label": "Hockey stick",
+      "category": "sports-leisure",
+      "description": "A diagonal ochre ice hockey stick with one navy puck.",
+      "origin": "extension",
+      "tags": [
+        "Hockey stick",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "skateboard",
+      "label": "Skateboard",
+      "category": "sports-leisure",
+      "description": "A small teal skateboard deck with ochre wheels.",
+      "origin": "extension",
+      "tags": [
+        "Skateboard",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "roller-skate",
+      "label": "Roller skate",
+      "category": "sports-leisure",
+      "description": "A rust high-top quad roller skate with cream laces.",
+      "origin": "extension",
+      "tags": [
+        "Roller skate",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "ice-skate",
+      "label": "Ice skate",
+      "category": "sports-leisure",
+      "description": "A slate boot above an ivory ice blade.",
+      "origin": "extension",
+      "tags": [
+        "Ice skate",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "skis",
+      "label": "Skis and poles",
+      "category": "sports-leisure",
+      "description": "Two short teal downhill skis and two slim ochre poles.",
+      "origin": "extension",
+      "tags": [
+        "Skis and poles",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "snowboard",
+      "label": "Snowboard",
+      "category": "sports-leisure",
+      "description": "One olive snowboard with two angled dark bindings.",
+      "origin": "extension",
+      "tags": [
+        "Snowboard",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "diving-mask",
+      "label": "Diving mask",
+      "category": "sports-leisure",
+      "description": "A navy snorkelling mask with small separate snorkel.",
+      "origin": "extension",
+      "tags": [
+        "Diving mask",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "dumbbell",
+      "label": "Dumbbell",
+      "category": "sports-leisure",
+      "description": "One squat teal dumbbell angled diagonally.",
+      "origin": "extension",
+      "tags": [
+        "Dumbbell",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "kettlebell",
+      "label": "Kettlebell",
+      "category": "sports-leisure",
+      "description": "One olive kettlebell with dark rounded opening.",
+      "origin": "extension",
+      "tags": [
+        "Kettlebell",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "jump-rope",
+      "label": "Jump rope",
+      "category": "sports-leisure",
+      "description": "A coiled golden rope with two dark grips.",
+      "origin": "extension",
+      "tags": [
+        "Jump rope",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "yoga-mat",
+      "label": "Yoga mat",
+      "category": "sports-leisure",
+      "description": "A rolled teal exercise mat with terracotta strap.",
+      "origin": "extension",
+      "tags": [
+        "Yoga mat",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "whistle",
+      "label": "Whistle",
+      "category": "sports-leisure",
+      "description": "A small ochre referee whistle with realistic mouthpiece.",
+      "origin": "extension",
+      "tags": [
+        "Whistle",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "stopwatch",
+      "label": "Stopwatch",
+      "category": "sports-leisure",
+      "description": "One slate stopwatch with cream dial and dark crown.",
+      "origin": "extension",
+      "tags": [
+        "time a race",
+        "lap timer",
+        "chronometer",
+        "timed activity"
+      ]
+    },
+    {
+      "id": "trophy-cup",
+      "label": "Trophy",
+      "category": "sports-leisure",
+      "description": "One gold cup with two rounded handles and a short dark base.",
+      "origin": "extension",
+      "tags": [
+        "Trophy",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "medal",
+      "label": "Medal",
+      "category": "sports-leisure",
+      "description": "A small golden medal with short teal ribbon.",
+      "origin": "extension",
+      "tags": [
+        "Medal",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "podium",
+      "label": "Podium",
+      "category": "sports-leisure",
+      "description": "Three little winner podium steps, no numbers.",
+      "origin": "extension",
+      "tags": [
+        "Podium",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "dartboard",
+      "label": "Dartboard",
+      "category": "sports-leisure",
+      "description": "A small red and cream target with one dark dart in it.",
+      "origin": "extension",
+      "tags": [
+        "Dartboard",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "dice",
+      "label": "Dice",
+      "category": "sports-leisure",
+      "description": "Two dimpled ivory dice angled against each other.",
+      "origin": "extension",
+      "tags": [
+        "Dice",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "chess-knight",
+      "label": "Chess knight",
+      "category": "sports-leisure",
+      "description": "A single slate horse-head chess knight.",
+      "origin": "extension",
+      "tags": [
+        "Chess knight",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "puzzle-piece",
+      "label": "Puzzle piece",
+      "category": "sports-leisure",
+      "description": "A single rounded teal interlocking puzzle piece.",
+      "origin": "extension",
+      "tags": [
+        "Puzzle piece",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "gaming-controller",
+      "label": "Game controller",
+      "category": "sports-leisure",
+      "description": "A slate controller with teal directional pad and cream buttons.",
+      "origin": "extension",
+      "tags": [
+        "controller",
+        "gamepad",
+        "video games",
+        "gaming"
+      ]
+    },
+    {
+      "id": "joystick",
+      "label": "Joystick",
+      "category": "sports-leisure",
+      "description": "A navy base with a warm rust joystick stem.",
+      "origin": "extension",
+      "tags": [
+        "Joystick",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "guitar",
+      "label": "Guitar",
+      "category": "sports-leisure",
+      "description": "A little cream-bodied acoustic guitar with dark neck.",
+      "origin": "extension",
+      "tags": [
+        "acoustic guitar",
+        "music",
+        "strings",
+        "instrument"
+      ]
+    },
+    {
+      "id": "piano",
+      "label": "Piano keys",
+      "category": "sports-leisure",
+      "description": "A short row of raised ivory and navy piano keys.",
+      "origin": "extension",
+      "tags": [
+        "Piano keys",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "drum",
+      "label": "Drum",
+      "category": "sports-leisure",
+      "description": "A slate drum with cream rim and two short sticks.",
+      "origin": "extension",
+      "tags": [
+        "Drum",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "trumpet",
+      "label": "Trumpet",
+      "category": "sports-leisure",
+      "description": "One small ochre brass trumpet.",
+      "origin": "extension",
+      "tags": [
+        "Trumpet",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "vinyl-record",
+      "label": "Vinyl record",
+      "category": "sports-leisure",
+      "description": "A black-slate record with terracotta paper centre.",
+      "origin": "extension",
+      "tags": [
+        "Vinyl record",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "cassette",
+      "label": "Cassette",
+      "category": "sports-leisure",
+      "description": "A small navy cassette with two ivory spools.",
+      "origin": "extension",
+      "tags": [
+        "Cassette",
+        "sports",
+        "games and instruments"
+      ]
+    },
+    {
+      "id": "stethoscope",
+      "label": "Stethoscope",
+      "category": "health-learning",
+      "description": "A teal curved stethoscope with simple cream chest piece.",
+      "origin": "extension",
+      "tags": [
+        "listen to lungs",
+        "listen to a heartbeat",
+        "medical exam",
+        "heartbeat instrument"
+      ]
+    },
+    {
+      "id": "bandage",
+      "label": "Bandage",
+      "category": "health-learning",
+      "description": "A small tan plaster with visible padded centre.",
+      "origin": "extension",
+      "tags": [
+        "band aid",
+        "plaster",
+        "dressing",
+        "injury"
+      ]
+    },
+    {
+      "id": "capsule-pill",
+      "label": "Capsule",
+      "category": "health-learning",
+      "description": "One coral-and-cream capsule angled in three-quarter view.",
+      "origin": "extension",
+      "tags": [
+        "pill",
+        "capsule medication",
+        "medicine",
+        "prescription"
+      ]
+    },
+    {
+      "id": "medicine-bottle",
+      "label": "Medicine bottle",
+      "category": "health-learning",
+      "description": "A short ochre bottle and cream cap with plain teal label.",
+      "origin": "extension",
+      "tags": [
+        "Medicine bottle",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "heart-pulse",
+      "label": "Heart pulse",
+      "category": "health-learning",
+      "description": "One clay heart with an inset ivory heartbeat mark.",
+      "origin": "extension",
+      "tags": [
+        "Heart pulse",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "pulse-oximeter",
+      "label": "Pulse oximeter",
+      "category": "health-learning",
+      "description": "A teal clip oximeter with a simple navy display.",
+      "origin": "extension",
+      "tags": [
+        "oxygen saturation monitor",
+        "SpO2",
+        "pulse sensor",
+        "finger clip"
+      ]
+    },
+    {
+      "id": "blood-pressure-cuff",
+      "label": "Blood pressure cuff",
+      "category": "health-learning",
+      "description": "A rolled teal cuff joined by a curved tube to a cream round gauge.",
+      "origin": "extension",
+      "tags": [
+        "blood pressure monitor",
+        "cuff and gauge",
+        "blood pressure measurement"
+      ]
+    },
+    {
+      "id": "hearing-aid",
+      "label": "Hearing aid",
+      "category": "health-learning",
+      "description": "A small behind-the-ear cream hearing aid with clear hook.",
+      "origin": "extension",
+      "tags": [
+        "assistive listening",
+        "hearing device",
+        "hearing accessibility"
+      ]
+    },
+    {
+      "id": "eyeglasses",
+      "label": "Glasses",
+      "category": "health-learning",
+      "description": "A pair of softly rounded navy spectacles.",
+      "origin": "extension",
+      "tags": [
+        "spectacles",
+        "eyeglasses",
+        "vision",
+        "optical"
+      ]
+    },
+    {
+      "id": "crutch",
+      "label": "Crutch",
+      "category": "health-learning",
+      "description": "A single underarm crutch in sandstone and slate.",
+      "origin": "extension",
+      "tags": [
+        "mobility assistance",
+        "walking aid",
+        "underarm crutch"
+      ]
+    },
+    {
+      "id": "walking-cane",
+      "label": "Walking cane",
+      "category": "health-learning",
+      "description": "A single walnut walking cane with rounded crook and teal tip.",
+      "origin": "extension",
+      "tags": [
+        "walking stick",
+        "mobility aid",
+        "cane"
+      ]
+    },
+    {
+      "id": "hand-sanitizer",
+      "label": "Hand sanitizer",
+      "category": "health-learning",
+      "description": "A softly rounded teal pump bottle with a small cream drop emblem.",
+      "origin": "extension",
+      "tags": [
+        "Hand sanitizer",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "face-mask",
+      "label": "Face mask",
+      "category": "health-learning",
+      "description": "A pleated teal face mask with two clearly separated ear loops.",
+      "origin": "extension",
+      "tags": [
+        "Face mask",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "tooth",
+      "label": "Tooth",
+      "category": "health-learning",
+      "description": "One cream molar with rounded roots.",
+      "origin": "extension",
+      "tags": [
+        "Tooth",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "toothbrush",
+      "label": "Toothbrush",
+      "category": "health-learning",
+      "description": "One teal toothbrush with subtle rows of ivory bristles.",
+      "origin": "extension",
+      "tags": [
+        "Toothbrush",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "dental-floss",
+      "label": "Dental floss",
+      "category": "health-learning",
+      "description": "A little ivory rectangular floss dispenser with teal lid.",
+      "origin": "extension",
+      "tags": [
+        "Dental floss",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "microscope",
+      "label": "Microscope",
+      "category": "health-learning",
+      "description": "A small dusty teal microscope with a clearly separate stage.",
+      "origin": "extension",
+      "tags": [
+        "Microscope",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "test-tube",
+      "label": "Test tube",
+      "category": "health-learning",
+      "description": "A single angled pale glass tube half filled with teal liquid.",
+      "origin": "extension",
+      "tags": [
+        "Test tube",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "beaker",
+      "label": "Beaker",
+      "category": "health-learning",
+      "description": "A small laboratory beaker with restrained measurement lines.",
+      "origin": "extension",
+      "tags": [
+        "Beaker",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "petri-dish",
+      "label": "Petri dish",
+      "category": "health-learning",
+      "description": "A shallow glazed clear round lab dish with green dots.",
+      "origin": "extension",
+      "tags": [
+        "Petri dish",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "dna-helix",
+      "label": "DNA helix",
+      "category": "health-learning",
+      "description": "A compact teal-and-ochre plain spiral ladder.",
+      "origin": "extension",
+      "tags": [
+        "DNA",
+        "genetics",
+        "genes",
+        "double helix"
+      ]
+    },
+    {
+      "id": "molecule",
+      "label": "Molecule",
+      "category": "health-learning",
+      "description": "One three-dimensional ball-and-stick arrangement of four clay spheres.",
+      "origin": "extension",
+      "tags": [
+        "Molecule",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "telescope",
+      "label": "Telescope",
+      "category": "health-learning",
+      "description": "A navy telescope on a compact ochre tripod.",
+      "origin": "extension",
+      "tags": [
+        "stargazing",
+        "astronomy",
+        "observatory",
+        "telescope"
+      ]
+    },
+    {
+      "id": "abacus",
+      "label": "Abacus",
+      "category": "health-learning",
+      "description": "A sandstone rectangular frame with teal and rust beads.",
+      "origin": "extension",
+      "tags": [
+        "Abacus",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "calculator",
+      "label": "Calculator",
+      "category": "health-learning",
+      "description": "A compact slate calculator with raised cream keys.",
+      "origin": "extension",
+      "tags": [
+        "Calculator",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "open-book",
+      "label": "Open book",
+      "category": "health-learning",
+      "description": "One book open across two blank ivory pages.",
+      "origin": "extension",
+      "tags": [
+        "Open book",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "closed-book",
+      "label": "Closed book",
+      "category": "health-learning",
+      "description": "One closed teal book with visible spine and cream page edge.",
+      "origin": "extension",
+      "tags": [
+        "Closed book",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "spiral-notebook",
+      "label": "Spiral notebook",
+      "category": "health-learning",
+      "description": "A short cream notebook with navy coil binding.",
+      "origin": "extension",
+      "tags": [
+        "Spiral notebook",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "blackboard",
+      "label": "Blackboard",
+      "category": "health-learning",
+      "description": "A small slate writing board in a pale wooden frame.",
+      "origin": "extension",
+      "tags": [
+        "Blackboard",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "graduation-cap",
+      "label": "Graduation cap",
+      "category": "health-learning",
+      "description": "One navy mortarboard with a short ochre tassel.",
+      "origin": "extension",
+      "tags": [
+        "Graduation cap",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "globe-stand",
+      "label": "Classroom globe",
+      "category": "health-learning",
+      "description": "A small teal globe mounted on a cream arc stand.",
+      "origin": "extension",
+      "tags": [
+        "Classroom globe",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "measuring-tape",
+      "label": "Tape measure",
+      "category": "health-learning",
+      "description": "A squat round tape measure with visible short tape end.",
+      "origin": "extension",
+      "tags": [
+        "Tape measure",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "paint-palette",
+      "label": "Paint palette",
+      "category": "health-learning",
+      "description": "A short cream painter palette with five muted dots.",
+      "origin": "extension",
+      "tags": [
+        "Paint palette",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "paint-brush",
+      "label": "Paint brush",
+      "category": "health-learning",
+      "description": "One golden brush with soft slate bristles.",
+      "origin": "extension",
+      "tags": [
+        "Paint brush",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "fountain-pen",
+      "label": "Fountain pen",
+      "category": "health-learning",
+      "description": "A slim navy fountain pen with distinct ochre nib.",
+      "origin": "extension",
+      "tags": [
+        "Fountain pen",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "pen-holder",
+      "label": "Pen holder",
+      "category": "health-learning",
+      "description": "A sandstone cup with three different pens.",
+      "origin": "extension",
+      "tags": [
+        "Pen holder",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "pencil-case",
+      "label": "Pencil case",
+      "category": "health-learning",
+      "description": "A teal zipper case with rounded corners and small tab.",
+      "origin": "extension",
+      "tags": [
+        "Pencil case",
+        "healthcare",
+        "science and learning"
+      ]
+    },
+    {
+      "id": "hammer",
+      "label": "Hammer",
+      "category": "infrastructure",
+      "description": "One claw hammer with a slate head and ochre grip.",
+      "origin": "extension",
+      "tags": [
+        "Hammer",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "wrench",
+      "label": "Wrench",
+      "category": "infrastructure",
+      "description": "A single slate open-ended spanner.",
+      "origin": "extension",
+      "tags": [
+        "Wrench",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "screwdriver",
+      "label": "Screwdriver",
+      "category": "infrastructure",
+      "description": "A compact flat-tip screwdriver with navy shaft and ochre handle.",
+      "origin": "extension",
+      "tags": [
+        "Screwdriver",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "pliers",
+      "label": "Pliers",
+      "category": "infrastructure",
+      "description": "Teal-handled pliers with slightly open jaws.",
+      "origin": "extension",
+      "tags": [
+        "Pliers",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "paint-roller",
+      "label": "Paint roller",
+      "category": "infrastructure",
+      "description": "One small ochre roller with teal handle.",
+      "origin": "extension",
+      "tags": [
+        "Paint roller",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "toolbox",
+      "label": "Toolbox",
+      "category": "infrastructure",
+      "description": "A closed rust toolbox with slate handle and cream latch.",
+      "origin": "extension",
+      "tags": [
+        "Toolbox",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "watering-can",
+      "label": "Watering can",
+      "category": "infrastructure",
+      "description": "An olive watering can with navy spout.",
+      "origin": "extension",
+      "tags": [
+        "Watering can",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "shovel",
+      "label": "Shovel",
+      "category": "infrastructure",
+      "description": "A compact diagonal spade with rounded cream grip.",
+      "origin": "extension",
+      "tags": [
+        "Shovel",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "broom",
+      "label": "Broom",
+      "category": "infrastructure",
+      "description": "A small sandstone broom with ochre bristles.",
+      "origin": "extension",
+      "tags": [
+        "Broom",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "bucket",
+      "label": "Bucket",
+      "category": "infrastructure",
+      "description": "A teal bucket with a navy loop handle.",
+      "origin": "extension",
+      "tags": [
+        "Bucket",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "spray-bottle",
+      "label": "Spray bottle",
+      "category": "infrastructure",
+      "description": "A rounded cream spray bottle with teal trigger.",
+      "origin": "extension",
+      "tags": [
+        "Spray bottle",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "light-switch",
+      "label": "Light switch",
+      "category": "infrastructure",
+      "description": "A pale switch plate with a small teal rocker.",
+      "origin": "extension",
+      "tags": [
+        "Light switch",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "flashlight",
+      "label": "Flashlight",
+      "category": "infrastructure",
+      "description": "A compact navy torch with cream lens.",
+      "origin": "extension",
+      "tags": [
+        "Flashlight",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "candle",
+      "label": "Candle",
+      "category": "infrastructure",
+      "description": "A short cream candle with softly sculpted flame.",
+      "origin": "extension",
+      "tags": [
+        "Candle",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "fire-extinguisher",
+      "label": "Fire extinguisher",
+      "category": "infrastructure",
+      "description": "A small terracotta extinguisher with black hose, no lettering.",
+      "origin": "extension",
+      "tags": [
+        "put out a fire",
+        "fire safety equipment",
+        "fire protection"
+      ]
+    },
+    {
+      "id": "alarm-clock",
+      "label": "Alarm clock",
+      "category": "infrastructure",
+      "description": "A round rust alarm clock with two little bells.",
+      "origin": "extension",
+      "tags": [
+        "Alarm clock",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "hourglass",
+      "label": "Hourglass",
+      "category": "infrastructure",
+      "description": "A navy framed glass timer with sandstone sand.",
+      "origin": "extension",
+      "tags": [
+        "Hourglass",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "door",
+      "label": "Door",
+      "category": "infrastructure",
+      "description": "A freestanding cream interior door with teal edge and round handle.",
+      "origin": "extension",
+      "tags": [
+        "Door",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "sofa",
+      "label": "Sofa",
+      "category": "infrastructure",
+      "description": "A small rounded teal sofa with short wooden feet.",
+      "origin": "extension",
+      "tags": [
+        "Sofa",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "desk-chair",
+      "label": "Desk chair",
+      "category": "infrastructure",
+      "description": "A slate office chair with visible casters.",
+      "origin": "extension",
+      "tags": [
+        "office chair",
+        "rolling chair",
+        "workstation furniture"
+      ]
+    },
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "category": "infrastructure",
+      "description": "A small cream refrigerator with two doors.",
+      "origin": "extension",
+      "tags": [
+        "Refrigerator",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "washer",
+      "label": "Washing machine",
+      "category": "infrastructure",
+      "description": "A pale rounded washing machine with blue circular door.",
+      "origin": "extension",
+      "tags": [
+        "laundry",
+        "clothes washer",
+        "washing machine"
+      ]
+    },
+    {
+      "id": "fan",
+      "label": "Desk fan",
+      "category": "infrastructure",
+      "description": "A cream tabletop fan with three separate blades behind rounded rim.",
+      "origin": "extension",
+      "tags": [
+        "Desk fan",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "desk-lamp",
+      "label": "Desk lamp",
+      "category": "infrastructure",
+      "description": "An adjustable teal desk lamp with mustard pivot and slate base.",
+      "origin": "extension",
+      "tags": [
+        "Desk lamp",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "sewing-machine",
+      "label": "Sewing machine",
+      "category": "infrastructure",
+      "description": "A cream compact sewing machine with one navy dial.",
+      "origin": "extension",
+      "tags": [
+        "Sewing machine",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "tape-dispenser",
+      "label": "Tape dispenser",
+      "category": "infrastructure",
+      "description": "A rounded navy tape dispenser with identifiable tape roll.",
+      "origin": "extension",
+      "tags": [
+        "Tape dispenser",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "stapler",
+      "label": "Stapler",
+      "category": "infrastructure",
+      "description": "A small coral stapler open a little.",
+      "origin": "extension",
+      "tags": [
+        "Stapler",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "banknote",
+      "label": "Banknote",
+      "category": "infrastructure",
+      "description": "Two small olive banknotes with a pale geometric center, no denominations.",
+      "origin": "extension",
+      "tags": [
+        "paper money",
+        "cash",
+        "bills",
+        "bank notes"
+      ]
+    },
+    {
+      "id": "cash-register",
+      "label": "Cash register",
+      "category": "infrastructure",
+      "description": "A squat cream register with slate keypad and drawer.",
+      "origin": "extension",
+      "tags": [
+        "point of sale",
+        "POS terminal",
+        "checkout till",
+        "shop register"
+      ]
+    },
+    {
+      "id": "gift-box",
+      "label": "Gift box",
+      "category": "infrastructure",
+      "description": "A small pale present wrapped with a terracotta ribbon.",
+      "origin": "extension",
+      "tags": [
+        "Gift box",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "shopping-basket",
+      "label": "Shopping basket",
+      "category": "infrastructure",
+      "description": "A compact slate market basket with two rounded mustard handles.",
+      "origin": "extension",
+      "tags": [
+        "Shopping basket",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "parcel",
+      "label": "Parcel",
+      "category": "infrastructure",
+      "description": "A single cardboard shipping carton with small folded cream tape.",
+      "origin": "extension",
+      "tags": [
+        "cardboard box",
+        "delivery package",
+        "parcel",
+        "shipment"
+      ]
+    },
+    {
+      "id": "forklift",
+      "label": "Forklift",
+      "category": "infrastructure",
+      "description": "A little warehouse forklift with ochre body and dark forks.",
+      "origin": "extension",
+      "tags": [
+        "lift truck",
+        "warehouse forklift",
+        "load goods"
+      ]
+    },
+    {
+      "id": "pallet",
+      "label": "Pallet",
+      "category": "infrastructure",
+      "description": "A short sandstone wooden shipping pallet with clear slat gaps.",
+      "origin": "extension",
+      "tags": [
+        "Pallet",
+        "everyday equipment and commerce"
+      ]
+    },
+    {
+      "id": "shipping-container",
+      "label": "Shipping container",
+      "category": "infrastructure",
+      "description": "A single teal intermodal shipping container with sculpted ribbed sides.",
+      "origin": "extension",
+      "tags": [
+        "intermodal cargo",
+        "freight container",
+        "cargo box"
       ]
     }
   ]

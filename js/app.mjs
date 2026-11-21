@@ -2,6 +2,9 @@ import { prepareSearch, searchIcons } from "./search.mjs";
 
 const byId = id => document.getElementById(id);
 const grid = byId("icon-grid");
+const more = byId("browse-more");
+const pageSize = 72;
+const countFormat = new Intl.NumberFormat();
 const categories = byId("categories");
 const interfaceGroups = byId("interface-groups");
 const queryInput = byId("query");
@@ -17,6 +20,9 @@ let category = "all";
 let interfaceGroup = "all";
 let catalog;
 let icons = [];
+let matches = [];
+let browseKey;
+let pageLimit = pageSize;
 let currentIcon;
 let semanticScores;
 let worker;
@@ -46,7 +52,7 @@ function renderCategories() {
     const count = document.createElement("span");
     count.className = "category-count";
     count.setAttribute("aria-hidden", "true");
-    count.textContent = id === "all" ? icons.length : counts.get(id) ?? 0;
+    count.textContent = countFormat.format(id === "all" ? icons.length : counts.get(id) ?? 0);
     button.append(name, count);
     categories.append(button);
   }
@@ -71,7 +77,10 @@ function render() {
   const isInterface = category === "interface";
   const scope = category === "all" ? icons : icons.filter(icon => icon.category === category
     && (!isInterface || interfaceGroup === "all" || icon.group === interfaceGroup));
-  const matches = searchIcons(scope, query, semanticScores);
+  const nextKey = JSON.stringify([category, interfaceGroup, query]);
+  if (nextKey !== browseKey) pageLimit = pageSize;
+  browseKey = nextKey;
+  matches = searchIcons(scope, query, semanticScores);
   interfaceGroups.hidden = !isInterface;
   for (const button of interfaceGroups.querySelectorAll("button")) {
     button.setAttribute("aria-pressed", String(button.dataset.group === interfaceGroup));
@@ -83,13 +92,24 @@ function render() {
   const searching = waitingForMeaning && !matches.length;
   byId("results-count").textContent = searching
     ? "Searching by meaning…"
-    : `${matches.length} ${matches.length === 1 ? "icon" : "icons"}`;
+    : `${countFormat.format(matches.length)} ${matches.length === 1 ? "icon" : "icons"}`;
   byId("empty").hidden = matches.length !== 0 || searching;
 
   const focusedId = grid.contains(document.activeElement) ? document.activeElement.dataset.icon : null;
+  grid.replaceChildren();
+  appendCards();
+  if (focusedId) {
+    const card = grid.querySelector(`[data-icon="${focusedId}"]`);
+    (card ?? queryInput).focus({ preventScroll: true });
+  }
+}
+
+function appendCards() {
+  const start = grid.childElementCount;
+  const end = Math.min(pageLimit, matches.length);
   const cards = document.createDocumentFragment();
-  let focusedCard;
-  for (const [index, icon] of matches.entries()) {
+  for (let index = start; index < end; index++) {
+    const icon = matches[index];
     const button = document.createElement("button");
     button.type = "button";
     button.className = "card";
@@ -111,11 +131,18 @@ function render() {
     art.append(image);
     button.append(art, label);
     cards.append(button);
-    if (icon.id === focusedId) focusedCard = button;
   }
-  grid.replaceChildren(cards);
-  if (focusedId) (focusedCard ?? queryInput).focus({ preventScroll: true });
+  grid.append(cards);
+  more.hidden = end >= matches.length;
+  byId("browse-progress").textContent = `${countFormat.format(end)} of ${countFormat.format(matches.length)}`;
 }
+
+byId("show-more").addEventListener("click", () => {
+  const firstNewCard = grid.childElementCount;
+  pageLimit += pageSize;
+  appendCards();
+  grid.children[firstNewCard]?.focus();
+});
 
 function updateQuery() {
   const query = queryInput.value.trim();
@@ -165,6 +192,7 @@ function disableSemanticSearch() {
 function resetSearch() {
   category = "all";
   queryInput.value = "";
+  interfaceGroup = "all";
   if (previousQuery) updateQuery();
   else render();
   queryInput.focus();
@@ -288,6 +316,7 @@ byId("reset").addEventListener("click", resetSearch);
 for (const example of document.querySelectorAll("[data-query]")) {
   example.addEventListener("click", () => {
     category = "all";
+    interfaceGroup = "all";
     queryInput.value = example.dataset.query;
     if (previousQuery === queryInput.value) render();
     else updateQuery();

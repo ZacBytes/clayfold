@@ -96,6 +96,13 @@ kbd { min-width: 24px; padding: 1px 5px; border: 1px solid var(--line); border-r
 [data-category="environment-society"] { --tint: #e9eddf; }
 [data-category="country-flags"] { --tint: #eeeae3; }
 [data-category="interface"] { --tint: #ecede3; }
+[data-category="devices"] { --tint: #e8edee; }
+[data-category="food-drink"] { --tint: #f2ebe0; }
+[data-category="travel-places"] { --tint: #ebece1; }
+[data-category="sports-leisure"] { --tint: #eeebe5; }
+[data-category="health-learning"] { --tint: #e8eeeb; }
+.browse-more { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 23px; }
+.browse-more p { margin: 0; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .empty { padding: 35px 17px; text-align: center; border: 1px dashed #d0d6c8; border-radius: 12px; }
 .empty h4 { margin: 0; font: 400 25px/1.2 var(--serif); }
 .empty p, .notice { margin: 8px 0 15px; color: var(--muted); }
