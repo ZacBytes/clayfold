@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Clayfold color font demo</title>
+  <link rel="icon" href="./assets/star.webp">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fonts/clayfold-sample.css">
+  <style>
+    .font-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 14px 24px; }
+    .font-controls label { display: grid; gap: 4px; color: var(--ink); font-weight: 600; }
+    .font-controls select { min-height: 40px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: inherit; font: inherit; }
+    .font-range { display: flex; align-items: center; gap: 8px; min-height: 40px; }
+    .font-range input { accent-color: var(--green); width: 110px; }
+    .font-range output { min-width: 45px; font-weight: 400; }
+    .font-preview { display: grid; min-height: 164px; place-items: center; margin: 17px 0; border: 1px solid var(--line); border-radius: 12px; background: #eeeee1; }
+    .font-preview .clayfold-sample-icons { --clayfold-icon-size: 96px; }
+    .font-example { padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a class="brand" href="./"><img src="./assets/star.webp" width="32" height="32" alt=""><span>Clayfold</span></a>
+    <a class="browse-link" href="./about.html#use-clayfold">About Clayfold</a>
+  </div></header>
+  <main class="info">
+    <h1>Color font demo</h1>
+    <p>This experimental font contains five sample icons. Change the name to swap the glyph.</p>
+    <div class="font-controls">
+      <label for="font-name">Icon
+        <select id="font-name">
+          <option value="bookmark">Bookmark</option>
+          <option value="aviation">Airplane</option>
+          <option value="dragon_fruit">Dragon fruit</option>
+          <option value="dumplings">Dumplings</option>
+          <option value="flag_japan">Japan flag</option>
+        </select>
+      </label>
+      <label for="font-size">Size
+        <span class="font-range"><input type="range" id="font-size" min="20" max="112" value="96"><output for="font-size">96 px</output></span>
+      </label>
+    </div>
+    <p id="font-unsupported" hidden>This browser doesn’t support the bitmap formats used by the sample font.</p>
+    <div class="font-preview">
+      <span class="clayfold-sample-icons" id="font-glyph" role="img" aria-label="Bookmark">bookmark</span>
+    </div>
+    <pre class="font-example"><code id="font-snippet">&lt;span class="clayfold-sample-icons" role="img" aria-label="Bookmark"&gt;bookmark&lt;/span&gt;</code></pre>
+    <p><a href="./fonts/clayfold-sample.css">Sample stylesheet</a> · <a href="https://github.com/ZacBytes/clayfold/blob/main/ARTWORK-LICENSE.md">Artwork license</a></p>
+  </main>
+  <script type="module">
+    const name = document.querySelector("#font-name");
+    const size = document.querySelector("#font-size");
+    const preview = document.querySelector(".font-preview");
+    const glyph = document.querySelector("#font-glyph");
+    const snippet = document.querySelector("#font-snippet");
+    const output = document.querySelector("output");
+    if (!CSS.supports("font-tech(color-cbdt)") && !CSS.supports("font-tech(color-sbix)")) {
+      document.querySelector("#font-unsupported").hidden = false;
+      preview.hidden = true;
+    }
+    function update() {
+      const label = name.selectedOptions[0].textContent;
+      glyph.textContent = name.value;
+      glyph.setAttribute("aria-label", label);
+      glyph.style.setProperty("--clayfold-icon-size", size.value + "px");
+      output.value = size.value + " px";
+      snippet.textContent = '<span class="clayfold-sample-icons" role="img" aria-label="' + label + '">' + name.value + '</span>';
+    }
+    name.addEventListener("change", update);
+    size.addEventListener("input", update);
+  </script>
+</body>
+</html>

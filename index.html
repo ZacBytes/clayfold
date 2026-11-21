@@ -36,11 +36,11 @@
         <h1 id="hero-title">Clayfold</h1>
         <p>Clay-style 3D icons for apps and websites.</p>
         <div class="hero-actions">
-          <a href="#catalog" class="browse-link">Browse icons</a>
           <a id="download-pack" class="button solid" href="https://github.com/ZacBytes/clayfold/releases/tag/v1.1.0">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
             Download pack
           </a>
+          <a id="use-pack" class="button use-pack" href="./about.html#use-clayfold">Use Clayfold</a>
         </div>
       </div>
       <div class="hero-art" aria-hidden="true">
@@ -107,6 +107,59 @@
         <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-webp.zip">WebP ZIP</a>
         <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-svg.zip">SVG ZIP</a>
       </div>
+    </div>
+  </dialog>
+
+  <dialog id="use-clayfold" aria-labelledby="use-title">
+    <div class="dialog-inner pack-body setup-body">
+      <form method="dialog">
+        <button type="submit" class="icon-button close" aria-label="Close setup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      </form>
+      <h2 id="use-title">Use Clayfold</h2>
+      <div class="setup-tabs" role="tablist" aria-label="Integration options">
+        <button id="setup-agent-tab" type="button" role="tab" aria-controls="setup-agent" aria-selected="true">Coding agent</button>
+        <button id="setup-html-tab" type="button" role="tab" aria-controls="setup-html" aria-selected="false" tabindex="-1">HTML</button>
+        <button id="setup-font-tab" type="button" role="tab" aria-controls="setup-font" aria-selected="false" tabindex="-1">Icon font</button>
+      </div>
+      <section id="setup-agent" role="tabpanel" aria-labelledby="setup-agent-tab">
+        <p>Paste this prompt into your coding agent with a description of the UI you’re building.</p>
+        <ul class="agent-list" aria-label="Examples of coding agents">
+          <li><img src="./brand/codex.png" alt="" width="20" height="20">Codex</li>
+          <li><img src="./brand/claude.svg" alt="" width="20" height="20">Claude Code</li>
+          <li><img src="./brand/cursor.svg" alt="" width="20" height="20">Cursor</li>
+        </ul>
+        <textarea id="agent-prompt" class="setup-code" aria-label="Coding agent prompt" rows="9" readonly spellcheck="false">Use Clayfold icons in the UI I’m building. Follow this project’s existing components and asset conventions.
+
+Read the icon catalog at https://zacbytes.github.io/clayfold/catalog.json and choose IDs that match the intended actions or subjects. Download the selected WebP files from https://zacbytes.github.io/clayfold/assets/&lt;id&gt;.webp and store them with this project’s local assets.
+
+Preserve the original artwork and its aspect ratio. Give standalone icons meaningful alt text, use empty alt text for decorative icons, and label icon-only controls. Credit Clayfold under CC BY 4.0 and follow the terms at https://github.com/ZacBytes/clayfold/blob/main/ARTWORK-LICENSE.md, including the rules that may apply to national flags.
+
+Implement the icons and verify that they load in the intended UI.</textarea>
+        <div class="setup-actions">
+          <button type="button" class="button solid" data-copy-field="agent-prompt" data-copy-message="Prompt copied.">Copy prompt</button>
+          <span class="setup-status" role="status"></span>
+        </div>
+      </section>
+      <section id="setup-html" role="tabpanel" aria-labelledby="setup-html-tab" hidden>
+        <p>Try this example with Bookmark. To self-host it, download the WebP and update the image path to point to your copy.</p>
+        <textarea id="html-example" class="setup-code" aria-label="HTML example" rows="4" readonly spellcheck="false">&lt;img src="https://zacbytes.github.io/clayfold/assets/bookmark.webp"
+     width="48" height="48" alt="Bookmark"&gt;</textarea>
+        <div class="setup-actions">
+          <button type="button" class="button solid" data-copy-field="html-example" data-copy-message="HTML copied.">Copy HTML</button>
+          <a class="button" href="./assets/bookmark.webp" download>Download WebP</a>
+          <span class="setup-status" role="status"></span>
+        </div>
+      </section>
+      <section id="setup-font" role="tabpanel" aria-labelledby="setup-font-tab" hidden>
+        <p>Try the experimental color font with five sample icons. Change the icon name to switch the glyph.</p>
+        <textarea id="font-example" class="setup-code" aria-label="Sample font HTML" rows="5" readonly spellcheck="false">&lt;link rel="stylesheet" href="https://zacbytes.github.io/clayfold/fonts/clayfold-sample.css"&gt;
+&lt;span class="clayfold-sample-icons" role="img" aria-label="Bookmark"&gt;bookmark&lt;/span&gt;</textarea>
+        <div class="setup-actions">
+          <a class="button solid" href="./font-demo.html">Try the font demo</a>
+          <button type="button" class="button" data-copy-field="font-example" data-copy-message="Font example copied.">Copy example</button>
+          <span class="setup-status" role="status"></span>
+        </div>
+      </section>
     </div>
   </dialog>
 

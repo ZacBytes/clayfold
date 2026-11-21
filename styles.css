@@ -52,11 +52,13 @@ img { display: block; max-width: 100%; }
 .hero-copy { z-index: 1; padding: 29px clamp(24px, 4.4vw, 64px); }
 .hero h1 { margin: 0; font: 650 clamp(57px, 7.8vw, 112px)/.98 var(--wordmark); letter-spacing: -.025em; white-space: nowrap; }
 .hero p { margin: 17px 0 24px; color: #485746; font-size: clamp(16px, 1.9vw, 22px); letter-spacing: -.025em; }
-.hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 16px; }
+.hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; }
+.hero-actions .use-pack { background: var(--paper); color: var(--green); }
+.hero-actions .use-pack:hover { background: var(--active); }
 .browse-link { min-height: 36px; display: inline-flex; align-items: center; gap: 8px; color: var(--green); font-weight: 700; text-decoration: none; }
 .browse-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 
-.hero-art { position: absolute; inset: 0 0 0 48%; }
+.hero-art { position: absolute; z-index: 0; inset: 0 0 0 48%; pointer-events: none; }
 .hero-object { position: absolute; display: grid; width: clamp(115px, 15vw, 222px); aspect-ratio: 1; place-items: center; border: 1px solid #d6dac9; border-radius: 23%; box-shadow: 0 14px 25px #363e2910; }
 .hero-object img { width: 84%; height: auto; }
 .hero-object-one { left: 2%; top: 14%; background: #dce5d2; transform: rotate(-11deg); }
@@ -132,6 +134,19 @@ body:has(dialog[open]) { overflow: hidden; }
 .pack-body { padding: 24px; }
 .pack-body h2 { padding-right: 48px; }
 .pack-body p { margin: 10px 0 18px; color: var(--muted); }
+#use-clayfold { width: min(620px,100% - 28px); }
+.setup-body h2 { font-family: var(--wordmark); font-weight: 650; letter-spacing: -.025em; }
+.setup-tabs { display: flex; gap: 4px; margin-top: 18px; padding: 4px; border: 1px solid var(--line); border-radius: 10px; background: #efefe6; }
+.setup-tabs button { flex: 1; min-height: 36px; padding: 4px 6px; border: 1px solid transparent; border-radius: 7px; background: transparent; font-size: 13px; font-weight: 700; color: var(--muted); }
+.setup-tabs button:hover { color: var(--green); }
+.setup-tabs button[aria-selected="true"] { border-color: var(--line); background: var(--paper); color: var(--green); }
+.setup-body [role="tabpanel"] > p { margin: 15px 0 13px; }
+.agent-list { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 14px; padding: 0; list-style: none; }
+.agent-list li { min-height: 31px; display: flex; align-items: center; gap: 6px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 7px; background: var(--page); font-size: 12px; font-weight: 650; }
+.agent-list img { width: 20px; height: 20px; object-fit: contain; }
+.setup-code { display: block; width: 100%; max-height: 33dvh; margin: 0; padding: 11px 12px; resize: vertical; border: 1px solid var(--line); border-radius: 9px; background: var(--page); color: var(--ink); font: 13px/1.55 ui-monospace, Menlo, monospace; }
+.setup-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 10px; margin-top: 13px; }
+.setup-status { color: var(--green); font-size: 12px; }
 .detail-description { margin: 7px 0; color: var(--muted); }
 .detail-format { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 11px; margin: 0 0 15px; color: var(--muted); font-size: 12px; }
 .detail-format a { text-underline-offset: 3px; }
@@ -196,10 +211,13 @@ body:has(dialog[open]) { overflow: hidden; }
   .hero-copy { grid-column: 1 / -1; }
   .hero h1 { font-size: clamp(38px, 10.5vw, 49px); }
   .hero p { max-width: 186px; }
-  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .hero-actions .button { padding-inline: 9px; }
+  .setup-body { padding: 19px; }
+  .setup-body .close { top: 17px; right: 17px; }
+  .setup-tabs button { flex: 1 1 auto; white-space: nowrap; }
   .hero-art { left: 64%; }
   .hero-object { width: clamp(68px, 19vw, 99px); }
   .hero-object-one { left: -9%; top: 46%; }
-  .hero-object-two { left: 28%; top: 64%; }
+  .hero-object-two { left: 40%; top: 64%; }
   .hero-object-three { right: -15%; top: 12%; }
 }

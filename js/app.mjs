@@ -1,19 +1,66 @@
 import { prepareSearch, searchIcons } from "./search.mjs";
 
 const byId = id => document.getElementById(id);
-const packLink = byId("download-pack");
-const packDownloads = byId("pack-downloads");
-if (typeof packDownloads.showModal === "function") {
-  packLink.setAttribute("aria-haspopup", "dialog");
-  packLink.addEventListener("click", event => {
+const setup = byId("use-clayfold");
+for (const [link, dialog] of [
+  [byId("download-pack"), byId("pack-downloads")],
+  [byId("use-pack"), setup],
+]) {
+  if (typeof dialog.showModal !== "function") continue;
+  link.setAttribute("aria-haspopup", "dialog");
+  link.addEventListener("click", event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    packDownloads.showModal();
+    dialog.showModal();
   });
-  packDownloads.addEventListener("click", event => {
-    if (event.target === packDownloads) packDownloads.close();
+  dialog.addEventListener("click", event => {
+    if (event.target === dialog) dialog.close();
   });
 }
+
+const setupTabs = [...setup.querySelectorAll('[role="tab"]')];
+function selectSetupTab(selected) {
+  for (const tab of setupTabs) {
+    const active = tab === selected;
+    tab.tabIndex = active ? 0 : -1;
+    tab.setAttribute("aria-selected", String(active));
+    byId(tab.getAttribute("aria-controls")).hidden = !active;
+  }
+}
+for (const [index, tab] of setupTabs.entries()) {
+  tab.addEventListener("click", () => selectSetupTab(tab));
+  tab.addEventListener("keydown", event => {
+    const last = setupTabs.length - 1;
+    const destination = {
+      ArrowLeft: index === 0 ? last : index - 1,
+      ArrowRight: index === last ? 0 : index + 1,
+      Home: 0,
+      End: last,
+    }[event.key];
+    if (typeof destination !== "number") return;
+    event.preventDefault();
+    selectSetupTab(setupTabs[destination]);
+    setupTabs[destination].focus();
+  });
+}
+setup.addEventListener("click", async event => {
+  const button = event.target.closest("[data-copy-field]");
+  if (!button) return;
+  const field = byId(button.dataset.copyField);
+  const status = button.parentElement.querySelector('[role="status"]');
+  status.textContent = "";
+  try {
+    await navigator.clipboard.writeText(field.value);
+    status.textContent = button.dataset.copyMessage;
+  } catch {
+    field.focus();
+    field.select();
+    status.textContent = "Text selected. Use your device’s copy command.";
+  }
+});
+setup.addEventListener("close", () => {
+  for (const status of setup.querySelectorAll('[role="status"]')) status.textContent = "";
+});
 
 const grid = byId("icon-grid");
 const more = byId("browse-more");

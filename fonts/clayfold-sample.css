@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Clayfold Sample";
+  src: url("./clayfold-sample-cbdt.woff2") format("woff2") tech(color-cbdt),
+       url("./clayfold-sample-sbix.woff2") format("woff2") tech(color-sbix);
+  font-display: block;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.clayfold-sample-icons {
+  display: inline-block;
+  font: 400 var(--clayfold-icon-size, 1.5rem)/1 "Clayfold Sample", sans-serif;
+  font-feature-settings: "liga" 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+}
