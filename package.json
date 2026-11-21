@@ -1,0 +1,25 @@
+{
+  "name": "clayfold-icons",
+  "version": "1.0.0",
+  "description": "Clay-style 3D WebP icons for apps and websites.",
+  "homepage": "https://zacbytes.github.io/clayfold/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacBytes/clayfold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZacBytes/clayfold/issues"
+  },
+  "license": "SEE LICENSE IN ARTWORK-LICENSE.md",
+  "keywords": ["icons", "3d-icons", "clay", "webp", "country-flags"],
+  "files": ["assets/*.webp", "catalog.json", "ARTWORK-LICENSE.md"],
+  "exports": {
+    "./assets/*.webp": "./assets/*.webp",
+    "./catalog.json": "./catalog.json",
+    "./ARTWORK-LICENSE.md": "./ARTWORK-LICENSE.md"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
