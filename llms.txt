@@ -1,0 +1,31 @@
+# Clayfold
+
+> Clayfold is a clay-style 3D icon pack for apps and websites. It includes interface icons, everyday objects, food, infrastructure and country flags.
+
+Find an icon in the JSON catalog using `icons[].id`, `label`, `category`, `description` and `tags`. Copy the exact ID from the catalog. The browser catalog also accepts queries that describe the icon’s appearance or purpose.
+
+Download individual icons from `https://zacbytes.github.io/clayfold/assets/<id>.<ext>` and store the files with your app’s assets. Use `webp` for compact lossless images, `png` for transparent 256 × 256 images, or `svg` for an SVG that embeds the PNG. The SVG preserves the shading at the original bitmap resolution.
+
+```html
+<img src="/assets/bookmark.webp" width="48" height="48" alt="">
+```
+
+Use an empty alt attribute for decorative artwork. Give icon-only controls an accessible name that describes the action.
+
+The browser font builder exports only the selected icons. Keep the bundled CSS and both TTF files together. Use the ligature from `icons.json` to render an icon by name, such as `coffee_cup`.
+
+Credit Clayfold, link to CC BY 4.0 and indicate any changes when using artwork covered by that license. Check the artwork license for the scope of permission and any separate rules for national flags.
+
+## Catalog and downloads
+
+- [JSON catalog](https://zacbytes.github.io/clayfold/catalog.json)
+- [Browse Clayfold](https://zacbytes.github.io/clayfold/)
+- [Download Bookmark in WebP](https://zacbytes.github.io/clayfold/assets/bookmark.webp)
+- [Full pack releases](https://github.com/ZacBytes/clayfold/releases/latest)
+- [Custom color icon font builder](https://zacbytes.github.io/clayfold/font-demo.html)
+
+## Usage and licensing
+
+- [File formats and developer guide](https://zacbytes.github.io/clayfold/about.html#use-clayfold)
+- [Artwork license](https://zacbytes.github.io/clayfold/ARTWORK-LICENSE.md)
+- [Clayfold on GitHub](https://github.com/ZacBytes/clayfold)

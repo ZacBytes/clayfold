@@ -4,10 +4,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="Browse and download soft 3D icons for infrastructure, technology, the environment and everyday interfaces.">
+  <meta name="description" content="Browse and download Clayfold’s 3D clay icons, including 200 country flags. Get PNG, WebP and SVG files, download the full pack, or build a custom color icon font.">
+  <meta name="robots" content="max-image-preview:large">
+  <meta name="google-site-verification" content="lSYE1WqW4dATNZfH9ZXy6d25A_5h6OOR9qXoCcQXBAw">
   <meta name="theme-color" content="#f7f6f0">
-  <title>Clayfold</title>
-  <link rel="icon" href="./assets/star.webp">
+  <title>Clayfold 3D Icons for Apps and Websites</title>
+  <link rel="canonical" href="https://zacbytes.github.io/clayfold/">
+  <link rel="describedby" href="./llms.txt">
+  <link rel="icon" href="./favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
+  <link rel="icon" href="./brand/favicon.png" sizes="96x96" type="image/png">
+  <link rel="apple-touch-icon" href="./brand/apple-touch-icon.png" sizes="180x180">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clayfold">
+  <meta property="og:title" content="Clayfold 3D Icons for Apps and Websites">
+  <meta property="og:description" content="Download clay-style 3D icons in PNG, WebP and SVG, or build a custom color icon font.">
+  <meta property="og:url" content="https://zacbytes.github.io/clayfold/">
+  <meta property="og:image" content="https://zacbytes.github.io/clayfold/brand/social-card.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Clayfold’s clay-style cargo ship, bookmark and coffee cup icons.">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://zacbytes.github.io/clayfold/#website",
+          "url": "https://zacbytes.github.io/clayfold/",
+          "name": "Clayfold",
+          "description": "Clay-style 3D icons for apps and websites.",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://zacbytes.github.io/clayfold/#icon-catalog",
+          "name": "Clayfold 3D Icon Catalog",
+          "description": "An index of Clayfold's clay-style 3D icons and country flags, with stable asset IDs, labels, categories, descriptions and search tags.",
+          "url": "https://zacbytes.github.io/clayfold/",
+          "isPartOf": { "@id": "https://zacbytes.github.io/clayfold/#website" },
+          "distribution": {
+            "@type": "DataDownload",
+            "encodingFormat": "application/json",
+            "contentUrl": "https://zacbytes.github.io/clayfold/catalog.json"
+          }
+        }
+      ]
+    }
+  </script>
   <link rel="preload" href="./fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./styles.css">
   <script type="module" src="./js/app.mjs"></script>
@@ -87,13 +132,13 @@
             <h4>No matching icons</h4><p>Try describing what the icon shows or what you’d use it for.</p>
             <button type="button" id="reset" class="button">Show all icons</button>
           </div>
-          <noscript><p>Enable JavaScript to browse the catalog, or view the files on <a href="https://github.com/ZacBytes/clayfold/tree/main/assets">GitHub</a>.</p></noscript>
+          <noscript><p>Enable JavaScript to browse the catalog, or use the <a href="./catalog.json">JSON catalog</a> and <a href="https://github.com/ZacBytes/clayfold/tree/main/assets">icon files on GitHub</a>.</p></noscript>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer wrap"><span>Clayfold</span><a href="./about.html">Artwork, formats and licensing</a></footer>
+  <footer class="footer wrap"><span>Clayfold</span><a href="./font-demo.html">Icon font builder</a><a href="./about.html">Artwork, formats and licensing</a></footer>
 
   <dialog id="pack-downloads" aria-labelledby="pack-title" aria-describedby="pack-description">
     <div class="dialog-inner pack-body">
