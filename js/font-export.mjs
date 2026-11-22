@@ -45,7 +45,7 @@ export async function exportFontZip(icons, reportProgress) {
   if (!context) throw new Error("Two-dimensional drawing is unavailable in this browser.");
   context.imageSmoothingQuality = "high";
   const glyphs = [];
-  const catalog = icons.map(({id, label}) => ({id, label, ligature: id.replaceAll("-", "_")}));
+  const catalog = fontCatalog(icons);
   const batchSize = 8;
   for (let index = 0; index < catalog.length; index += batchSize) {
     glyphs.push(...await Promise.all(catalog.slice(index, index + batchSize).map(icon => loadBitmap(icon, context))));
@@ -57,17 +57,26 @@ export async function exportFontZip(icons, reportProgress) {
   reportProgress("Building the font ZIP…");
   // Give the layout a frame to show the last status before writing the binary files.
   await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  return new Blob([packFont(catalog, glyphs, license)], { type: "application/zip" });
+}
+
+export function fontCatalog(icons) {
+  return icons.map(({id, label}) => ({id, label, ligature: id.replaceAll("-", "_")}));
+}
+
+export function packFont(catalog, glyphs, license) {
   const first = catalog[0];
   const label = first.label.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   const notes = `# Clayfold icon font
 
-This subset contains ${catalog.length} ${catalog.length === 1 ? "icon" : "icons"} with ${bitmapSize} × ${bitmapSize} color artwork.
+This font contains ${catalog.length} ${catalog.length === 1 ? "icon" : "icons"} with ${bitmapSize} × ${bitmapSize} color artwork.
 
 Keep both TTFs beside clayfold-icons.css and copy them into your app’s published assets. Link the stylesheet and use the ligature listed in icons.json:
 
 \`\`\`html
 <link rel="stylesheet" href="./clayfold-icons.css">
 <span class="clayfold-icons" role="img" aria-label="${label}">${first.ligature}</span>
+<span class="clayfold-icons clayfold-icon-${first.id}" role="img" aria-label="${label}"></span>
 \`\`\`
 
 Set --clayfold-icon-size to change display size. When switching a meaningful icon’s name, update its accessible label too. Use aria-hidden="true" for decorative icons that already have a text label next to them.
@@ -77,11 +86,12 @@ The stylesheet selects a color font format supported by the browser. Use the ima
 Use Clayfold artwork in personal or commercial projects without credit. Credit Clayfold if you redistribute the artwork in a reusable icon pack. See [ARTWORK-LICENSE.md](./ARTWORK-LICENSE.md) for the terms and separate rules that may apply to national flags.
 `;
   const encoder = new TextEncoder();
-  return new Blob([zipSync({
+  const iconClasses = catalog.map(({id, ligature}) => `.clayfold-icon-${id}::before { content: "${ligature}"; }`);
+  return zipSync({
     ...buildColorFonts(glyphs),
-    "clayfold-icons.css": encoder.encode(fontsCss),
+    "clayfold-icons.css": encoder.encode(fontsCss + "\n" + iconClasses.join("\n") + "\n"),
     "icons.json": encoder.encode(JSON.stringify(catalog, null, 2) + "\n"),
     "ARTWORK-LICENSE.md": license,
     "README.md": encoder.encode(notes),
-  }, { level: 0 })], { type: "application/zip" });
+  }, { level: 0 });
 }

@@ -154,6 +154,7 @@ dialog::backdrop { background: #20282184; }
 .detail-format { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 11px; margin: 0 0 15px; color: var(--muted); font-size: 12px; }
 .detail-format a { text-underline-offset: 3px; }
 .detail-actions { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.detail-actions + .detail-actions { margin-top: 8px; }
 .button { display: inline-flex; min-height: 40px; align-items: center; justify-content: center; gap: 7px; padding: 6px 11px; border: 1px solid #d6dbce; border-radius: 8px; background: transparent; text-decoration: none; font-size: 13px; font-weight: 700; }
 .button svg { width: 17px; height: 17px; }
 .button:hover { background: var(--active); }
@@ -168,6 +169,8 @@ dialog::backdrop { background: #20282184; }
 .info p, .info li { color: var(--muted); }
 .info a { color: var(--green); text-underline-offset: 3px; }
 .info pre { overflow-x: auto; padding: 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); font: 13px/1.6 ui-monospace, Menlo, monospace; }
+.info :not(pre) > code { overflow-wrap: anywhere; }
+.usage-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 20px 0; }
 
 .brand, .hero h1, .info h1 { font-variant-ligatures: no-common-ligatures; }
 

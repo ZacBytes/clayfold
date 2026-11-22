@@ -23,14 +23,16 @@
 
 Each archive includes all 704 icons, including 200 country flags, with the catalog and artwork license.
 
-[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-svg.zip)
+[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-svg.zip)
+
+[SVG sprite ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-sprite.zip) · [Color font ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-font.zip)
 
 ## Install with npm
 
 Each new [GitHub release](https://github.com/ZacBytes/clayfold/releases) includes a versioned npm archive. The package contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
 
 ```sh
-npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-icons-1.1.1.tgz
+npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-icons-1.2.0.tgz
 ```
 
 Import individual files in a bundler with static image imports, such as Vite.
@@ -41,11 +43,11 @@ import bookmark from "clayfold-icons/assets/bookmark.webp";
 document.querySelector("#bookmark").src = bookmark;
 ```
 
-Use the file names from [the catalog](./catalog.json), also available as `clayfold-icons/catalog.json`. Download PNG and SVG from the catalog or the full pack links above.
+Use the file names from [the catalog](./catalog.json), also available as `clayfold-icons/catalog.json`. The package also exposes `clayfold-icons/react` for an image component, `clayfold-icons/web` for dynamic icon URLs and browser rendering by ID, and `clayfold-icons/static` for SVG strings and sprites in Node.js. See the [usage guide](https://zacbytes.github.io/clayfold/about.html#use-clayfold) for examples.
 
 ## Use an icon
 
-Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open any result to copy the SVG or download an individual file.
+Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open a result to copy SVG, JSX, an icon ID, or its hosted image URL. Each icon is available as an SVG, PNG, or WebP download.
 
 Drop a downloaded icon into your app’s assets directory and reference it directly.
 

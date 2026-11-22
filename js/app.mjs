@@ -99,7 +99,7 @@ const interfaceGroups = byId("interface-groups");
 const queryInput = byId("query");
 const clearSearch = byId("clear-search");
 const shortcut = byId("search-shortcut");
-const copy = byId("copy-svg");
+const copyButtons = detail.querySelectorAll("[data-copy-icon]");
 const copyStatus = byId("copy-status");
 const copySource = byId("copy-source");
 const asset = (icon, extension) => `./assets/${icon.id}.${extension}`;
@@ -306,7 +306,7 @@ function showIcon(icon, addHash = true) {
   }
   copyStatus.textContent = "";
   copySource.hidden = true;
-  copy.disabled = false;
+  for (const button of copyButtons) button.disabled = false;
   ++copyRequest;
   if (!detail.open) detail.showModal();
 }
@@ -336,39 +336,50 @@ detail.addEventListener("close", () => {
 });
 window.addEventListener("hashchange", syncHash);
 
-copy.addEventListener("click", async () => {
+detail.addEventListener("click", async event => {
+  const button = event.target.closest("[data-copy-icon]");
+  if (!button || !currentIcon) return;
+  const type = button.dataset.copyIcon;
   const request = ++copyRequest;
-  copy.disabled = true;
+  for (const action of copyButtons) action.disabled = true;
   copyStatus.textContent = "";
   copySource.hidden = true;
   try {
-    const svg = fetch(asset(currentIcon, "svg")).then(response => {
-      if (!response.ok) throw new Error("SVG unavailable");
-      return response.text();
-    });
+    let source;
+    if (type === "Icon ID") source = currentIcon.id;
+    else if (type === "Image URL") source = new URL(asset(currentIcon, "webp"), location.href).href;
+    else {
+      // The self-contained SVG uses JSX-compatible attributes and tags.
+      source = fetch(asset(currentIcon, "svg")).then(response => {
+        if (!response.ok) throw new Error("SVG unavailable");
+        return response.text();
+      });
+    }
     try {
-      if (window.ClipboardItem && navigator.clipboard?.write) {
-        const content = svg.then(source => new Blob([source], { type: "text/plain" }));
+      if (typeof source === "string") {
+        await navigator.clipboard.writeText(source);
+      } else if (window.ClipboardItem && navigator.clipboard?.write) {
+        const content = source.then(text => new Blob([text], { type: "text/plain" }));
         await navigator.clipboard.write([new ClipboardItem({ "text/plain": content })]);
       } else {
-        const source = await svg;
+        const text = await source;
         if (copyRequest !== request) return;
-        await navigator.clipboard.writeText(source);
+        await navigator.clipboard.writeText(text);
       }
-      if (copyRequest === request) copyStatus.textContent = "SVG copied.";
+      if (copyRequest === request) copyStatus.textContent = `${type} copied.`;
     } catch {
-      const source = await svg;
+      const text = await source;
       if (copyRequest !== request) return;
-      copyStatus.textContent = "SVG selected. Use your device’s copy command.";
-      copySource.value = source;
+      copyStatus.textContent = `${type} selected. Use your device’s copy command.`;
+      copySource.value = text;
       copySource.hidden = false;
       copySource.focus();
       copySource.select();
     }
   } catch {
-    if (copyRequest === request) copyStatus.textContent = "SVG couldn’t be loaded. Try again.";
+    if (copyRequest === request) copyStatus.textContent = `${type} couldn’t be loaded. Try again.`;
   } finally {
-    if (copyRequest === request) copy.disabled = false;
+    if (copyRequest === request) for (const action of copyButtons) action.disabled = false;
   }
 });
 

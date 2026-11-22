@@ -98,8 +98,8 @@ function standardTables(glyphs, family) {
     Uint8Array.of(0x31, 0x21, 0x11, 0x21), words(510, -510, 690)]);
   const metrics = Array.from({length: count}, (_, index) => [index < firstIcon ? 570 : em, 0]).flat();
   const head = join([dwords(0x10000, 0x10000, 0, 0x5f0f3cf5), words(3, em),
-    dwords(0, 0xe7274522, 0, 0xe7274522), words(0, 0, 510, 690, 0, 3, 2, 0, 0)]);
-  const hhea = join([dwords(0x10000), words(ascent, descent, 0, em, 0, 60, 510, 1, 0, 0,
+    dwords(0, 0xe7274522, 0, 0xe7274522), words(0, descent, em, ascent, 0, 3, 2, 0, 0)]);
+  const hhea = join([dwords(0x10000), words(ascent, descent, 0, em, 0, 0, em, 1, 0, 0,
     0, 0, 0, 0, 0, count)]);
   const maxp = join([dwords(0x10000), words(count, 4, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0)]);
   const average = Math.round((chars.length * 570 + glyphs.length * em) / (count - 1));

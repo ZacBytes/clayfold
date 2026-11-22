@@ -42,6 +42,14 @@ jobs:
           # Earlier icon releases predate the npm manifest.
           if ! git show "$source:package.json" > "$package_dir/package.json" 2>/dev/null; then
             cp package.json "$package_dir/package.json"
+            cp -R integrations "$package_dir/integrations"
+          elif git cat-file -e "$source:integrations"; then
+            git archive "$source" integrations | tar -x -C "$package_dir"
+          fi
+          if git cat-file -e "$source:tools/build-usage.mjs"; then
+            git archive "$source" package-lock.json tools/build-usage.mjs js/font-export.mjs js/color-font.mjs vendor/fflate-0.8.2.mjs |
+              tar -x -C "$package_dir"
+            echo "PACKAGE_DIR=$package_dir" >> "$GITHUB_ENV"
           fi
           cd "$package_dir"
 
@@ -59,19 +67,31 @@ jobs:
           const { icons } = require("./catalog.json");
           const expected = ["ARTWORK-LICENSE.md", "README.md", "catalog.json", "package.json",
             ...icons.map(({ id }) => `assets/${id}.webp`)];
+          if (fs.existsSync("integrations")) {
+            expected.push(...fs.readdirSync("integrations").map(file => `integrations/${file}`));
+          }
           assert.deepEqual(pack.files.map(file => file.path).sort(), expected.sort());
           const tarball = path.join(process.env.RUNNER_TEMP, pack.filename);
           fs.appendFileSync(process.env.GITHUB_ENV, `NPM_TARBALL=${tarball}\n`);
           console.log(`Verified ${pack.name}@${pack.version} with ${icons.length} WebP icons.`);
           JS
+      - name: Build the font and SVG sprite
+        if: env.PACKAGE_DIR != ''
+        run: |
+          cd "$PACKAGE_DIR"
+          npm ci --ignore-scripts --no-audit --no-fund
+          node tools/build-usage.mjs "$RUNNER_TEMP"
       - name: Attach archive to GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          asset_name=$(basename "$NPM_TARBALL")
           assets=$(gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name')
-          if grep -Fxq -- "$asset_name" <<< "$assets"; then
-            printf '%s is already attached to %s.\n' "$asset_name" "$RELEASE_TAG"
-          else
-            gh release upload "$RELEASE_TAG" "$NPM_TARBALL" --repo "$GITHUB_REPOSITORY"
-          fi
+          for file in "$NPM_TARBALL" "$RUNNER_TEMP/clayfold-font.zip" "$RUNNER_TEMP/clayfold-sprite.zip"; do
+            [[ -f "$file" ]] || continue
+            asset_name=$(basename "$file")
+            if grep -Fxq -- "$asset_name" <<< "$assets"; then
+              printf '%s is already attached to %s.\n' "$asset_name" "$RELEASE_TAG"
+            else
+              gh release upload "$RELEASE_TAG" "$file" --repo "$GITHUB_REPOSITORY"
+            fi
+          done

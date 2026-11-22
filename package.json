@@ -1,6 +1,6 @@
 {
   "name": "clayfold-icons",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Clay-style 3D WebP icons for apps and websites.",
   "homepage": "https://zacbytes.github.io/clayfold/",
   "repository": {
@@ -12,11 +12,32 @@
   },
   "license": "SEE LICENSE IN ARTWORK-LICENSE.md",
   "keywords": ["icons", "3d-icons", "clay", "webp", "country-flags"],
-  "files": ["assets/*.webp", "catalog.json", "ARTWORK-LICENSE.md"],
+  "files": ["assets/*.webp", "catalog.json", "ARTWORK-LICENSE.md", "integrations/"],
   "exports": {
     "./assets/*.webp": "./assets/*.webp",
     "./catalog.json": "./catalog.json",
-    "./ARTWORK-LICENSE.md": "./ARTWORK-LICENSE.md"
+    "./ARTWORK-LICENSE.md": "./ARTWORK-LICENSE.md",
+    "./web": {
+      "types": "./integrations/web.d.mts",
+      "default": "./integrations/web.mjs"
+    },
+    "./react": {
+      "types": "./integrations/react.d.mts",
+      "default": "./integrations/react.mjs"
+    },
+    "./static": {
+      "types": "./integrations/static.d.mts",
+      "default": "./integrations/static.mjs"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  },
+  "devDependencies": {
+    "sharp": "0.34.5"
   },
   "publishConfig": {
     "access": "public",

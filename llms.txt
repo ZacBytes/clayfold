@@ -14,6 +14,8 @@ Use an empty alt attribute for decorative artwork. Give icon-only controls an ac
 
 For projects that use npm and a bundler with static image imports, install the versioned package from the npm guide below. Import individual WebP files with `import bookmark from "clayfold-icons/assets/bookmark.webp"` and use the URL as the image source.
 
+Use `clayfold-icons/react` for a React image component, `clayfold-icons/web` for icon URLs and browser rendering by ID, and `clayfold-icons/static` for SVG strings or sprites on the server. The usage guide includes HTML, CSS, framework integrations, and sprite and font examples.
+
 The browser font builder exports only the selected icons. Keep the bundled CSS and both TTF files together. Use the ligature from `icons.json` to render an icon by name, such as `coffee_cup`.
 
 Personal and commercial projects can use Clayfold artwork without credit. Credit Clayfold only when redistributing the artwork in a reusable icon pack. Check the artwork license for the scope of permission and any separate rules for national flags.
