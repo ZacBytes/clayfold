@@ -79,7 +79,7 @@ function ligatures(glyphs) {
 
 function fontNames(family) {
   const names = [
-    [0, "Artwork by Clayfold, CC BY 4.0 where applicable."],
+    [0, "Clayfold artwork."],
     [1, family], [2, "Regular"], [3, family + " 1.0"], [4, family],
     [5, "Version 1.0"], [6, family.replaceAll(" ", "")],
     [13, "See the included ARTWORK-LICENSE.md for license terms."],

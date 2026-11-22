@@ -74,7 +74,7 @@ Set --clayfold-icon-size to change display size. When switching a meaningful ico
 
 The stylesheet selects a color font format supported by the browser. Use the image files from the catalog when your target environment requires an image fallback.
 
-Artwork by [Clayfold](https://zacbytes.github.io/clayfold/). See [ARTWORK-LICENSE.md](./ARTWORK-LICENSE.md) for credit, license terms, and rules that may apply to national flags.
+Use Clayfold artwork in personal or commercial projects without credit. Credit Clayfold if you redistribute the artwork in a reusable icon pack. See [ARTWORK-LICENSE.md](./ARTWORK-LICENSE.md) for the terms and separate rules that may apply to national flags.
 `;
   const encoder = new TextEncoder();
   return new Blob([zipSync({

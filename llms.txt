@@ -16,7 +16,7 @@ For projects that use npm and a bundler with static image imports, install the v
 
 The browser font builder exports only the selected icons. Keep the bundled CSS and both TTF files together. Use the ligature from `icons.json` to render an icon by name, such as `coffee_cup`.
 
-Credit Clayfold, link to CC BY 4.0 and indicate any changes when using artwork covered by that license. Check the artwork license for the scope of permission and any separate rules for national flags.
+Personal and commercial projects can use Clayfold artwork without credit. Credit Clayfold only when redistributing the artwork in a reusable icon pack. Check the artwork license for the scope of permission and any separate rules for national flags.
 
 ## Catalog and downloads
 

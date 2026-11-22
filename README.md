@@ -4,7 +4,7 @@
   <p>
     <a href="https://zacbytes.github.io/clayfold/"><img src="https://img.shields.io/badge/Browse-the%20catalog-324c39?style=flat-square" alt="Browse the catalog"></a>
     <a href="./catalog.json"><img src="https://img.shields.io/badge/Icons-704-c79545?style=flat-square" alt="704 icons"></a>
-    <a href="./ARTWORK-LICENSE.md"><img src="https://img.shields.io/badge/Artwork-CC%20BY%204.0-547454?style=flat-square" alt="Artwork licensed CC BY 4.0"></a>
+    <a href="./ARTWORK-LICENSE.md"><img src="https://img.shields.io/badge/Artwork-Free%20for%20projects-547454?style=flat-square" alt="Clayfold Artwork License"></a>
     <a href="https://github.com/ZacBytes/clayfold/stargazers"><img src="https://img.shields.io/github/stars/ZacBytes/clayfold?style=flat-square&amp;logo=github&amp;color=324c39" alt="GitHub stars"></a>
     <a href="#coverage"><img src="https://img.shields.io/badge/Flags-200-83593e?style=flat-square" alt="200 country flags"></a>
   </p>
@@ -23,14 +23,14 @@
 
 Each archive includes all 704 icons, including 200 country flags, with the catalog and artwork license.
 
-[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-svg.zip)
+[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-svg.zip)
 
 ## Install with npm
 
 Each new [GitHub release](https://github.com/ZacBytes/clayfold/releases) includes a versioned npm archive. The package contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
 
 ```sh
-npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-icons-1.1.0.tgz
+npm install https://github.com/ZacBytes/clayfold/releases/download/v1.1.1/clayfold-icons-1.1.1.tgz
 ```
 
 Import individual files in a bundler with static image imports, such as Vite.
@@ -82,8 +82,6 @@ The [icon font builder](https://zacbytes.github.io/clayfold/font-demo.html) expo
 
 ## License
 
-Use and adapt the artwork in personal and commercial projects under **CC BY 4.0**. Credit Clayfold, link to the license, and indicate changes.
-
-> Icon by [Clayfold](https://zacbytes.github.io/clayfold/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Use Clayfold artwork in personal and commercial projects without credit. Credit Clayfold if you redistribute the artwork as part of a reusable icon pack. Separate rules can apply to national flags.
 
 [Artwork license and provenance](./ARTWORK-LICENSE.md).
