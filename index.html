@@ -82,7 +82,7 @@
         <h1 id="hero-title">Clayfold</h1>
         <p>Clay-style 3D icons for apps and websites.</p>
         <div class="hero-actions">
-          <a id="download-pack" class="button solid" href="https://github.com/ZacBytes/clayfold/releases/tag/v1.2.0">
+          <a id="download-pack" class="button solid" href="https://github.com/ZacBytes/clayfold/releases/tag/v1.2.1">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
             Download pack
           </a>
@@ -139,7 +139,7 @@
     </section>
   </main>
 
-  <footer class="footer wrap"><span>Clayfold</span><a href="./font-demo.html">Icon font builder</a><a href="./about.html">Artwork, formats and licensing</a></footer>
+  <footer class="footer wrap"><span>Clayfold</span><a href="./about.html">Usage and licensing</a></footer>
 
   <dialog id="pack-downloads" aria-labelledby="pack-title" aria-describedby="pack-description">
     <div class="dialog-inner pack-body">
@@ -149,11 +149,9 @@
       <h2 id="pack-title">Download the full pack</h2>
       <p id="pack-description">Each ZIP includes all 704 icons, the catalog, and the artwork license.</p>
       <div class="detail-actions">
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-png.zip">PNG ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-webp.zip">WebP ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-svg.zip">SVG ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-sprite.zip">SVG sprite ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-font.zip">Color font ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-png.zip">PNG ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-webp.zip">WebP ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-svg.zip">SVG ZIP</a>
       </div>
     </div>
   </dialog>
@@ -191,7 +189,7 @@ Implement the icons and verify that they load in the intended UI.</textarea>
       </section>
       <section id="setup-npm" role="tabpanel" aria-labelledby="setup-npm-tab" hidden>
         <p>Install all 704 WebP icons from the versioned package on GitHub. Import just the files your app uses.</p>
-        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false" data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-icons-1.2.0.tgz</textarea>
+        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false" data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-icons-1.2.1.tgz</textarea>
         <div class="setup-actions">
           <button type="button" class="button solid" data-copy-field="npm-command" data-copy-message="Install command copied.">Copy command</button>
           <a class="button" href="./about.html#npm">Usage examples</a>
@@ -210,10 +208,9 @@ Implement the icons and verify that they load in the intended UI.</textarea>
         </div>
       </section>
       <section id="setup-font" role="tabpanel" aria-labelledby="setup-font-tab" hidden>
-        <p>Choose any icons from the catalog and export a color font for your app. The ZIP includes the stylesheet, icon names, and artwork license.</p>
+        <p>Build a font with the icons your app needs. Use it if your interface swaps icons by name or CSS class.</p>
         <div class="setup-actions">
           <a class="button solid" href="./font-demo.html">Build a font</a>
-          <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-font.zip">Download full font</a>
         </div>
       </section>
     </div>
@@ -232,7 +229,6 @@ Implement the icons and verify that they load in the intended UI.</textarea>
         <p class="detail-format">256 × 256 artwork <a href="./about.html#formats">About the SVG format</a></p>
         <div class="detail-actions" role="group" aria-label="Copy icon">
           <button type="button" id="copy-svg" data-copy-icon="SVG" class="button solid"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 4H6a2 2 0 0 0-2 2v10"/></svg>Copy SVG</button>
-          <button type="button" data-copy-icon="JSX" class="button">Copy JSX</button>
           <button type="button" data-copy-icon="Icon ID" class="button">Copy icon ID</button>
           <button type="button" data-copy-icon="Image URL" class="button">Copy image URL</button>
         </div>

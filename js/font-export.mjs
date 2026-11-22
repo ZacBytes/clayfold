@@ -45,7 +45,7 @@ export async function exportFontZip(icons, reportProgress) {
   if (!context) throw new Error("Two-dimensional drawing is unavailable in this browser.");
   context.imageSmoothingQuality = "high";
   const glyphs = [];
-  const catalog = fontCatalog(icons);
+  const catalog = icons.map(({id, label}) => ({id, label, ligature: id.replaceAll("-", "_")}));
   const batchSize = 8;
   for (let index = 0; index < catalog.length; index += batchSize) {
     glyphs.push(...await Promise.all(catalog.slice(index, index + batchSize).map(icon => loadBitmap(icon, context))));
@@ -57,14 +57,6 @@ export async function exportFontZip(icons, reportProgress) {
   reportProgress("Building the font ZIP…");
   // Give the layout a frame to show the last status before writing the binary files.
   await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-  return new Blob([packFont(catalog, glyphs, license)], { type: "application/zip" });
-}
-
-export function fontCatalog(icons) {
-  return icons.map(({id, label}) => ({id, label, ligature: id.replaceAll("-", "_")}));
-}
-
-export function packFont(catalog, glyphs, license) {
   const first = catalog[0];
   const label = first.label.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   const notes = `# Clayfold icon font
@@ -87,11 +79,11 @@ Use Clayfold artwork in personal or commercial projects without credit. Credit C
 `;
   const encoder = new TextEncoder();
   const iconClasses = catalog.map(({id, ligature}) => `.clayfold-icon-${id}::before { content: "${ligature}"; }`);
-  return zipSync({
+  return new Blob([zipSync({
     ...buildColorFonts(glyphs),
     "clayfold-icons.css": encoder.encode(fontsCss + "\n" + iconClasses.join("\n") + "\n"),
     "icons.json": encoder.encode(JSON.stringify(catalog, null, 2) + "\n"),
     "ARTWORK-LICENSE.md": license,
     "README.md": encoder.encode(notes),
-  }, { level: 0 });
+  }, { level: 0 })], { type: "application/zip" });
 }

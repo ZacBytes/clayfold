@@ -23,16 +23,14 @@
 
 Each archive includes all 704 icons, including 200 country flags, with the catalog and artwork license.
 
-[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-svg.zip)
-
-[SVG sprite ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-sprite.zip) · [Color font ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-font.zip)
+[PNG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-png.zip) · [WebP ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-webp.zip) · [SVG ZIP](https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-svg.zip)
 
 ## Install with npm
 
 Each new [GitHub release](https://github.com/ZacBytes/clayfold/releases) includes a versioned npm archive. The package contains all 704 WebP icons, the catalog and the artwork license, with zero runtime dependencies.
 
 ```sh
-npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-icons-1.2.0.tgz
+npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-icons-1.2.1.tgz
 ```
 
 Import individual files in a bundler with static image imports, such as Vite.
@@ -47,7 +45,7 @@ Use the file names from [the catalog](./catalog.json), also available as `clayfo
 
 ## Use an icon
 
-Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open a result to copy SVG, JSX, an icon ID, or its hosted image URL. Each icon is available as an SVG, PNG, or WebP download.
+Search by name, appearance, or purpose. Try **“save for later”** for Bookmark, or **“clean power”** for Renewables. Open a result to copy SVG, an icon ID, or its hosted image URL. Each icon is available as an SVG, PNG, or WebP download.
 
 Drop a downloaded icon into your app’s assets directory and reference it directly.
 

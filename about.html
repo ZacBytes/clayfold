@@ -33,19 +33,18 @@
     <h1>About Clayfold</h1>
     <p>Clayfold brings together everyday interface symbols and illustrations of the world around them, from transport and energy to weather and the environment. The icons use a shallow three-quarter view, rounded edges and muted clay colours.</p>
     <h2 id="use-clayfold">Use Clayfold</h2>
-    <p>Download an icon from the catalog, add it to your app’s assets, and reference it with an image tag. Use the <a href="./font-demo.html">icon font builder</a> to export a color font containing the icons you select.</p>
+    <p>For most apps, use a WebP image from the catalog or import it from the package. Use PNG for design tools or native apps that need it.</p>
     <p>The <a href="./catalog.json">JSON catalog</a> lists each icon’s stable ID, label, category and search tags. Use the <a href="./llms.txt">AI agent guide</a> for file URLs, integration examples and attribution details.</p>
     <nav class="usage-links" aria-label="Usage methods">
       <a href="#npm">Package managers</a>
       <a href="#web">HTML, JavaScript and CSS</a>
-      <a href="#frameworks">Frameworks</a>
-      <a href="#sprite">SVG sprite and Node.js</a>
-      <a href="#icon-font">Icon fonts</a>
+      <a href="#frameworks">React and other frameworks</a>
       <a href="#design">Design tools</a>
+      <a href="#icon-font">Custom icon fonts</a>
     </nav>
     <h2 id="npm">Install with npm</h2>
     <p>The package includes all 704 WebP icons. Find versioned archives under <a href="https://github.com/ZacBytes/clayfold/releases">GitHub Releases</a>.</p>
-    <pre><code data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-icons-1.2.0.tgz</code></pre>
+    <pre><code data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-icons-1.2.1.tgz</code></pre>
     <p>Use the same archive URL with <code>pnpm add</code>, <code>yarn add</code>, or <code>bun add</code>.</p>
     <p>In a bundler with static image imports, such as Vite, import each icon by its file name.</p>
     <pre><code>import bookmark from "clayfold-icons/assets/bookmark.webp";
@@ -76,29 +75,14 @@ document.querySelector("#bookmark").src = bookmark;</code></pre>
 import bookmark from "clayfold-icons/assets/bookmark.webp";
 
 &lt;Icon src={bookmark} size={48} alt="Bookmark" /&gt;</code></pre>
-    <ul>
-      <li><strong>Preact and Solid</strong> use the same WebP import with <code>&lt;img src={bookmark} width={48} height={48} alt="Bookmark" /&gt;</code>.</li>
-      <li><strong>Vue</strong> binds the imported WebP with <code>&lt;img :src="bookmark" width="48" height="48" alt="Bookmark"&gt;</code>.</li>
-      <li><strong>Svelte</strong> uses <code>&lt;img src={bookmark} width={48} height={48} alt="Bookmark" /&gt;</code>.</li>
-      <li><strong>Angular and Astro</strong> can serve the file from <code>public/</code> and reference its URL in a normal <code>img</code> tag.</li>
-      <li><strong>React Native</strong> can use the downloaded PNG with <code>&lt;Image source={require("./assets/bookmark.png")} style={{ width: 48, height: 48 }} accessible accessibilityLabel="Bookmark" /&gt;</code>.</li>
-    </ul>
-    <h2 id="sprite">SVG sprite and Node.js</h2>
-    <p>Extract the <a href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-sprite.zip">SVG sprite ZIP</a> and serve the sprite from your app’s own origin. Use the icon ID as the fragment. You can also include the sprite inline once and reference symbols by ID.</p>
-    <pre><code>&lt;svg width="48" height="48" role="img" aria-label="Bookmark"&gt;
-  &lt;use href="/assets/clayfold-sprite.svg#bookmark"&gt;&lt;/use&gt;
-&lt;/svg&gt;</code></pre>
-    <p>For server-rendered pages and static site generators, get a standalone SVG string or build a sprite with only your chosen icons.</p>
-    <pre><code>import { getSvg, getSprite } from "clayfold-icons/static";
-
-const bookmark = getSvg("bookmark");
-const sprite = getSprite(["bookmark", "diplomacy"]);</code></pre>
-    <h2 id="icon-font">Icon fonts</h2>
-    <p><a href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-font.zip">Download the full color font</a> or <a href="./font-demo.html">build a smaller font</a> with your selection. Keep the CSS and both TTF files together. Use an icon’s CSS class or the ligature in the exported <code>icons.json</code>.</p>
+    <p>For other web frameworks, use the WebP URL in a regular <code>img</code>. In React Native, bundle a downloaded PNG and pass it to <code>Image</code> as the source.</p>
+    <p id="sprite">For server-rendered SVG, import <code>getSvg</code> or <code>getSprite</code> from <code>clayfold-icons/static</code> and pass the icon ID or list of IDs you need.</p>
+    <h2 id="design">Design tools</h2>
+    <p>Download a transparent PNG from an icon’s preview and drop it into Figma or your design tool. For multiple icons, use the <a href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-png.zip">full PNG ZIP</a>.</p>
+    <h2 id="icon-font">Custom icon fonts</h2>
+    <p>If your interface swaps icons by name or CSS class, <a href="./font-demo.html">build a font</a> with just the icons you use. Keep the CSS and both TTF files together. Use a class from the stylesheet or a ligature from <code>icons.json</code>.</p>
     <pre><code>&lt;link rel="stylesheet" href="/assets/clayfold-icons.css"&gt;
 &lt;span class="clayfold-icons clayfold-icon-bookmark" role="img" aria-label="Bookmark"&gt;&lt;/span&gt;</code></pre>
-    <h2 id="design">Design tools</h2>
-    <p>Download a transparent PNG from an icon’s preview and drop it into Figma or your design tool. For multiple icons, use the <a href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.0/clayfold-png.zip">full PNG ZIP</a>.</p>
     <h2>Country flags</h2>
     <p>Browse 200 flags covering all 193 UN member states, both observer states, and the Cook Islands, Kosovo, Niue, Taiwan, and Western Sahara. The flag artwork follows the original proportions and emblems with a clay texture and a gentle wave.</p>
     <h2 id="formats">File formats</h2>

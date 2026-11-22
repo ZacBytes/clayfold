@@ -349,7 +349,6 @@ detail.addEventListener("click", async event => {
     if (type === "Icon ID") source = currentIcon.id;
     else if (type === "Image URL") source = new URL(asset(currentIcon, "webp"), location.href).href;
     else {
-      // The self-contained SVG uses JSX-compatible attributes and tags.
       source = fetch(asset(currentIcon, "svg")).then(response => {
         if (!response.ok) throw new Error("SVG unavailable");
         return response.text();
