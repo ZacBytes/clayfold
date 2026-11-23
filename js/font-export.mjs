@@ -61,25 +61,27 @@ export async function exportFontZip(icons, reportProgress) {
   const label = first.label.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   const notes = `# Clayfold icon font
 
-This subset contains ${catalog.length} ${catalog.length === 1 ? "icon" : "icons"} with ${bitmapSize} × ${bitmapSize} color artwork.
+This font contains ${catalog.length} ${catalog.length === 1 ? "icon" : "icons"} with ${bitmapSize} × ${bitmapSize} color artwork.
 
 Keep both TTFs beside clayfold-icons.css and copy them into your app’s published assets. Link the stylesheet and use the ligature listed in icons.json:
 
 \`\`\`html
 <link rel="stylesheet" href="./clayfold-icons.css">
 <span class="clayfold-icons" role="img" aria-label="${label}">${first.ligature}</span>
+<span class="clayfold-icons clayfold-icon-${first.id}" role="img" aria-label="${label}"></span>
 \`\`\`
 
 Set --clayfold-icon-size to change display size. When switching a meaningful icon’s name, update its accessible label too. Use aria-hidden="true" for decorative icons that already have a text label next to them.
 
 The stylesheet selects a color font format supported by the browser. Use the image files from the catalog when your target environment requires an image fallback.
 
-Artwork by [Clayfold](https://zacbytes.github.io/clayfold/). See [ARTWORK-LICENSE.md](./ARTWORK-LICENSE.md) for credit, license terms, and rules that may apply to national flags.
+Use Clayfold artwork in personal or commercial projects without credit. Credit Clayfold if you redistribute the artwork in a reusable icon pack. See [ARTWORK-LICENSE.md](./ARTWORK-LICENSE.md) for the terms and separate rules that may apply to national flags.
 `;
   const encoder = new TextEncoder();
+  const iconClasses = catalog.map(({id, ligature}) => `.clayfold-icon-${id}::before { content: "${ligature}"; }`);
   return new Blob([zipSync({
     ...buildColorFonts(glyphs),
-    "clayfold-icons.css": encoder.encode(fontsCss),
+    "clayfold-icons.css": encoder.encode(fontsCss + "\n" + iconClasses.join("\n") + "\n"),
     "icons.json": encoder.encode(JSON.stringify(catalog, null, 2) + "\n"),
     "ARTWORK-LICENSE.md": license,
     "README.md": encoder.encode(notes),

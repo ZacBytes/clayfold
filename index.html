@@ -55,6 +55,7 @@
   </script>
   <link rel="preload" href="./fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./js/npm-install.mjs"></script>
   <script type="module" src="./js/app.mjs"></script>
 </head>
 <body>
@@ -81,7 +82,7 @@
         <h1 id="hero-title">Clayfold</h1>
         <p>Clay-style 3D icons for apps and websites.</p>
         <div class="hero-actions">
-          <a id="download-pack" class="button solid" href="https://github.com/ZacBytes/clayfold/releases/tag/v1.1.0">
+          <a id="download-pack" class="button solid" href="https://github.com/ZacBytes/clayfold/releases/tag/v1.2.1">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
             Download pack
           </a>
@@ -138,7 +139,7 @@
     </section>
   </main>
 
-  <footer class="footer wrap"><span>Clayfold</span><a href="./font-demo.html">Icon font builder</a><a href="./about.html">Artwork, formats and licensing</a></footer>
+  <footer class="footer wrap"><span>Clayfold</span><a href="./about.html">Usage and licensing</a></footer>
 
   <dialog id="pack-downloads" aria-labelledby="pack-title" aria-describedby="pack-description">
     <div class="dialog-inner pack-body">
@@ -148,9 +149,9 @@
       <h2 id="pack-title">Download the full pack</h2>
       <p id="pack-description">Each ZIP includes all 704 icons, the catalog, and the artwork license.</p>
       <div class="detail-actions">
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-png.zip">PNG ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-webp.zip">WebP ZIP</a>
-        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.1.0/clayfold-svg.zip">SVG ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-png.zip">PNG ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-webp.zip">WebP ZIP</a>
+        <a class="button" href="https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-svg.zip">SVG ZIP</a>
       </div>
     </div>
   </dialog>
@@ -163,6 +164,7 @@
       <h2 id="use-title">Use Clayfold</h2>
       <div class="setup-tabs" role="tablist" aria-label="Integration options">
         <button id="setup-agent-tab" type="button" role="tab" aria-controls="setup-agent" aria-selected="true">Coding agent</button>
+        <button id="setup-npm-tab" type="button" role="tab" aria-controls="setup-npm" aria-selected="false" tabindex="-1">npm</button>
         <button id="setup-html-tab" type="button" role="tab" aria-controls="setup-html" aria-selected="false" tabindex="-1">HTML</button>
         <button id="setup-font-tab" type="button" role="tab" aria-controls="setup-font" aria-selected="false" tabindex="-1">Icon font</button>
       </div>
@@ -177,11 +179,20 @@
 
 Read the icon catalog at https://zacbytes.github.io/clayfold/catalog.json and choose IDs that match the intended actions or subjects. Download the selected WebP files from https://zacbytes.github.io/clayfold/assets/&lt;id&gt;.webp and store them with this project’s local assets.
 
-Preserve the original artwork and its aspect ratio. Give standalone icons meaningful alt text, use empty alt text for decorative icons, and label icon-only controls. Credit Clayfold under CC BY 4.0 and follow the terms at https://github.com/ZacBytes/clayfold/blob/main/ARTWORK-LICENSE.md, including the rules that may apply to national flags.
+Preserve the original artwork and its aspect ratio. Give standalone icons meaningful alt text, use empty alt text for decorative icons, and label icon-only controls. Personal and commercial projects can use the artwork without credit. Credit Clayfold only when redistributing it in a reusable icon pack. Follow the terms at https://github.com/ZacBytes/clayfold/blob/main/ARTWORK-LICENSE.md, including any separate rules for national flags.
 
 Implement the icons and verify that they load in the intended UI.</textarea>
         <div class="setup-actions">
           <button type="button" class="button solid" data-copy-field="agent-prompt" data-copy-message="Prompt copied.">Copy prompt</button>
+          <span class="setup-status" role="status"></span>
+        </div>
+      </section>
+      <section id="setup-npm" role="tabpanel" aria-labelledby="setup-npm-tab" hidden>
+        <p>Install all 704 WebP icons from the versioned package on GitHub. Import just the files your app uses.</p>
+        <textarea id="npm-command" class="setup-code" aria-label="npm install command" rows="3" readonly spellcheck="false" data-npm-install>npm install https://github.com/ZacBytes/clayfold/releases/download/v1.2.1/clayfold-icons-1.2.1.tgz</textarea>
+        <div class="setup-actions">
+          <button type="button" class="button solid" data-copy-field="npm-command" data-copy-message="Install command copied.">Copy command</button>
+          <a class="button" href="./about.html#npm">Usage examples</a>
           <span class="setup-status" role="status"></span>
         </div>
       </section>
@@ -192,11 +203,12 @@ Implement the icons and verify that they load in the intended UI.</textarea>
         <div class="setup-actions">
           <button type="button" class="button solid" data-copy-field="html-example" data-copy-message="HTML copied.">Copy HTML</button>
           <a class="button" href="./assets/bookmark.webp" download>Download WebP</a>
+          <a class="button" href="./about.html#web">JavaScript and CSS</a>
           <span class="setup-status" role="status"></span>
         </div>
       </section>
       <section id="setup-font" role="tabpanel" aria-labelledby="setup-font-tab" hidden>
-        <p>Choose any icons from the catalog and export a color font for your app. The ZIP includes the stylesheet, icon names, and artwork license.</p>
+        <p>Build a font with the icons your app needs. Use it if your interface swaps icons by name or CSS class.</p>
         <div class="setup-actions">
           <a class="button solid" href="./font-demo.html">Build a font</a>
         </div>
@@ -215,14 +227,18 @@ Implement the icons and verify that they load in the intended UI.</textarea>
         <h2 id="detail-title"></h2>
         <p id="detail-description" class="detail-description"></p>
         <p class="detail-format">256 × 256 artwork <a href="./about.html#formats">About the SVG format</a></p>
-        <div class="detail-actions">
-          <button type="button" id="copy-svg" class="button solid"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 4H6a2 2 0 0 0-2 2v10"/></svg>Copy SVG</button>
+        <div class="detail-actions" role="group" aria-label="Copy icon">
+          <button type="button" id="copy-svg" data-copy-icon="SVG" class="button solid"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 4H6a2 2 0 0 0-2 2v10"/></svg>Copy SVG</button>
+          <button type="button" data-copy-icon="Icon ID" class="button">Copy icon ID</button>
+          <button type="button" data-copy-icon="Image URL" class="button">Copy image URL</button>
+        </div>
+        <div class="detail-actions" role="group" aria-label="Download icon">
           <a id="download-svg" class="button" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>Download SVG</a>
           <a id="download-png" class="button" download>PNG</a>
           <a id="download-webp" class="button" download>WebP</a>
         </div>
         <p id="copy-status" class="copy-status" role="status"></p>
-        <textarea id="copy-source" class="copy-source" aria-label="SVG source for manual copying" readonly hidden></textarea>
+        <textarea id="copy-source" class="copy-source" aria-label="Icon source for manual copying" readonly hidden></textarea>
       </div>
     </div>
   </dialog>
